@@ -1,6 +1,6 @@
 import { HajjReady } from '@/components/ready-hajj'
 
-export function IndexPage() {
+function IndexPage() {
   return (
     <div className="grid md:grid-cols-3 grid-cols-1 gap-4">
       <div className="p-4 bg-white rounded shadow">
@@ -14,3 +14,5 @@ export function IndexPage() {
     </div>
   )
 }
+IndexPage.tab = "home"
+export { IndexPage };

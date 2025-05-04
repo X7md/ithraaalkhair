@@ -10,10 +10,16 @@ export const router = createBrowserRouter([
       {
         index: true,
         element: <IndexPage />,
+        handle: {
+          tab: IndexPage.tab
+        },
       },
       {
         path: "test",
         element: <TestPage />,
+        handle: {
+          tab: TestPage.tab
+        },
       }
     ]
   }
