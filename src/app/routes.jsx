@@ -1,7 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import { RootLayout } from "@/pages/layout";
 import { IndexPage } from "@/pages/index";
-
+import { TestPage } from "@/pages/test";
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -11,10 +11,10 @@ export const router = createBrowserRouter([
         index: true,
         element: <IndexPage />,
       },
-    //   {
-    //     path: "test",
-    //     element: <TestPage />,
-    //   }
+      {
+        path: "test",
+        element: <TestPage />,
+      }
     ]
   }
 ]);

@@ -107,7 +107,6 @@ export function HajjReady() {
           </time>
       </div>
         <div className="grid grid-cols-2 gap-4 text-xs">
-        </div>
             {chartData.map((entry, index) => (
                 <div key={index} className="flex items-center gap-2">
                 <div
@@ -118,7 +117,9 @@ export function HajjReady() {
                     {entry.task} ({entry.count.toLocaleString()})
                 </span>
                 </div>
+             
             ))}
+        </div>
       </CardFooter>
     </Card>
   )

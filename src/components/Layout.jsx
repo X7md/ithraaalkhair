@@ -7,10 +7,11 @@ import {
 } from "@/components/ui/sidebar"
 import { Button } from '@/components/ui/button'
 import { Clock } from './Clock'
+import { Link } from "react-router-dom"
 
 const TABS = [
-  { id: 'home', label: 'الصفحة الرئيسية' },
-  { id: 'reports', label: 'التقارير' },
+  { id: 'home', label: 'الصفحة الرئيسية', path: '/' },
+  { id: 'test', label: 'تجربة', path: '/test' },
 ]
 
 
@@ -42,13 +43,15 @@ export function Layout(
           <SidebarContent className="relative">
             <div className="relative flex z-10 flex-col gap-2 p-4 rounded-sm">
               {TABS.map(tab => (
-                <Button 
-                  key={tab.id}
-                  variant={activeTab === tab.id ? "default" : "outline"}
-                  className="w-full"
-                >
-                  {tab.label}
-                </Button>
+                <Link to={tab.path} key={tab.id}>
+                  <Button 
+                    key={tab.id}
+                    variant={activeTab === tab.id ? "default" : "outline"}
+                    className="w-full"
+                  >
+                    {tab.label}
+                  </Button>
+                </Link>
               ))}
               <div className="bg-slate-100 absolute w-full h-full left-0 right-0 top-0 opacity-85 -z-10 "></div>
             </div>
