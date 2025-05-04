@@ -17,7 +17,9 @@ const TABS = [
 
 export function Layout(
     {
+     //eslint-disable-next-line react/prop-types
      activeTab = 'home', 
+     //eslint-disable-next-line react/prop-types
      children 
     }) {
   return (
@@ -44,10 +46,11 @@ export function Layout(
             <div className="relative flex z-10 flex-col gap-2 p-4 rounded-sm">
               {TABS.map(tab => (
                 <Link to={tab.path} key={tab.id}>
-                  <Button 
+                  <Button
+
                     key={tab.id}
                     variant={activeTab === tab.id ? "default" : "outline"}
-                    className="w-full"
+                    className="w-full cursor-pointer"
                   >
                     {tab.label}
                   </Button>
@@ -61,7 +64,7 @@ export function Layout(
         
         <main className="flex-1 min-w-0">
           <div className="flex items-center gap-2 p-4 border-b sticky top-0 bg-white z-10">
-            <SidebarTrigger className="bg-secondary hover:bg-slate-400 focus:bg-slate-400" />
+            <SidebarTrigger className="bg-secondary text-white hover:!bg-primary focus:bg-primary focus-within:bg-primar" />
           </div>
           <div className="p-4">
             {children}
