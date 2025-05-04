@@ -75,20 +75,20 @@ export function HajjReady() {
                         textAnchor="middle"
                         dominantBaseline="middle"
                       >
-                        <tspan direction={"rtl"}
+                        <tspan
                           x={viewBox.cx}
                           y={viewBox.cy}
                           className="fill-foreground text-3xl font-bold"
                         >
-                          {totalcount.toLocaleString()} / 
-                          {chartData.filter(itm => itm.task == 'مقبولة')[0].count.toLocaleString()}
+                          {totalcount}/{chartData.filter(itm => itm.task == 'مقبولة')[0].count.toLocaleString()}
                         </tspan>
+
                         <tspan
                           x={viewBox.cx}
                           y={(viewBox.cy || 0) + 24}
                           className="fill-muted-foreground"
                         >
-                          المهام B2B
+                         B2B
                         </tspan>
                       </text>
                     )
@@ -100,26 +100,25 @@ export function HajjReady() {
         </ChartContainer>
       </CardContent>
       <CardFooter className="flex-col gap-2">
+      <div className="text-xs text-center text-muted-foreground">
+           المهام سحبت بتاريخ 
+          <time>
+            2025-05-04 
+          </time>
+      </div>
         <div className="grid grid-cols-2 gap-4 text-xs">
+        </div>
             {chartData.map((entry, index) => (
                 <div key={index} className="flex items-center gap-2">
                 <div
                     className="h-4 w-4 rounded-full aspect-square"
                     style={{ backgroundColor: entry.fill }}
                 />
-                <span className="text-sm font-medium text-muted-foreground">
+                <span className="text-xs font-medium text-muted-foreground">
                     {entry.task} ({entry.count.toLocaleString()})
                 </span>
                 </div>
             ))}
-        </div>
-        <div className="text-xs text-muted-foreground">
-          المهام منصة جاهز حج (المجلس التنسيقي)
-          سحبت بتاريخ 
-          <time>
-            2025-05-04 
-          </time>
-        </div>
       </CardFooter>
     </Card>
   )

@@ -19,6 +19,12 @@ export default defineConfig({
   },
   build: {
     target: "esnext",
+  },
+  server: {
+    allowedHosts: [
+      "X7md.local".toLowerCase(),
+      "LAPTOP-A5BTHRSE.local".toLowerCase()
+    ]
   }
 }
 )
