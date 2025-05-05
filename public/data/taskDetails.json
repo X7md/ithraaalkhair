@@ -505,15 +505,16 @@
         "question": "هل تم ارفاق  نسخ من العقود",
         "task": 331,
         "question_type": "Short Answer"
-      }
-    ],
-    "questions": [
+      },
       {
-        "id": 284,
+        "id": 1580,
+        "answer": "لم يتم الإجابة بعد",
         "question": "هل تم ارفاق خطاب تعيين ضباط الاتصال",
+        "task": 331,
         "question_type": "Short Answer"
       }
     ],
+    "questions": [],
     "files": [
       {
         "id": 2005,
@@ -525,13 +526,13 @@
         "task": 331
       }
     ],
-    "approved": "UNAVAILABLE",
-    "done": "INPROGRESS",
+    "approved": "APPROVED",
+    "done": "DONE",
     "require_files": true,
     "description": "إتمام تعيين الفرق التشغيلية الموسمية للاستعداد المسبق بحسب متطلبات الوزارة بما فيهم ضباط اتصال الاستعداد المسبق للمتابعة والمطابقة على رحلات الطيران وعناوين السكن،",
     "guide_file": {},
-    "last_modified_date": "2025-05-02",
-    "last_modified_hijri_date": "1446-11-04",
+    "last_modified_date": "2025-05-04",
+    "last_modified_hijri_date": "1446-11-06",
     "urgency_status": "Medium"
   },
   {
@@ -681,27 +682,41 @@
     "name": "إتمام تعيين الفرق التشغيلية الموسمية للاستعداد المسبق بحسب متطلبات الوزارة",
     "hijri_end_date": "1446-10-19",
     "gregorian_end_date": "2025-04-17",
-    "answers": [],
-    "questions": [
+    "answers": [
       {
-        "id": 408,
+        "id": 1658,
+        "answer": "نعم",
         "question": "هل تم إرفاق قائمة الفرق التشغيلية، ونسخ من العقود؟",
+        "task": 2220,
         "question_type": "Short Answer"
       },
       {
-        "id": 409,
+        "id": 1659,
+        "answer": "نعم",
         "question": "هل تم إرفاق خطاب تعيين ضباط الاتصال؟",
+        "task": 2220,
         "question_type": "Short Answer"
       }
     ],
-    "files": [],
-    "approved": "UNAVAILABLE",
-    "done": "NOTSTARTED",
+    "questions": [],
+    "files": [
+      {
+        "id": 2369,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/04/%D8%AA%D8%B9%D9%8A%D9%8A%D9%86_%D8%A7%D9%84%D9%81%D8%B1%D9%82_%D8%A7%D9%84%D8%AA%D8%B4%D8%BA%D9%8A%D9%84%D9%8A%D8%A9_%D8%A7%D9%84%D9%85%D9%88%D8%B3%D9%85%D9%8A%D8%A9_%D9%84%D9%84%D8%A7%D8%B3%D8%AA%D8%B9%D8%AF%D8%A7%D8%AF_%D8%A7%D9%84%D9%85%D8%B3%D8%A8%D9%82.pdf",
+        "name": "تعيين_الفرق_التشغيلية_الموسمية_للاستعداد_المسبق.pdf",
+        "size": 0.24,
+        "created_at": "2025-05-04T18:32:32.557719+03:00",
+        "updated_at": null,
+        "task": 2220
+      }
+    ],
+    "approved": "APPROVED",
+    "done": "DONE",
     "require_files": true,
     "description": "إتمام تعيين الفرق التشغيلية الموسمية للاستعداد المسبق بحسب متطلبات الوزارة بما فيهم ضباط اتصال الاستعداد المسبق للمتابعة والمطابقة على رحلات الطيران وعناوين السكن",
     "guide_file": {},
-    "last_modified_date": "",
-    "last_modified_hijri_date": "",
+    "last_modified_date": "2025-05-04",
+    "last_modified_hijri_date": "1446-11-06",
     "urgency_status": "Medium"
   },
   {
@@ -874,19 +889,23 @@
     "name": "تأكيد استلام دليل التعليمات والإجراءات لشركات خدمة حجاج الخارج لحج 1446",
     "hijri_end_date": "1446-10-20",
     "gregorian_end_date": "2025-04-18",
-    "answers": [],
-    "questions": [
+    "answers": [
       {
-        "id": 458,
+        "id": 1678,
+        "answer": "نعم",
         "question": "هل تم ارفاق إقرار بالاستلام",
+        "task": 370,
         "question_type": "Short Answer"
       },
       {
-        "id": 459,
+        "id": 1679,
+        "answer": "نعم",
         "question": "هل تم ارفاق دليل التعليمات",
+        "task": 370,
         "question_type": "Short Answer"
       }
     ],
+    "questions": [],
     "files": [
       {
         "id": 934,
@@ -896,15 +915,24 @@
         "created_at": null,
         "updated_at": null,
         "task": 370
+      },
+      {
+        "id": 2411,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/04/%D8%A5%D9%82%D8%B1%D8%A7%D8%B1_%D8%A8%D8%A7%D8%B3%D8%AA%D9%84%D8%A7%D9%85_%D8%AF%D9%84%D9%8A%D9%84_%D9%85%D9%86%D9%87%D8%AC%D9%8A%D8%A9_%D8%AA%D9%82%D9%8A%D9%8A%D9%85_%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A7%D8%AA.docx",
+        "name": "إقرار_باستلام_دليل_منهجية_تقييم_الشركات.docx",
+        "size": 0.15,
+        "created_at": "2025-05-04T19:48:09.136198+03:00",
+        "updated_at": null,
+        "task": 370
       }
     ],
-    "approved": "UNAVAILABLE",
-    "done": "INPROGRESS",
+    "approved": "APPROVED",
+    "done": "DONE",
     "require_files": true,
     "description": "تأكيد استلام الوثائق والأدلة المنظمة لأعمال الشركات: دليل التعليمات والإجراءات المُنَظَّمة لأداء شركات تقديم الخدمة لحجاج الخارج موسم حج عام 1446هـ",
     "guide_file": {},
-    "last_modified_date": "2025-04-28",
-    "last_modified_hijri_date": "1446-10-30",
+    "last_modified_date": "2025-05-04",
+    "last_modified_hijri_date": "1446-11-06",
     "urgency_status": "Medium"
   },
   {
@@ -1587,22 +1615,46 @@
     "name": "إتمام جميع التجهيزات اللازمة لخدمات الشؤون العامة",
     "hijri_end_date": "1446-10-22",
     "gregorian_end_date": "2025-04-20",
-    "answers": [],
-    "questions": [
+    "notes": [
+      "بعد التحية\n نشكر لكم جهودكم ونتمنى لكم التوفيق والنجاح لخدمة الحجاج نأمل المراجعة حيث لم تشمل الملفات على توضيح بيانات مايلي :\n\t\t\t\t\t\t\t\t\n السيارات المتنقلة بهوية نسك عناية لنقل التائهين\n الإسعافات، \nأجهزة الاتصال اللاسلكية\t\t\t\t\t\t\t\t\t\n\nشاكرين لكم تعاونكم"
+    ],
+    "answers": [
       {
-        "id": 429,
+        "id": 1677,
+        "answer": "نعم",
         "question": "هل تم إرفاق ما يثبت إتمام جميع التجهيزات اللازمة لخدمات الشؤون العامة؟",
+        "task": 2234,
         "question_type": "Short Answer"
       }
     ],
-    "files": [],
-    "approved": "UNAVAILABLE",
-    "done": "NOTSTARTED",
+    "questions": [],
+    "files": [
+      {
+        "id": 2410,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/04/83-%D9%85%D8%AA%D8%A7%D8%A8%D8%B9%D8%A9_%D8%A7%D9%86%D9%87%D8%A7%D8%A1_%D8%A5%D8%AC%D8%B1%D8%A7%D8%A1%D8%A7%D8%AA_%D8%AD%D8%A7%D9%84%D8%A7%D8%AA_%D9%88%D9%82%D9%88%D8%B9%D8%A7%D8%AA_%D8%A7%D9%84%D8%AD%D8%AC%D8%A7%D8%AC_%D8%A7%D9%84%D8%AA%D8%A7%D8%A6%D9%87%D9%8A%D9%86_%D8%A7%D9%84%D9%85%D9%86%D9%88%D9%85%D9%8A%D9%86_%D8%A8%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D8%B4%D9%81%D9%8A_T7zJhZx.pdf",
+        "name": "83-متابعة_انهاء_إجراءات_حالات_وقوعات_الحجاج_التائهين_المنومين_بالمستشفي_T7zJhZx.pdf",
+        "size": 0.11,
+        "created_at": "2025-05-04T19:47:15.029343+03:00",
+        "updated_at": null,
+        "task": 2234
+      },
+      {
+        "id": 2413,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/04/%D8%A8%D9%8A%D8%A7%D9%86_%D8%A8%D8%A3%D8%B3%D9%85%D8%A7%D8%A1_%D9%85%D9%86%D8%A7%D8%AF%D9%8A%D8%A8_%D9%85%D8%B3%D8%AA%D8%B4%D9%81%D9%8A%D8%A7%D8%AA_%D8%A7%D8%AB%D8%B1%D8%A7_%D8%A7%D9%84%D8%AE%D9%8A%D8%B1_%D9%88%D8%A7%D9%84%D8%AC%D9%88%D8%AF_1446%D9%87%D9%80.pdf",
+        "name": "بيان_بأسماء_مناديب_مستشفيات_اثرا_الخير_والجود_1446هـ.pdf",
+        "size": 0.27,
+        "created_at": "2025-05-04T19:54:55.572342+03:00",
+        "updated_at": null,
+        "task": 2234
+      }
+    ],
+    "approved": "NONAPPROVED",
+    "done": "INPROGRESS",
     "require_files": true,
     "description": "إتمام جميع التجهيزات اللازمة لخدمات الشؤون العامة (البرنامج الصحي (خدمات المرضى في المستشفيات بمكة والمشاعر، ومواليد، ووفيات) - برنامج التائهين - المفقودات، المفقودين ...) مثل: الحقائب الشعارات المحمولة، السيارات المتنقلة بهوية نسك عناية لنقل التائهين، الإسعافات، أجهزة الاتصال اللاسلكية",
     "guide_file": {},
-    "last_modified_date": "",
-    "last_modified_hijri_date": "",
+    "last_modified_date": "2025-05-04",
+    "last_modified_hijri_date": "1446-11-06",
     "urgency_status": "Medium"
   },
   {
@@ -1785,30 +1837,53 @@
     "name": "تقديم الخطة التنفيذية لخدمات الاعاشة (قوائم الوجبات وجداولها)",
     "hijri_end_date": "1446-10-23",
     "gregorian_end_date": "2025-04-21",
-    "answers": [],
-    "questions": [
+    "answers": [
       {
-        "id": 418,
+        "id": 1671,
+        "answer": "نعم",
         "question": "هل تم إرفاق الخطة التنفيذية؟",
+        "task": 2227,
         "question_type": "Short Answer"
       },
       {
-        "id": 419,
+        "id": 1672,
+        "answer": "نعم",
         "question": "هل تم إرفاق نموذج الاكسل المرفق بعد تعبئته؟",
+        "task": 2227,
         "question_type": "Short Answer"
       }
     ],
-    "files": [],
-    "approved": "UNAVAILABLE",
-    "done": "NOTSTARTED",
+    "questions": [],
+    "files": [
+      {
+        "id": 2381,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/04/%D8%A7%D9%84%D8%AE%D8%B7%D8%A9_%D8%A7%D9%84%D8%AA%D8%B4%D8%BA%D9%8A%D9%84%D9%8A%D8%A9_%D9%84%D9%84%D8%A5%D8%B9%D8%A7%D8%B4%D8%A9.pdf",
+        "name": "الخطة_التشغيلية_للإعاشة.pdf",
+        "size": 2.09,
+        "created_at": "2025-05-04T19:12:29.689675+03:00",
+        "updated_at": null,
+        "task": 2227
+      },
+      {
+        "id": 2382,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/04/%D8%A7%D8%B3%D9%85_%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9-%D9%86%D9%85%D9%88%D8%B0%D8%AC_%D9%85%D9%84%D8%AD%D9%82_%D8%AE%D8%B7%D8%A9_%D8%A7%D9%84%D8%A7%D8%B9%D8%A7%D8%B4%D8%A9_%D8%A7%D9%84%D8%AA%D9%86%D9%81%D9%8A%D8%B0%D9%8A%D8%A9%D9%8601.xlsx",
+        "name": "اسم_الشركة-نموذج_ملحق_خطة_الاعاشة_التنفيذيةن01.xlsx",
+        "size": 0.1,
+        "created_at": "2025-05-04T19:12:29.696061+03:00",
+        "updated_at": null,
+        "task": 2227
+      }
+    ],
+    "approved": "APPROVED",
+    "done": "DONE",
     "require_files": true,
     "description": "تشمل أسماء المنفذين وتوزيعهم وخطة التنفيذ",
     "guide_file": {
       "file_url": "http://dev.seedlab-sa.com/media/files/template/2025/04/14/%D8%A7%D8%B3%D9%85_%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9-%D9%86%D9%85%D9%88%D8%B0%D8%AC_%D9%85%D9%84%D8%AD%D9%82_%D8%AE%D8%B7%D8%A9_%D8%A7%D9%84%D8%A7%D8%B9%D8%A7%D8%B4%D8%A9_%D8%A7%D9%84%D8%AA%D9%86%D9%81%D9%8A%D8%B0%D9%8A%D8%A9%D9%8601.xlsx",
       "file_name": "اسم_الشركة-نموذج_ملحق_خطة_الاعاشة_التنفيذيةن01.xlsx"
     },
-    "last_modified_date": "",
-    "last_modified_hijri_date": "",
+    "last_modified_date": "2025-05-04",
+    "last_modified_hijri_date": "1446-11-06",
     "urgency_status": "Medium"
   },
   {
@@ -1816,22 +1891,24 @@
     "name": "إتمام تعيين الفرق التشغيلية الموسمية لخدمات الاعاشة وفق متطلبات الوزارة",
     "hijri_end_date": "1446-10-23",
     "gregorian_end_date": "2025-04-21",
-    "answers": [],
-    "questions": [
+    "answers": [
       {
-        "id": 422,
+        "id": 1674,
+        "answer": "نعم",
         "question": "هل تم إرفاق قائمة الفرق التشغيلية، ونسخ من العقود؟",
+        "task": 2229,
         "question_type": "Short Answer"
       }
     ],
+    "questions": [],
     "files": [],
     "approved": "UNAVAILABLE",
-    "done": "NOTSTARTED",
+    "done": "INPROGRESS",
     "require_files": true,
     "description": "",
     "guide_file": {},
-    "last_modified_date": "",
-    "last_modified_hijri_date": "",
+    "last_modified_date": "2025-05-04",
+    "last_modified_hijri_date": "1446-11-06",
     "urgency_status": "Medium"
   },
   {
@@ -2231,7 +2308,7 @@
         "task": 362
       }
     ],
-    "approved": "PENDING",
+    "approved": "APPROVED",
     "done": "DONE",
     "require_files": true,
     "description": "إتمام التعاقد لأجهزة النداء (اللاسلكي)، واستلامها وتفعيلها لجميع الموظفين في الموعد المحدد",
@@ -2353,27 +2430,50 @@
     "name": "توفر مكتب للخدمات والصيانة عند المدخل أو البهو لاستقبال شكاوى الحجاج",
     "hijri_end_date": "1446-10-25",
     "gregorian_end_date": "2025-04-23",
-    "answers": [],
-    "questions": [
+    "answers": [
       {
-        "id": 377,
+        "id": 1675,
+        "answer": "نعم",
         "question": "هل تم إرفاق صور لمكتب الصيانة بكل سكن وكشف بأسماء المشرفين المناوبين وخدمة العملاء؟",
+        "task": 2198,
         "question_type": "Short Answer"
       },
       {
-        "id": 378,
+        "id": 1676,
+        "answer": "نعم",
         "question": "هل تم إرفاق كشف بعقود الحراسات الأمنية؟",
+        "task": 2198,
         "question_type": "Short Answer"
       }
     ],
-    "files": [],
-    "approved": "UNAVAILABLE",
-    "done": "NOTSTARTED",
+    "questions": [],
+    "files": [
+      {
+        "id": 2407,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/04/65-%D8%A7%D9%84%D8%AA%D8%A3%D9%83%D8%AF_%D9%85%D9%86_%D9%88%D8%AC%D9%88%D8%AF_%D8%AE%D8%AF%D9%85%D8%A9_%D8%A7%D9%84%D8%B9%D9%85%D9%84%D8%A7%D8%A1_%D9%81%D9%8A_%D9%85%D9%82%D8%B1_%D8%A7%D9%84%D8%B3%D9%83%D9%86.pdf",
+        "name": "65-التأكد_من_وجود_خدمة_العملاء_في_مقر_السكن.pdf",
+        "size": 0.27,
+        "created_at": "2025-05-04T19:38:48.500097+03:00",
+        "updated_at": null,
+        "task": 2198
+      },
+      {
+        "id": 2408,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/04/64-%D8%A7%D9%84%D8%AA%D8%A3%D9%83%D8%AF_%D9%85%D9%86_%D8%AA%D9%88%D8%A7%D8%AC%D8%AF_%D8%A7%D9%84%D8%AD%D8%B1%D8%A7%D8%B3%D8%A7%D8%AA_%D8%A7%D9%84%D8%A3%D9%85%D9%86%D9%8A%D8%A9_%D9%84%D9%84%D9%85%D8%A8%D8%A7%D9%86%D9%8A.pdf",
+        "name": "64-التأكد_من_تواجد_الحراسات_الأمنية_للمباني.pdf",
+        "size": 17.2,
+        "created_at": "2025-05-04T19:38:48.503104+03:00",
+        "updated_at": null,
+        "task": 2198
+      }
+    ],
+    "approved": "APPROVED",
+    "done": "DONE",
     "require_files": true,
     "description": "توفر مكتب للخدمات والصيانة عند المدخل أو البهو لاستقبال شكاوى الحجاج بخصوص الأعطال والنظافة + وجود عقود خدمة العملاء والحراسة الأمنية في المساكن تصنيف أقل من 4 نجوم",
     "guide_file": {},
-    "last_modified_date": "",
-    "last_modified_hijri_date": "",
+    "last_modified_date": "2025-05-04",
+    "last_modified_hijri_date": "1446-11-06",
     "urgency_status": "Medium"
   },
   {
@@ -2526,22 +2626,34 @@
     "name": "إتمام تعيين الفرق التشغيلية الخاصة باستلام وتوزيع وتفعيل بطاقة نسك",
     "hijri_end_date": "1446-10-25",
     "gregorian_end_date": "2025-04-23",
-    "answers": [],
-    "questions": [
+    "answers": [
       {
-        "id": 394,
+        "id": 1683,
+        "answer": "نعم",
         "question": "هل تم إرفاق قائمة الفرق التشغيلية، ونسخ من العقود؟",
+        "task": 2210,
         "question_type": "Short Answer"
       }
     ],
-    "files": [],
-    "approved": "UNAVAILABLE",
-    "done": "NOTSTARTED",
+    "questions": [],
+    "files": [
+      {
+        "id": 2415,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/04/%D8%A7%D9%84%D9%81%D8%B1%D9%8A%D9%82_%D8%A7%D9%84%D8%AA%D8%B4%D8%BA%D9%8A%D9%84%D9%8A.pdf",
+        "name": "الفريق_التشغيلي.pdf",
+        "size": 0.56,
+        "created_at": "2025-05-04T20:04:44.050506+03:00",
+        "updated_at": null,
+        "task": 2210
+      }
+    ],
+    "approved": "APPROVED",
+    "done": "DONE",
     "require_files": true,
     "description": "",
     "guide_file": {},
-    "last_modified_date": "",
-    "last_modified_hijri_date": "",
+    "last_modified_date": "2025-05-04",
+    "last_modified_hijri_date": "1446-11-06",
     "urgency_status": "Medium"
   },
   {
@@ -2572,6 +2684,9 @@
     "name": "تقديم خطة الطوارئ وتتضمن تكوين فريق معني بالطوارئ",
     "hijri_end_date": "1446-10-25",
     "gregorian_end_date": "2025-04-23",
+    "notes": [
+      "بعد التحية\n نشكر لكم جهودكم ونتمنى لكم التوفيق والنجاح لخدمة الحجاج نأمل المراجعة حيث لم تشمل الملفات على توضيح بيانات مايلي :\n\t\t\t\t\t\t\t\t\nبيانات الفريق المعني بالطوارئ للخدمات لمعالجة أي قصور في جاهزية السكن أو الإخفاق في تقديم الخدمات بناء على قرار مجلس الإدارة\nشاكرين لكم تعاونكم"
+    ],
     "answers": [
       {
         "id": 1265,
@@ -2582,7 +2697,7 @@
       },
       {
         "id": 1266,
-        "answer": "-",
+        "answer": "نعم",
         "question": "هل تم إرفاق قرار مجلس الإدارة بتكوين فريق الطوارئ؟",
         "task": 2216,
         "question_type": "Short Answer"
@@ -2591,22 +2706,22 @@
     "questions": [],
     "files": [
       {
-        "id": 1806,
-        "file": "http://dev.seedlab-sa.com/media/files/2025/05/01/%D8%AE%D8%B7%D8%A9_%D8%A7%D9%84%D8%B7%D9%88%D8%A7%D8%B1%D8%A6_%D9%88%D8%A7%D9%84%D8%A5%D8%B3%D9%86%D8%A7%D8%AF__1446%D9%87%D9%80_1.pdf",
-        "name": "خطة_الطوارئ_والإسناد__1446هـ_1.pdf",
+        "id": 2416,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/04/%D8%AE%D8%B7%D8%A9_%D8%A7%D9%84%D8%B7%D9%88%D8%A7%D8%B1%D8%A6_%D9%88%D8%A7%D9%84%D8%A5%D8%B3%D9%86%D8%A7%D8%AF__1446%D9%87%D9%80_3.pdf",
+        "name": "خطة_الطوارئ_والإسناد__1446هـ_3.pdf",
         "size": 1.03,
-        "created_at": "2025-05-01T18:11:37.991587+03:00",
+        "created_at": "2025-05-04T20:07:07.904274+03:00",
         "updated_at": null,
         "task": 2216
       }
     ],
-    "approved": "UNAVAILABLE",
+    "approved": "NONAPPROVED",
     "done": "INPROGRESS",
     "require_files": true,
     "description": "تقديم خطة الطوارئ وتتضمن تكوين فريق معني بالطوارئ للخدمات لمعالجة أي قصور في جاهزية السكن أو الإخفاق في تقديم الخدمات بناء على قرار مجلس الإدارة",
     "guide_file": {},
-    "last_modified_date": "2025-05-01",
-    "last_modified_hijri_date": "1446-11-03",
+    "last_modified_date": "2025-05-04",
+    "last_modified_hijri_date": "1446-11-06",
     "urgency_status": "Medium"
   },
   {
@@ -2845,22 +2960,34 @@
     "name": "إتمام تعيين الفرق التشغيلية الموسمية لخدمات زيارة المدينة المنورة",
     "hijri_end_date": "1446-10-25",
     "gregorian_end_date": "2025-04-23",
-    "answers": [],
-    "questions": [
+    "answers": [
       {
-        "id": 474,
+        "id": 1684,
+        "answer": "نعم",
         "question": "هل تم إرفاق قائمة الفرق التشغيلية / السجل التجاري للشركة التابعة/ أو نسخة من العقود؟",
+        "task": 2245,
         "question_type": "Short Answer"
       }
     ],
-    "files": [],
-    "approved": "UNAVAILABLE",
-    "done": "NOTSTARTED",
+    "questions": [],
+    "files": [
+      {
+        "id": 2417,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/04/%D8%A7%D9%84%D9%81%D8%B1%D9%8A%D9%82_%D8%A7%D9%84%D8%AA%D8%B4%D8%BA%D9%8A%D9%84%D9%8A_%D8%A8%D8%A7%D9%84%D9%85%D8%AF%D9%8A%D9%86%D8%A9_%D8%A7%D9%84%D9%85%D9%86%D9%88%D8%B1%D8%A9.pdf",
+        "name": "الفريق_التشغيلي_بالمدينة_المنورة.pdf",
+        "size": 0.17,
+        "created_at": "2025-05-04T20:09:51.969893+03:00",
+        "updated_at": null,
+        "task": 2245
+      }
+    ],
+    "approved": "APPROVED",
+    "done": "DONE",
     "require_files": true,
     "description": "إتمام تعيين الفرق التشغيلية الموسمية لخدمات زيارة المدينة المنورة/ أو إنشاء شركة تابعة لتقديم الخدمة/ أو التعاقد مع شركات تقديم خدمة بالمدينة",
     "guide_file": {},
-    "last_modified_date": "",
-    "last_modified_hijri_date": "",
+    "last_modified_date": "2025-05-04",
+    "last_modified_hijri_date": "1446-11-06",
     "urgency_status": "Medium"
   },
   {
@@ -2945,30 +3072,56 @@
     "name": "تقديم الخطة التنفيذية للشؤون العامة",
     "hijri_end_date": "1446-10-26",
     "gregorian_end_date": "2025-04-24",
-    "answers": [],
-    "questions": [
+    "notes": [
+      "بعد التحية\n نشكر لكم جهودكم ونتمنى لكم التوفيق والنجاح لخدمة الحجاج نأمل المراجعة حيث لم تشمل الملفات على توضيح بيانات مايلي :\n\t\t\t\t\t\t\t\t\nالفريق التنفيذي القيادي للبرامج المختلفة لمسار الشؤون العامة\t\t\t\t\t\t\t\t\nالتجهيزات اللازمة لأعمال فرق الشؤون العامة\t\t\t\t\t\t\t\t\nإجراءات متابعة تسجيل ومتابعة حالات الحجاج المرضى (مستشفيات مكة المكرمة والمشاعر)\t\t\t\t\t\t\t\t\nإجراءات متابعة حالات الحجاج التائهين\t\t\t\t\t\t\t\t\nإجراءات تسجيل المواليد/ الوفيات ( تسجيل حالاتهم ومتابعة إنهاء إجرأتهم وإرفاق المستندات )\t\t\t\t\t\t\t\t\nإجراءات متابعة الحجاج الموقوفين\t\t\t\t\t\t\t\t\nإجراءات متابعة مفقودات الحجاج\t\t\t\t\t\t\t\t\n\nشاكرين لكم تعاونكم"
+    ],
+    "answers": [
       {
-        "id": 395,
+        "id": 1685,
+        "answer": "نعم",
         "question": "هل تم إرفاق الخطة التنفيذية؟",
+        "task": 2211,
         "question_type": "Short Answer"
       },
       {
-        "id": 396,
+        "id": 1686,
+        "answer": "نعم",
         "question": "هل تم إرفاق نموذج الإكسل المرفق بعد تعبئته؟",
+        "task": 2211,
         "question_type": "Short Answer"
       }
     ],
-    "files": [],
-    "approved": "UNAVAILABLE",
-    "done": "NOTSTARTED",
+    "questions": [],
+    "files": [
+      {
+        "id": 2418,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/04/83-%D9%85%D8%AA%D8%A7%D8%A8%D8%B9%D8%A9_%D8%A7%D9%86%D9%87%D8%A7%D8%A1_%D8%A5%D8%AC%D8%B1%D8%A7%D8%A1%D8%A7%D8%AA_%D8%AD%D8%A7%D9%84%D8%A7%D8%AA_%D9%88%D9%82%D9%88%D8%B9%D8%A7%D8%AA_%D8%A7%D9%84%D8%AD%D8%AC%D8%A7%D8%AC_%D8%A7%D9%84%D8%AA%D8%A7%D8%A6%D9%87%D9%8A%D9%86_%D8%A7%D9%84%D9%85%D9%86%D9%88%D9%85%D9%8A%D9%86_%D8%A8%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D8%B4%D9%81%D9%8A_X7R6EVB.pdf",
+        "name": "83-متابعة_انهاء_إجراءات_حالات_وقوعات_الحجاج_التائهين_المنومين_بالمستشفي_X7R6EVB.pdf",
+        "size": 0.11,
+        "created_at": "2025-05-04T20:12:32.985983+03:00",
+        "updated_at": null,
+        "task": 2211
+      },
+      {
+        "id": 2419,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/04/%D8%A8%D9%8A%D8%A7%D9%86_%D8%A8%D8%A3%D8%B3%D9%85%D8%A7%D8%A1_%D9%85%D9%86%D8%A7%D8%AF%D9%8A%D8%A8_%D9%85%D8%B3%D8%AA%D8%B4%D9%81%D9%8A%D8%A7%D8%AA_%D8%A7%D8%AB%D8%B1%D8%A7_%D8%A7%D9%84%D8%AE%D9%8A%D8%B1_%D9%88%D8%A7%D9%84%D8%AC%D9%88%D8%AF_1446%D9%87%D9%80_1.pdf",
+        "name": "بيان_بأسماء_مناديب_مستشفيات_اثرا_الخير_والجود_1446هـ_1.pdf",
+        "size": 0.27,
+        "created_at": "2025-05-04T20:12:32.988288+03:00",
+        "updated_at": null,
+        "task": 2211
+      }
+    ],
+    "approved": "NONAPPROVED",
+    "done": "INPROGRESS",
     "require_files": true,
     "description": "تقديم الخطة التنفيذية للشؤون العامة (البرنامج الصحي (خدمات المرضى في المستشفيات بمكة والمشاعر، ومواليد، ووفيات) - برنامج التائهين - المفقودات - الموقوفين...)، وتشمل أسماء المنفذين وتوزيعهم وخطة التنفيذ\r\nونامل ان تشمل الخطة التنفيذية المكونات التالية :\t\t\t\t\t\t\t\t\r\nالفريق التنفيذي القيادي للبرامج المختلفة لمسار الشؤون العامة\t، التجهيزات اللازمة لأعمال فرق الشؤون العامة ،إجراءات متابعة تسجيل ومتابعة حالات الحجاج المرضى (مستشفيات مكة المكرمة والمشاعر)، إجراءات متابعة حالات الحجاج التائهين،إجراءات تسجيل المواليد/ الوفيات ( تسجيل حالاتهم ومتابعة إنهاء إجرأتهم وإرفاق المستندات ) ، إجراءات متابعة الحجاج الموقوفين ،إجراءات متابعة مفقودات الحجاج",
     "guide_file": {
       "file_url": "http://dev.seedlab-sa.com/media/files/template/2025/04/22/%D8%A7%D8%B3%D9%85_%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9-%D9%86%D9%85%D9%88%D8%B0%D8%AC_%D9%85%D9%84%D8%AD%D9%82_%D8%A7%D9%84%D8%B4%D8%A4%D9%88%D9%86_%D8%A7%D9%84%D8%B9%D8%A7%D9%85%D8%A9_%D9%862_BcidXSG.xlsx",
       "file_name": "اسم_الشركة-نموذج_ملحق_الشؤون_العامة_ن2_BcidXSG.xlsx"
     },
-    "last_modified_date": "",
-    "last_modified_hijri_date": "",
+    "last_modified_date": "2025-05-04",
+    "last_modified_hijri_date": "1446-11-06",
     "urgency_status": "MEDIUM"
   },
   {
@@ -3214,22 +3367,37 @@
     "name": "تدريب العاملين على بطاقة نسك وضمان تدريب 90 في المئة من الموظفين على المنصة",
     "hijri_end_date": "1446-11-05",
     "gregorian_end_date": "2025-05-03",
-    "answers": [],
-    "questions": [
+    "notes": [
+      "بعد التحية\n نشكر لكم جهودكم ونتمنى لكم التوفيق والنجاح لخدمة الحجاج نأمل المراجعة حيث ان الاعداد لا تتناسب مع اعداد الحجاج \nشاكرين لكم تعاونكم"
+    ],
+    "answers": [
       {
-        "id": 315,
+        "id": 1647,
+        "answer": "نعم",
         "question": "هل تم ارفاق ما يثبت حضور الدروات التدريبية للعاملين في بطاقة نسك وإتمام النسبة المطلوبة 90%",
+        "task": 353,
         "question_type": "Short Answer"
       }
     ],
-    "files": [],
-    "approved": "UNAVAILABLE",
-    "done": "NOTSTARTED",
+    "questions": [],
+    "files": [
+      {
+        "id": 2359,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/04/%D8%A8%D9%8A%D8%A7%D9%86_%D8%A8%D8%A7%D8%B3%D9%85%D8%A7%D8%A1_%D8%A7%D9%84%D9%85%D8%AA%D8%AF%D8%B1%D8%A8%D9%8A%D9%86_%D9%81%D9%8A_%D8%A8%D8%B7%D8%A7%D9%82%D8%A9_%D9%86%D8%B3%D9%83_1.pdf",
+        "name": "بيان_باسماء_المتدربين_في_بطاقة_نسك_1.pdf",
+        "size": 0.12,
+        "created_at": "2025-05-04T17:49:42.016570+03:00",
+        "updated_at": null,
+        "task": 353
+      }
+    ],
+    "approved": "NONAPPROVED",
+    "done": "INPROGRESS",
     "require_files": true,
     "description": "تدريب العاملين في بطاقة نسك، مع ضمان تدريب ما لا يقل عن 90% من الموظفين المعنيين باستخدام منصة نسك",
     "guide_file": {},
-    "last_modified_date": "",
-    "last_modified_hijri_date": "",
+    "last_modified_date": "2025-05-04",
+    "last_modified_hijri_date": "1446-11-06",
     "urgency_status": "Medium"
   },
   {
@@ -3277,6 +3445,58 @@
     "last_modified_date": "",
     "last_modified_hijri_date": "",
     "urgency_status": "Medium"
+  },
+  {
+    "id": 2986,
+    "name": "تحديد المباني الاحتياطية لإسكان الحجاج في مكة المكرمة لاستخدامها في الحالات الطارئة",
+    "hijri_end_date": "1446-11-09",
+    "gregorian_end_date": "2025-05-07",
+    "answers": [],
+    "questions": [
+      {
+        "id": 507,
+        "question": "هل تم إرفاق ملف pdf أو إكسل يوضح ببيانات المباني الاحتياطية لإسكان الحجاج في مكة المكرمة لاستخدامها في الحالات الطارئة بالتفاصيل الموضحة في ملف الاكسل المرفق؟",
+        "question_type": "Short Answer"
+      }
+    ],
+    "files": [],
+    "approved": "UNAVAILABLE",
+    "done": "NOTSTARTED",
+    "require_files": true,
+    "description": "رفع ملف pdf  او اكسل يوضح ببيانات المباني الاحتياطية لإسكان الحجاج في مكة المكرمة لاستخدامها في الحالات الطارئة؛ وذلك بناء على تعميم وزارة الحج والعمرة برقم (461101499) وتاريخ 01/11/1446ه للشركات بتحديد المباني الاحتياطية التي تم استئجارها استعداد لأي حالة طارئة قد -لا قدر الله- تحدث خلال الموسم وأثناء إقامة الحجاج في مكة المكرمة ورفعها في تاريخ أقصاه 10/11/1446ه. يمكن للشركات الاستفادة من ملف الأكسل المرفق مع المهمة.",
+    "guide_file": {
+      "file_url": "http://dev.seedlab-sa.com/media/files/template/2025/05/04/%D8%A7%D8%B3%D9%85_%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9-%D9%86%D9%85%D9%88%D8%B0%D8%AC_%D9%85%D8%B3%D8%A7%D9%83%D9%86_%D8%B7%D9%88%D8%A7%D8%B1%D8%A6_%D8%A7%D9%84%D8%A5%D8%B3%D9%83%D8%A7%D9%86_wGAOXdj.xlsx",
+      "file_name": "اسم_الشركة-نموذج_مساكن_طوارئ_الإسكان_wGAOXdj.xlsx"
+    },
+    "last_modified_date": "",
+    "last_modified_hijri_date": "",
+    "urgency_status": "MEDIUM"
+  },
+  {
+    "id": 2980,
+    "name": "تحديد المباني الاحتياطية لإسكان الحجاج في مكة المكرمة لاستخدامها في الحالات الطارئة",
+    "hijri_end_date": "1446-11-09",
+    "gregorian_end_date": "2025-05-07",
+    "answers": [],
+    "questions": [
+      {
+        "id": 506,
+        "question": "هل تم إرفاق ملف pdf أو إكسل يوضح ببيانات المباني الاحتياطية لإسكان الحجاج في مكة المكرمة لاستخدامها في الحالات الطارئة بالتفاصيل الموضحة في ملف الاكسل المرفق؟",
+        "question_type": "Short Answer"
+      }
+    ],
+    "files": [],
+    "approved": "UNAVAILABLE",
+    "done": "NOTSTARTED",
+    "require_files": true,
+    "description": "رفع ملف pdf  او اكسل يوضح ببيانات المباني الاحتياطية لإسكان الحجاج في مكة المكرمة لاستخدامها في الحالات الطارئة؛ وذلك بناء على تعميم وزارة الحج والعمرة برقم (461101499) وتاريخ 01/11/1446ه للشركات بتحديد المباني الاحتياطية التي تم استئجارها استعداد لأي حالة طارئة قد -لا قدر الله- تحدث خلال الموسم وأثناء إقامة الحجاج في مكة المكرمة ورفعها في تاريخ أقصاه 10/11/1446ه. يمكن للشركات الاستفادة من ملف الأكسل المرفق مع المهمة.",
+    "guide_file": {
+      "file_url": "http://dev.seedlab-sa.com/media/files/template/2025/05/04/%D8%A7%D8%B3%D9%85_%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9-%D9%86%D9%85%D9%88%D8%B0%D8%AC_%D9%85%D8%B3%D8%A7%D9%83%D9%86_%D8%B7%D9%88%D8%A7%D8%B1%D8%A6_%D8%A7%D9%84%D8%A5%D8%B3%D9%83%D8%A7%D9%86.xlsx",
+      "file_name": "اسم_الشركة-نموذج_مساكن_طوارئ_الإسكان.xlsx"
+    },
+    "last_modified_date": "",
+    "last_modified_hijri_date": "",
+    "urgency_status": "MEDIUM"
   },
   {
     "id": 2572,
@@ -4506,27 +4726,41 @@
     "name": "متابعة الحالات الطارئة للحجاج والتنسيق مع الجهات ورفعها في المسار الإلكتروني حسب التعليمات",
     "hijri_end_date": "1446-12-29",
     "gregorian_end_date": "2025-06-25",
-    "answers": [],
-    "questions": [
+    "answers": [
       {
-        "id": 329,
+        "id": 1653,
+        "answer": "نعم",
         "question": "هل تم ارفاق تقارير أسبوعية بالحالات  وإجراءات الشركة حيالها بالتنسيق مع الجهات المختصة",
+        "task": 385,
         "question_type": "Short Answer"
       },
       {
-        "id": 330,
+        "id": 1654,
+        "answer": "نعم",
         "question": "هل تم ارفاق صورة من المسار الالكتروني",
+        "task": 385,
         "question_type": "Short Answer"
       }
     ],
-    "files": [],
-    "approved": "UNAVAILABLE",
-    "done": "NOTSTARTED",
+    "questions": [],
+    "files": [
+      {
+        "id": 2364,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/04/%D9%85%D8%AA%D8%A7%D8%A8%D8%B9%D8%A9_%D8%A7%D9%84%D8%AD%D8%A7%D9%84%D8%A7%D8%AA_%D8%A7%D9%84%D8%B7%D8%A7%D8%B1%D8%A6%D8%A9_%D9%84%D9%84%D8%AD%D8%AC%D8%A7%D8%AC_%D9%88%D8%A7%D9%84%D8%AA%D9%86%D8%B3%D9%8A%D9%82_%D9%85%D8%B9_%D8%A7%D9%84%D8%AC%D9%87%D8%A7%D8%AA_%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE_04-05-2025.pdf",
+        "name": "متابعة_الحالات_الطارئة_للحجاج_والتنسيق_مع_الجهات_تاريخ_04-05-2025.pdf",
+        "size": 0.24,
+        "created_at": "2025-05-04T18:14:44.710694+03:00",
+        "updated_at": null,
+        "task": 385
+      }
+    ],
+    "approved": "APPROVED",
+    "done": "DONE",
     "require_files": true,
     "description": "متابعة حالات الحجاج الطارئة (مرضى، متوفين، تائهين، المفقودات،  الموقوفين) والتنسيق مع الجهات لحلها وفق التعليمات ورفعها في المسار الالكتروني للوزارة",
     "guide_file": {},
-    "last_modified_date": "",
-    "last_modified_hijri_date": "",
+    "last_modified_date": "2025-05-04",
+    "last_modified_hijri_date": "1446-11-06",
     "urgency_status": "Medium"
   },
   {

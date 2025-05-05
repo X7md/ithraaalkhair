@@ -225,13 +225,13 @@
     "sub_category": "الاستعداد المسبق",
     "urgency_status": "Medium",
     "service": "إدارية",
-    "is_done": "INPROGRESS",
-    "is_approved": "UNAVAILABLE",
+    "is_done": "DONE",
+    "is_approved": "APPROVED",
     "hijri_start_date": "1446-09-25",
     "start_date": "2025-03-25",
     "end_date": "2025-04-17",
     "hijri_end_date": "1446-10-19",
-    "submission_status": "OverdueIncompleted"
+    "submission_status": "OverdueCompleted"
   },
   {
     "id": 335,
@@ -297,13 +297,13 @@
     "sub_category": "الاستعداد المسبق",
     "urgency_status": "Medium",
     "service": "إدارية",
-    "is_done": "NOTSTARTED",
-    "is_approved": "UNAVAILABLE",
+    "is_done": "DONE",
+    "is_approved": "APPROVED",
     "hijri_start_date": "1446-09-25",
     "start_date": "2025-03-25",
     "end_date": "2025-04-17",
     "hijri_end_date": "1446-10-19",
-    "submission_status": "OverdueIncompleted"
+    "submission_status": "OverdueCompleted"
   },
   {
     "id": 2222,
@@ -405,13 +405,13 @@
     "sub_category": "البنية المؤسسية",
     "urgency_status": "Medium",
     "service": "إدارية",
-    "is_done": "INPROGRESS",
-    "is_approved": "UNAVAILABLE",
+    "is_done": "DONE",
+    "is_approved": "APPROVED",
     "hijri_start_date": "1446-10-08",
     "start_date": "2025-04-06",
     "end_date": "2025-04-18",
     "hijri_end_date": "1446-10-20",
-    "submission_status": "OverdueIncompleted"
+    "submission_status": "OverdueCompleted"
   },
   {
     "id": 371,
@@ -729,8 +729,8 @@
     "sub_category": "الشؤون العامة",
     "urgency_status": "Medium",
     "service": "إدارية",
-    "is_done": "NOTSTARTED",
-    "is_approved": "UNAVAILABLE",
+    "is_done": "INPROGRESS",
+    "is_approved": "NONAPPROVED",
     "hijri_start_date": "1446-08-19",
     "start_date": "2025-02-18",
     "end_date": "2025-04-20",
@@ -837,13 +837,13 @@
     "sub_category": "جاهزية خدمات التغذية والإعاشة",
     "urgency_status": "Medium",
     "service": "الاعاشة في مكة المكرمة",
-    "is_done": "NOTSTARTED",
-    "is_approved": "UNAVAILABLE",
+    "is_done": "DONE",
+    "is_approved": "APPROVED",
     "hijri_start_date": "1446-10-01",
     "start_date": "2025-03-30",
     "end_date": "2025-04-21",
     "hijri_end_date": "1446-10-23",
-    "submission_status": "OverdueIncompleted"
+    "submission_status": "OverdueCompleted"
   },
   {
     "id": 2229,
@@ -855,13 +855,13 @@
     "sub_category": "جاهزية خدمات التغذية والإعاشة",
     "urgency_status": "Medium",
     "service": "الاعاشة في مكة المكرمة",
-    "is_done": "NOTSTARTED",
+    "is_done": "INPROGRESS",
     "is_approved": "UNAVAILABLE",
     "hijri_start_date": "1446-09-25",
     "start_date": "2025-03-25",
     "end_date": "2025-04-21",
     "hijri_end_date": "1446-10-23",
-    "submission_status": "OverdueIncompleted"
+    "submission_status": "NoStatus"
   },
   {
     "id": 334,
@@ -1018,7 +1018,7 @@
     "urgency_status": "Medium",
     "service": "إدارية",
     "is_done": "DONE",
-    "is_approved": "PENDING",
+    "is_approved": "APPROVED",
     "hijri_start_date": "1446-10-10",
     "start_date": "2025-04-08",
     "end_date": "2025-04-23",
@@ -1089,13 +1089,13 @@
     "sub_category": "جاهزية مساكن الحجاج",
     "urgency_status": "Medium",
     "service": "خدمة السكن في مكة المكرمة",
-    "is_done": "NOTSTARTED",
-    "is_approved": "UNAVAILABLE",
+    "is_done": "DONE",
+    "is_approved": "APPROVED",
     "hijri_start_date": "1446-10-10",
     "start_date": "2025-04-08",
     "end_date": "2025-04-23",
     "hijri_end_date": "1446-10-25",
-    "submission_status": "OverdueIncompleted"
+    "submission_status": "OverdueCompleted"
   },
   {
     "id": 2203,
@@ -1161,13 +1161,13 @@
     "sub_category": "بطاقات نسك ومراكز التواصل مع الحجاج",
     "urgency_status": "Medium",
     "service": "إدارية",
-    "is_done": "NOTSTARTED",
-    "is_approved": "UNAVAILABLE",
+    "is_done": "DONE",
+    "is_approved": "APPROVED",
     "hijri_start_date": "1446-10-10",
     "start_date": "2025-04-08",
     "end_date": "2025-04-23",
     "hijri_end_date": "1446-10-25",
-    "submission_status": "OverdueIncompleted"
+    "submission_status": "OverdueCompleted"
   },
   {
     "id": 2214,
@@ -1198,7 +1198,7 @@
     "urgency_status": "Medium",
     "service": "إدارية",
     "is_done": "INPROGRESS",
-    "is_approved": "UNAVAILABLE",
+    "is_approved": "NONAPPROVED",
     "hijri_start_date": "1446-09-25",
     "start_date": "2025-03-25",
     "end_date": "2025-04-23",
@@ -1323,13 +1323,13 @@
     "sub_category": "زيارة المدينة المنورة",
     "urgency_status": "Medium",
     "service": "زيارة المدينة المنورة",
-    "is_done": "NOTSTARTED",
-    "is_approved": "UNAVAILABLE",
+    "is_done": "DONE",
+    "is_approved": "APPROVED",
     "hijri_start_date": "1446-09-25",
     "start_date": "2025-03-25",
     "end_date": "2025-04-23",
     "hijri_end_date": "1446-10-25",
-    "submission_status": "OverdueIncompleted"
+    "submission_status": "OverdueCompleted"
   },
   {
     "id": 356,
@@ -1377,8 +1377,8 @@
     "sub_category": "الشؤون العامة",
     "urgency_status": "MEDIUM",
     "service": "إدارية",
-    "is_done": "NOTSTARTED",
-    "is_approved": "UNAVAILABLE",
+    "is_done": "INPROGRESS",
+    "is_approved": "NONAPPROVED",
     "hijri_start_date": "1446-10-01",
     "start_date": "2025-03-30",
     "end_date": "2025-04-24",
@@ -1539,13 +1539,13 @@
     "sub_category": "بطاقات نسك ومراكز التواصل مع الحجاج",
     "urgency_status": "Medium",
     "service": "إدارية",
-    "is_done": "NOTSTARTED",
-    "is_approved": "UNAVAILABLE",
+    "is_done": "INPROGRESS",
+    "is_approved": "NONAPPROVED",
     "hijri_start_date": "1446-10-10",
     "start_date": "2025-04-08",
     "end_date": "2025-05-03",
     "hijri_end_date": "1446-11-05",
-    "submission_status": "NoStatus"
+    "submission_status": "OverdueIncompleted"
   },
   {
     "id": 355,
@@ -1563,7 +1563,7 @@
     "start_date": "2025-04-08",
     "end_date": "2025-05-03",
     "hijri_end_date": "1446-11-05",
-    "submission_status": "NoStatus"
+    "submission_status": "OverdueIncompleted"
   },
   {
     "id": 2232,
@@ -1581,6 +1581,42 @@
     "start_date": "2025-04-08",
     "end_date": "2025-05-03",
     "hijri_end_date": "1446-11-05",
+    "submission_status": "OverdueIncompleted"
+  },
+  {
+    "id": 2986,
+    "name": "تحديد المباني الاحتياطية لإسكان الحجاج في مكة المكرمة لاستخدامها في الحالات الطارئة",
+    "company": "04- إثراء الخير",
+    "season": "موسم 46",
+    "business_model": "B2B",
+    "phase_category": "Pre-Arrival",
+    "sub_category": "جاهزية مساكن الحجاج",
+    "urgency_status": "MEDIUM",
+    "service": "خدمة السكن في مكة المكرمة",
+    "is_done": "NOTSTARTED",
+    "is_approved": "UNAVAILABLE",
+    "hijri_start_date": "1446-11-06",
+    "start_date": "2025-05-04",
+    "end_date": "2025-05-07",
+    "hijri_end_date": "1446-11-09",
+    "submission_status": "NoStatus"
+  },
+  {
+    "id": 2980,
+    "name": "تحديد المباني الاحتياطية لإسكان الحجاج في مكة المكرمة لاستخدامها في الحالات الطارئة",
+    "company": "04- إثراء الخير",
+    "season": "موسم 46",
+    "business_model": "B2C",
+    "phase_category": "Pre-Arrival",
+    "sub_category": "جاهزية مساكن الحجاج",
+    "urgency_status": "MEDIUM",
+    "service": "خدمة السكن في مكة المكرمة",
+    "is_done": "NOTSTARTED",
+    "is_approved": "UNAVAILABLE",
+    "hijri_start_date": "1446-11-06",
+    "start_date": "2025-05-04",
+    "end_date": "2025-05-07",
+    "hijri_end_date": "1446-11-09",
     "submission_status": "NoStatus"
   },
   {
@@ -2403,13 +2439,13 @@
     "sub_category": "الشؤون العامة",
     "urgency_status": "Medium",
     "service": "إدارية",
-    "is_done": "NOTSTARTED",
-    "is_approved": "UNAVAILABLE",
+    "is_done": "DONE",
+    "is_approved": "APPROVED",
     "hijri_start_date": "1446-11-01",
     "start_date": "2025-04-29",
     "end_date": "2025-06-25",
     "hijri_end_date": "1446-12-29",
-    "submission_status": "NoStatus"
+    "submission_status": "CompletedOnTime"
   },
   {
     "id": 387,

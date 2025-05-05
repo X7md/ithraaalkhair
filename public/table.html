@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Alpine.js CDN -->
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+</head>
+<body class="p-8">
+    <div x-data="{ tasks: [] }" x-init="fetch('./data/tasks.json').then(response => response.json()).then(data => tasks = [...data.sort((a, b) => new Date(a.end_date) - new Date(b.end_date))].filter((itm)=> itm.business_model == 'B2B'))">
+        <table class="w-full border-collapse border border-gray-300">
+            <thead class="bg-gray-100">
+                <tr>
+                    <td class="border border-gray-300 p-2">#</td>
+                    <td class="border border-gray-300 p-2">رمز</td>
+                    <th class="border border-gray-300 p-2">اسم المهمة</th>
+                    <th class="border border-gray-300 p-2">الفئة</th>
+                    <th class="border border-gray-300 p-2">تاريخ البدأ</th>
+                    <th class="border border-gray-300 p-2">تاريخ الإنتهاء</th>
+                    <th class="border border-gray-300 p-2">الإدارة المعنية</th>
+                    <th class="border border-gray-300 p-2">الملاحظات</th>
+                    <th class="border border-gray-300 p-2">الحالة</th>
+                </tr>
+            </thead>
+            <tbody>
+                <template x-for="(task, idx) in tasks" :key="task.id">
+                    <tr class="hover:bg-gray-50">
+                        <td class="border border-gray-300 p-2" x-text="idx"></td>
+                        <td class="border border-gray-300 p-2" x-text="task.id"></td>
+                        <td class="border border-gray-300 p-2" x-text="task.name"></td>
+                        <td class="border border-gray-300 p-2" x-text="task.business_model"></td>
+                        <td class="border border-gray-300 p-2" x-text="task.start_date"></td>
+                        <td class="border border-gray-300 p-2" x-text="task.end_date"></td>
+                        <td class="border border-gray-300 p-2" x-text="-"></td>
+                        <td class="border border-gray-300 p-2" x-text="task.service"></td>
+                        <td class="border border-gray-300 p-2" x-data="{
+                            statusMap: {
+                                'APPROVED': 'تم القبول',
+                                'NONAPPROVED': 'Not Approved',
+                                'PENDING': 'لم يقبل بعد',
+                                'UNAVAILABLE': 'غير متاح',
+                                'CLOSED': 'مغلقة',
+                                'UNDER_REVIEW': 'Under Review'
+                            }
+                        }" x-text="statusMap[task.is_approved] || task.is_approved"></td>
+                    </tr>
+                </template>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

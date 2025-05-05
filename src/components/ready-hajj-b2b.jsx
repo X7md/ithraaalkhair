@@ -3,13 +3,6 @@
 import * as React from "react"
 import { Label, Pie, PieChart } from "recharts"
 import {
-  Dialog,
-  DialogContent,
-  DialogHeader,
-  DialogTitle,
-} from "@/components/ui/dialog"
-
-import {
   Card,
   CardContent,
   CardFooter,
@@ -19,21 +12,28 @@ import {
   ChartTooltip,
   ChartTooltipContent,
 } from "@/components/ui/chart"
-const data = [...await (await fetch("/data/tasks.json"))?.json()|| []].filter(itm => itm.business_model == 'B2C')
-// window.data = data
+import {
+  Dialog,
+  DialogContent,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog"
+
+const data = [...await (await fetch("/data/tasks.json"))?.json() || []].filter(itm => itm.business_model == 'B2B')
+window.data = data
 const chartData = [
   { task: "مرفوضة", count: data.filter(itm => itm.is_approved == 'NONAPPROVED').length, fill: "#DF3838" },
   { task: "مقبولة", count: data.filter(itm => itm.is_approved == "APPROVED").length, fill: "#008086" },
-  { task: "لم ترسل (متأخرة)", count: data.filter(itm => 
-    (itm.is_approved !== 'NONAPPROVED') && 
-    itm.is_approved !== "APPROVED" && 
-    itm.is_approved !== "PENDING" && 
+  { task: "لم ترسل (متأخرة)", count: data.filter(itm =>
+    (itm.is_approved !== 'NONAPPROVED') &&
+    itm.is_approved !== "APPROVED" &&
+    itm.is_approved !== "PENDING" &&
     new Date(itm.end_date) < new Date()
   ).length, fill: "#C29979" },
-  { task: "لم ترسل", count: data.filter(itm => 
-    (itm.is_approved !== 'NONAPPROVED') && 
-    itm.is_approved !== "APPROVED" && 
-    itm.is_approved !== "PENDING" && 
+  { task: "لم ترسل", count: data.filter(itm =>
+    (itm.is_approved !== 'NONAPPROVED') &&
+    itm.is_approved !== "APPROVED" &&
+    itm.is_approved !== "PENDING" &&
     new Date(itm.end_date) >= new Date()
   ).length, fill: "#E6B17E" },
   { task: "تحت المراجعة", count: data.filter(itm => (itm.is_approved !== 'NONAPPROVED') && itm.is_approved !== "APPROVED" && itm.is_approved == "PENDING").length, fill: "#000" },
@@ -55,9 +55,9 @@ const chartConfig = {
     label: "Firefox",
     color: "hsl(var(--chart-3))",
   }
-} 
+}
 
-export function HajjReady() {
+export function HajjReadyB2B() {
   const [selectedTask, setSelectedTask] = React.useState(null)
   const totalcount = React.useMemo(() => {
     return chartData.reduce((acc, curr) => acc + curr.count, 0)
@@ -68,15 +68,15 @@ export function HajjReady() {
       if (task.task === "مرفوضة") return itm.is_approved === 'NONAPPROVED';
       if (task.task === "مقبولة") return itm.is_approved === "APPROVED";
       if (task.task === "تحت المراجعة") return itm.is_approved === "PENDING";
-      if (task.task === "لم ترسل (متأخرة)") 
-        return itm.is_approved !== 'NONAPPROVED' && 
-               itm.is_approved !== "APPROVED" && 
-               itm.is_approved !== "PENDING" && 
-               new Date(itm.end_date) < new Date();
-      return itm.is_approved !== 'NONAPPROVED' && 
-             itm.is_approved !== "APPROVED" && 
-             itm.is_approved !== "PENDING" && 
-             new Date(itm.end_date) >= new Date();
+      if (task.task === "لم ترسل (متأخرة)")
+        return itm.is_approved !== 'NONAPPROVED' &&
+          itm.is_approved !== "APPROVED" &&
+          itm.is_approved !== "PENDING" &&
+          new Date(itm.end_date) < new Date();
+      return itm.is_approved !== 'NONAPPROVED' &&
+        itm.is_approved !== "APPROVED" &&
+        itm.is_approved !== "PENDING" &&
+        new Date(itm.end_date) >= new Date();
     });
     setSelectedTask({ ...task, details: taskData });
   }
@@ -125,7 +125,7 @@ export function HajjReady() {
                           y={(viewBox.cy || 0) + 24}
                           className="fill-muted-foreground"
                         >
-                         B2C
+                          B2B
                         </tspan>
                       </text>
                     )
@@ -137,33 +137,32 @@ export function HajjReady() {
         </ChartContainer>
       </CardContent>
       <CardFooter className="flex-col gap-2">
-      <div className="text-xs text-center text-muted-foreground">
-           المهام سحبت بتاريخ 
+        <div className="text-xs text-center text-muted-foreground">
+          المهام سحبت بتاريخ
           <time>
-            2025-05-04 
+            2025-05-04
           </time>
-      </div>
+        </div>
         <div className="grid grid-cols-2 gap-4 text-xs">
-            {chartData.map((entry, index) => (
-                <div 
-                  key={index} 
-                  className="flex items-center gap-2 cursor-pointer hover:opacity-80"
-                  onClick={() => handleTaskClick(entry)}
-                >
-                <div
-                    className="h-4 w-4 rounded-full aspect-square"
-                    style={{ backgroundColor: entry.fill }}
-                />
-                <span className="text-xs font-medium text-muted-foreground">
-                    {entry.task} ({entry.count.toLocaleString()})
-                </span>
-                </div>
-             
-            ))}
+          {chartData.map((entry, index) => (
+            <div
+              key={index}
+              className="flex items-center gap-2 cursor-pointer hover:opacity-80"
+              onClick={() => handleTaskClick(entry)}
+            >
+              <div
+                className="h-4 w-4 rounded-full aspect-square"
+                style={{ backgroundColor: entry.fill }}
+              />
+              <span className="text-xs font-medium text-muted-foreground">
+                {entry.task} ({entry.count.toLocaleString()})
+              </span>
+            </div>
+          ))}
         </div>
       </CardFooter>
 
-      <Dialog open={!!selectedTask} onOpenChange={() => setSelectedTask(null)}>
+      <Dialog open={!!selectedTask} onOpenChange={() => setSelectedTask(null)} >
         <DialogContent className="max-w-2xl">
           <DialogHeader>
             <DialogTitle className="text-right">
@@ -182,17 +181,17 @@ export function HajjReady() {
                     <span className="font-medium">{item.name}</span>
                   </div>
                   <div className="flex justify-between text-xs text-muted-foreground">
-                    <div>يبدأ: {new Date(item.start_date).toLocaleDateString('ar-SA', {
-                    year: 'numeric',
-                    month: 'long',
-                    day: 'numeric',
-                    weekday: 'long',
-                    })}</div>
+                    <div>يبدأ: {new Date(item.start_date).toLocaleDateString('ar-SA'
+                      , {
+                        year: 'numeric',
+                        month: 'long',
+                        day: 'numeric',
+                        }
+                    )}</div>
                     <div>ينتهي: {new Date(item.end_date).toLocaleDateString('ar-SA', {
                     year: 'numeric',
                     month: 'long',
                     day: 'numeric',
-                    weekday: 'long',
                     })}</div>
                   </div>
                 </div>

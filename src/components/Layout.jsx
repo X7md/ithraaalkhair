@@ -7,13 +7,13 @@ import {
 } from "@/components/ui/sidebar"
 import { Button } from '@/components/ui/button'
 import { Clock } from './Clock'
-import { Link } from "react-router-dom"
+import { NavLink } from "react-router-dom"
+import React from "react"
 
 const TABS = [
   { id: 'home', label: 'الصفحة الرئيسية', path: '/' },
   { id: 'test', label: 'تجربة', path: '/test' },
 ]
-
 
 export function Layout(
     {
@@ -22,6 +22,14 @@ export function Layout(
      //eslint-disable-next-line react/prop-types
      children 
     }) {
+  const triggerRef = React.useRef()
+
+  const handleNavClick = () => {
+    if (window.innerWidth < 768) {
+      triggerRef.current?.click()
+    }
+  }
+
   return (
     <SidebarProvider defaultOpen={true}>
       <div className="relative flex min-h-screen w-full" dir="rtl">
@@ -45,16 +53,15 @@ export function Layout(
           <SidebarContent className="relative">
             <div className="relative flex z-10 flex-col gap-2 p-4 rounded-sm">
               {TABS.map(tab => (
-                <Link to={tab.path} key={tab.id}>
+                <NavLink to={tab.path} key={tab.id} onClick={handleNavClick}>
                   <Button
-
                     key={tab.id}
                     variant={activeTab === tab.id ? "default" : "outline"}
                     className="w-full cursor-pointer"
                   >
                     {tab.label}
                   </Button>
-                </Link>
+                </NavLink>
               ))}
               <div className="bg-slate-100 absolute w-full h-full left-0 right-0 top-0 opacity-85 -z-10 "></div>
             </div>
@@ -64,7 +71,7 @@ export function Layout(
         
         <main className="flex-1 min-w-0">
           <div className="flex items-center gap-2 p-4 border-b sticky top-0 bg-white z-10">
-            <SidebarTrigger className="bg-secondary text-white hover:!bg-primary focus:bg-primary focus-within:bg-primar" />
+            <SidebarTrigger ref={triggerRef} className="bg-secondary text-white hover:!bg-primary focus:bg-primary focus-within:bg-primar" />
           </div>
           <div className="p-4">
             {children}
