@@ -67,15 +67,15 @@ export function Layout(
                  ))}
                 </div>
                  <hr className="border-gray-300 my-2" />
-                 <div className="text-center fixed bottom-0 left-[calc(50vw + 35px)] p-2">
+              </div>
+              <div className="bg-slate-100 absolute w-full h-full left-0 right-0 top-0 opacity-85 -z-10 "></div>
+            </div>
+            <div className="text-center absolute bottom-0 right-0 left-0 p-5">
                   <span dir="ltr" className="text-sm text-gray-500">
                     Powered by: 
                   </span>
                  <img src="/molim-logo.svg" className="max-h-[30px] w-full" />
                  </div>
-              </div>
-              <div className="bg-slate-100 absolute w-full h-full left-0 right-0 top-0 opacity-85 -z-10 "></div>
-            </div>
             <img className="left-0 opacity-20 object-cover h-full w-full absolute" src="/pattern.svg" />
           </SidebarContent>
         </Sidebar>
