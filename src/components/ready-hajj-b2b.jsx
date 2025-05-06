@@ -31,7 +31,7 @@ const chartData = [
     itm.is_approved !== "PENDING" &&
     new Date(itm.end_date) < new Date()
   ).length, fill: "#C29979" },
-  { task: "لم ترسل", count: data.filter(itm =>
+  { task: "(لم ترسل (لم ينتهي موعد التسليم)", count: data.filter(itm =>
     (itm.is_approved !== 'NONAPPROVED') &&
     itm.is_approved !== "APPROVED" &&
     itm.is_approved !== "PENDING" &&
@@ -209,13 +209,20 @@ function Details({ id }) {
       const response = await fetch("/data/taskDetails.json");
       const data = await response.json();
       setDetails(data.find(itm => itm.id === id).notes);
+      // Scroll to details after data is loaded
     };
     fetchDetails();
   }, [id]);
 
+  const detailsRef = React.useRef(null);
+
   return (
-    <details className="text-xs text-muted-foreground">
-      <summary className="cursor-pointer font-black">تفاصيل</summary>
+    details ? (<details className="text-xs text-muted-foreground" onToggle={(e) => {
+      if (e.target.open) {
+        detailsRef.current?.scrollIntoView({ behavior: 'smooth' });
+      }
+    }}>
+      <summary ref={detailsRef} className="cursor-pointer font-black">تفاصيل</summary>
       <div className="flex flex-col gap-2 mt-2">
         {
           details.map((item, index) => (
@@ -225,6 +232,10 @@ function Details({ id }) {
           ))
         }
       </div>
-    </details>
+    </details>) : (
+      <div className="h-2 bg-gray-200 rounded animate-pulse">
+        <span className="sr-only">Loading...</span>
+      </div>
+    )
   );
 }

@@ -52,7 +52,9 @@ export function Layout(
           </SidebarHeader>
           <SidebarContent className="relative">
             <div className="relative flex z-10 flex-col gap-2 p-4 rounded-sm">
-              {TABS.map(tab => (
+              <div className="flex gap-2 flex-col h-full justify-between h-fit">
+                <div className="flex flex-col gap-2">
+                {TABS.map(tab => (
                 <NavLink to={tab.path} key={tab.id} onClick={handleNavClick}>
                   <Button
                     key={tab.id}
@@ -62,7 +64,16 @@ export function Layout(
                     {tab.label}
                   </Button>
                 </NavLink>
-              ))}
+                 ))}
+                </div>
+                 <hr className="border-gray-300 my-2" />
+                 <div className="text-center fixed bottom-0 left-[calc(50vw + 35px)] p-2">
+                  <span dir="ltr" className="text-sm text-gray-500">
+                    Powered by: 
+                  </span>
+                 <img src="/molim-logo.svg" className="max-h-[30px] w-full" />
+                 </div>
+              </div>
               <div className="bg-slate-100 absolute w-full h-full left-0 right-0 top-0 opacity-85 -z-10 "></div>
             </div>
             <img className="left-0 opacity-20 object-cover h-full w-full absolute" src="/pattern.svg" />
