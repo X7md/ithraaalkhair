@@ -140,7 +140,7 @@ export function HajjReady() {
       <div className="text-xs text-center text-muted-foreground">
            المهام سحبت بتاريخ 
           <time>
-            2025-05-05
+            2025-05-06
           </time>
       </div>
         <div className="grid grid-cols-2 gap-4 text-xs">

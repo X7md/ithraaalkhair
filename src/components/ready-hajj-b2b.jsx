@@ -140,7 +140,7 @@ export function HajjReadyB2B() {
         <div className="text-xs text-center text-muted-foreground">
           المهام سحبت بتاريخ
           <time>
-            2025-05-05
+            2025-05-06
           </time>
         </div>
         <div className="grid grid-cols-2 gap-4 text-xs">
@@ -181,17 +181,17 @@ export function HajjReadyB2B() {
                     <span className="font-medium">{item.name}</span>
                   </div>
                   <div className="flex justify-between text-xs text-muted-foreground">
-                    <div>يبدأ: {new Date(item.start_date).toLocaleDateString('ar-SA'
-                      , {
-                        year: 'numeric',
-                        month: 'long',
-                        day: 'numeric',
-                        }
-                    )}</div>
+                  <div>يبدأ: {new Date(item.start_date).toLocaleDateString('ar-SA', {
+                    year: 'numeric',
+                    month: 'long',
+                    day: 'numeric',
+                    weekday: 'long',
+                    })}</div>
                     <div>ينتهي: {new Date(item.end_date).toLocaleDateString('ar-SA', {
                     year: 'numeric',
                     month: 'long',
                     day: 'numeric',
+                    weekday: 'long',
                     })}</div>
                   </div>
                 </div>
