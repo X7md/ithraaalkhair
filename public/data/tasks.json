@@ -387,13 +387,13 @@
     "sub_category": "البنية المؤسسية",
     "urgency_status": "Medium",
     "service": "إدارية",
-    "is_done": "NOTSTARTED",
-    "is_approved": "UNAVAILABLE",
+    "is_done": "DONE",
+    "is_approved": "PENDING",
     "hijri_start_date": "1446-09-25",
     "start_date": "2025-03-25",
     "end_date": "2025-04-18",
     "hijri_end_date": "1446-10-20",
-    "submission_status": "OverdueIncompleted"
+    "submission_status": "OverdueCompleted"
   },
   {
     "id": 370,
@@ -891,13 +891,13 @@
     "sub_category": "جاهزية مساكن الحجاج",
     "urgency_status": "Medium",
     "service": "إدارية",
-    "is_done": "NOTSTARTED",
-    "is_approved": "UNAVAILABLE",
+    "is_done": "DONE",
+    "is_approved": "PENDING",
     "hijri_start_date": "1446-10-10",
     "start_date": "2025-04-08",
     "end_date": "2025-04-23",
     "hijri_end_date": "1446-10-25",
-    "submission_status": "OverdueIncompleted"
+    "submission_status": "OverdueCompleted"
   },
   {
     "id": 345,
@@ -943,15 +943,15 @@
     "business_model": "B2B",
     "phase_category": "Pre-Arrival",
     "sub_category": "بطاقات نسك ومراكز التواصل مع الحجاج",
-    "urgency_status": "Medium",
+    "urgency_status": "MEDIUM",
     "service": "إدارية",
-    "is_done": "DONE",
-    "is_approved": "APPROVED",
+    "is_done": "INPROGRESS",
+    "is_approved": "PENDING",
     "hijri_start_date": "1446-09-25",
     "start_date": "2025-03-25",
     "end_date": "2025-04-23",
     "hijri_end_date": "1446-10-25",
-    "submission_status": "OverdueCompleted"
+    "submission_status": "OverdueIncompleted"
   },
   {
     "id": 352,
@@ -1053,8 +1053,8 @@
     "sub_category": "زيارة المدينة المنورة",
     "urgency_status": "Medium",
     "service": "إدارية",
-    "is_done": "NOTSTARTED",
-    "is_approved": "UNAVAILABLE",
+    "is_done": "INPROGRESS",
+    "is_approved": "NONAPPROVED",
     "hijri_start_date": "1446-10-01",
     "start_date": "2025-03-30",
     "end_date": "2025-04-23",
@@ -1123,15 +1123,15 @@
     "business_model": "B2C",
     "phase_category": "Pre-Arrival",
     "sub_category": "بطاقات نسك ومراكز التواصل مع الحجاج",
-    "urgency_status": "Medium",
+    "urgency_status": "MEDIUM",
     "service": "إدارية",
-    "is_done": "DONE",
-    "is_approved": "APPROVED",
+    "is_done": "INPROGRESS",
+    "is_approved": "PENDING",
     "hijri_start_date": "1446-09-25",
     "start_date": "2025-03-25",
     "end_date": "2025-04-23",
     "hijri_end_date": "1446-10-25",
-    "submission_status": "OverdueCompleted"
+    "submission_status": "OverdueIncompleted"
   },
   {
     "id": 2208,
