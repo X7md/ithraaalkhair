@@ -884,7 +884,7 @@
         "task": 361
       }
     ],
-    "approved": "PENDING",
+    "approved": "APPROVED",
     "done": "DONE",
     "require_files": true,
     "description": "إتمام الإجراءات والأدوات التقنية اللازمة لادارة العمليات ومشاركة البيانات بين أعضاء الفريق واللجان ومراكز الخدمة، وإدارة المهام والمسؤوليات ومتابعة المؤشرات (منصات رقمية داخلية ولوحات بيانات)، الربط مع منصات الوزارة والجهات ذات العلاقة",
@@ -1986,7 +1986,7 @@
         "task": 336
       }
     ],
-    "approved": "PENDING",
+    "approved": "APPROVED",
     "done": "DONE",
     "require_files": true,
     "description": "إتمام التأكد من جاهزية المساكن من خلال الزيارات التفقدية، ومعالجة الملاحظات وفق نماذج قياسية لتقييم الجاهزية",
@@ -2596,8 +2596,8 @@
         "task": 2207
       }
     ],
-    "approved": "PENDING",
-    "done": "INPROGRESS",
+    "approved": "APPROVED",
+    "done": "DONE",
     "require_files": true,
     "description": "",
     "guide_file": {

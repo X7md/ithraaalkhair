@@ -18,9 +18,10 @@ import {
   DialogHeader,
   DialogTitle,
 } from "@/components/ui/dialog"
+import { MetaData } from "./meta-data"
 
 const data = [...await (await fetch("/data/tasks.json"))?.json() || []].filter(itm => itm.business_model == 'B2B')
-window.data = data
+
 const chartData = [
   { task: "مرفوضة", count: data.filter(itm => itm.is_approved == 'NONAPPROVED').length, fill: "#DF3838" },
   { task: "مقبولة", count: data.filter(itm => itm.is_approved == "APPROVED").length, fill: "#008086" },
@@ -137,12 +138,7 @@ export function HajjReadyB2B() {
         </ChartContainer>
       </CardContent>
       <CardFooter className="flex-col gap-2">
-        <div className="text-xs text-center text-muted-foreground">
-          المهام سحبت بتاريخ
-          <time>
-            2025-05-06
-          </time>
-        </div>
+        <MetaData />
         <div className="grid grid-cols-2 gap-4 text-xs">
           {chartData.map((entry, index) => (
             <div
@@ -172,7 +168,7 @@ export function HajjReadyB2B() {
           <div className="mt-4 max-h-[75vh] overflow-y-auto">
             <div className="grid gap-4">
               {selectedTask?.details.map((item, index) => (
-                <div key={index} className="flex flex-col gap-2 p-3 border rounded">
+                <div key={item.id} className="flex flex-col gap-2 p-3 border rounded">
                   <div className="flex justify-between items-center">
                   <span className="text-sm font-black text-muted-foreground">{item.id}</span>
                   <span className="text-sm text-muted-foreground">{item.business_model}</span>
@@ -194,6 +190,7 @@ export function HajjReadyB2B() {
                     day: 'numeric',
                     })}</div>
                   </div>
+                  {selectedTask?.task === "مرفوضة" && <Details id={item.id} />}
                 </div>
               ))}
             </div>
@@ -202,4 +199,32 @@ export function HajjReadyB2B() {
       </Dialog>
     </Card>
   )
+}
+
+function Details({ id }) {
+  const [details, setDetails] = React.useState([]);
+
+  React.useEffect(() => {
+    const fetchDetails = async () => {
+      const response = await fetch("/data/taskDetails.json");
+      const data = await response.json();
+      setDetails(data.find(itm => itm.id === id).notes);
+    };
+    fetchDetails();
+  }, [id]);
+
+  return (
+    <details className="text-xs text-muted-foreground">
+      <summary className="cursor-pointer font-black">تفاصيل</summary>
+      <div className="flex flex-col gap-2 mt-2">
+        {
+          details.map((item, index) => (
+            <div key={index} className="flex flex-col gap-1 p-2 border rounded">
+              <span className="text-sm font-medium text-red-400">{item}</span>
+            </div>
+          ))
+        }
+      </div>
+    </details>
+  );
 }

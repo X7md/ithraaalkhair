@@ -19,6 +19,8 @@ import {
   ChartTooltip,
   ChartTooltipContent,
 } from "@/components/ui/chart"
+import { MetaData } from "./meta-data"
+
 const data = [...await (await fetch("/data/tasks.json"))?.json()|| []].filter(itm => itm.business_model == 'B2C')
 // window.data = data
 const chartData = [
@@ -137,12 +139,7 @@ export function HajjReady() {
         </ChartContainer>
       </CardContent>
       <CardFooter className="flex-col gap-2">
-      <div className="text-xs text-center text-muted-foreground">
-           المهام سحبت بتاريخ 
-          <time>
-            2025-05-06
-          </time>
-      </div>
+        <MetaData />
         <div className="grid grid-cols-2 gap-4 text-xs">
             {chartData.map((entry, index) => (
                 <div 
@@ -195,6 +192,7 @@ export function HajjReady() {
                     day: 'numeric',
                     })}</div>
                   </div>
+                  {selectedTask?.task === "مرفوضة" && <Details id={item.id} />}
                 </div>
               ))}
             </div>
@@ -203,4 +201,32 @@ export function HajjReady() {
       </Dialog>
     </Card>
   )
+}
+
+function Details({ id }) {
+  const [details, setDetails] = React.useState([]);
+
+  React.useEffect(() => {
+    const fetchDetails = async () => {
+      const response = await fetch("/data/taskDetails.json");
+      const data = await response.json();
+      setDetails(data.find(itm => itm.id === id).notes);
+    };
+    fetchDetails();
+  }, [id]);
+
+  return (
+    <details className="text-xs text-muted-foreground">
+      <summary className="cursor-pointer font-black">تفاصيل</summary>
+      <div className="flex flex-col gap-2 mt-2">
+        {
+          details.map((item, index) => (
+            <div key={index} className="flex flex-col gap-1 p-2 border rounded">
+              <span className="text-sm font-medium text-red-400">{item}</span>
+            </div>
+          ))
+        }
+      </div>
+    </details>
+  );
 }
