@@ -181,17 +181,17 @@ export function HajjReadyB2B() {
                     <span className="font-medium">{item.name}</span>
                   </div>
                   <div className="flex justify-between text-xs text-muted-foreground">
-                  <div>يبدأ: {new Date(item.start_date).toLocaleDateString('ar-SA', {
-                    year: 'numeric',
-                    month: 'long',
-                    day: 'numeric',
-                    weekday: 'long',
-                    })}</div>
+                    <div>يبدأ: {new Date(item.start_date).toLocaleDateString('ar-SA'
+                      , {
+                        year: 'numeric',
+                        month: 'long',
+                        day: 'numeric',
+                        }
+                    )}</div>
                     <div>ينتهي: {new Date(item.end_date).toLocaleDateString('ar-SA', {
                     year: 'numeric',
                     month: 'long',
                     day: 'numeric',
-                    weekday: 'long',
                     })}</div>
                   </div>
                 </div>
