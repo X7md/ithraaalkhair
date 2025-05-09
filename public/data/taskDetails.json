@@ -1384,9 +1384,6 @@
     "name": "تقديم خطة التدريب للشركة للعاملين والحجاج",
     "hijri_end_date": "1446-10-20",
     "gregorian_end_date": "2025-04-18",
-    "notes": [
-      "بعد التحية \nنشكر لكم جهودكم ونتمنى لكم التوفيق والنجاح لخدمة الحجاج نأمل المراجعة والتأكد ارفاق البيانات التالية :\n\n-خطة تدريب الحجاج \nشاكرين لكم تعاونكم"
-    ],
     "answers": [
       {
         "id": 1270,
@@ -1406,15 +1403,24 @@
         "created_at": "2025-05-01T18:50:04.303400+03:00",
         "updated_at": null,
         "task": 2242
+      },
+      {
+        "id": 2892,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/08/%D8%AA%D8%AF%D8%B1%D9%8A%D8%A8_%D8%A7%D9%84%D8%AD%D8%AC%D8%A7%D8%AC_%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D9%85%D9%84%D9%8A%D9%86.pdf",
+        "name": "تدريب_الحجاج_والعاملين.pdf",
+        "size": 0.49,
+        "created_at": "2025-05-08T18:03:08.230246+03:00",
+        "updated_at": null,
+        "task": 2242
       }
     ],
-    "approved": "NONAPPROVED",
-    "done": "INPROGRESS",
+    "approved": "APPROVED",
+    "done": "DONE",
     "require_files": true,
     "description": "",
     "guide_file": {},
-    "last_modified_date": "2025-05-01",
-    "last_modified_hijri_date": "1446-11-03",
+    "last_modified_date": "2025-05-08",
+    "last_modified_hijri_date": "1446-11-10",
     "urgency_status": "MEDIUM"
   },
   {
@@ -1445,10 +1451,6 @@
     "name": "تعيين فرق النقل والتفويج تشمل مسؤول التنسيق وضابط المنصة ومشرفي المجموعات وقادة الأفواج",
     "hijri_end_date": "1446-10-22",
     "gregorian_end_date": "2025-04-20",
-    "notes": [
-      "\"بعد التحية \nنشكر لكم جهودكم ونتمنى لكم التوفيق والنجاح لخدمة الحجاج\nنأمل المراجعة حيث لم تشمل الملفات على مايلي :\n1. لم يتم ادراج  الفريق التشغيلي للنقل  في الحج المباشر \n\n....\nمع الشكر \"",
-      "\"بعد التحية \nنشكر لكم جهودكم ونتمنى لكم التوفيق والنجاح لخدمة الحجاج\nنأمل المراجعة حيث لم تشمل الملفات على مايلي :\n1. هل الاسماء تخص نقل الخح المباشر او الشركة القابضة او اثراء الجود يجب التوضيح \n2.لم يظهر قائدي الافواج لكل 188 حاح قائد \n....\nمع الشكر \""
-    ],
     "answers": [
       {
         "id": 204,
@@ -1493,15 +1495,33 @@
         "created_at": null,
         "updated_at": null,
         "task": 349
+      },
+      {
+        "id": 2887,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/08/%D9%81%D8%B1%D9%8A%D9%82_%D8%A7%D8%AF%D8%A7%D8%B1%D8%A9_%D8%A7%D9%84%D8%AD%D8%B4%D9%88%D8%AF_%D8%A7%D8%AB%D8%B1%D8%A7%D8%A1_%D8%A7%D9%84%D8%AE%D9%8A%D8%B1.pdf",
+        "name": "فريق_ادارة_الحشود_اثراء_الخير.pdf",
+        "size": 0.26,
+        "created_at": "2025-05-08T16:45:36.192748+03:00",
+        "updated_at": null,
+        "task": 349
+      },
+      {
+        "id": 2888,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/08/Contracts.pdf",
+        "name": "Contracts.pdf",
+        "size": 4.35,
+        "created_at": "2025-05-08T16:45:36.195032+03:00",
+        "updated_at": null,
+        "task": 349
       }
     ],
-    "approved": "NONAPPROVED",
-    "done": "INPROGRESS",
+    "approved": "APPROVED",
+    "done": "DONE",
     "require_files": true,
     "description": "إتمام تعيين الفرق التشغيلية الموسمية للنقل والتفويج، مثال: تعيين المسؤول  الأعلى لتنسيق عمليات النقل ومساعديه: ضابط اتصال دائم لاستيفاء متطلبات منصة التفويج، إتمام تعيين فريق التفويج:  مشرف المجموعة، قائد الفوج، مساعدي قادة الأفواج، ...",
     "guide_file": {},
-    "last_modified_date": "2025-04-22",
-    "last_modified_hijri_date": "1446-10-24",
+    "last_modified_date": "2025-05-08",
+    "last_modified_hijri_date": "1446-11-10",
     "urgency_status": "Medium"
   },
   {
@@ -1627,9 +1647,6 @@
     "name": "إتمام جميع التجهيزات اللازمة لخدمات الشؤون العامة",
     "hijri_end_date": "1446-10-22",
     "gregorian_end_date": "2025-04-20",
-    "notes": [
-      "بعد التحية\n نشكر لكم جهودكم ونتمنى لكم التوفيق والنجاح لخدمة الحجاج نأمل المراجعة حيث لم تشمل الملفات على توضيح بيانات مايلي :\n\t\t\t\t\t\t\t\t\n السيارات المتنقلة بهوية نسك عناية لنقل التائهين\n الإسعافات، \nأجهزة الاتصال اللاسلكية\t\t\t\t\t\t\t\t\t\n\nشاكرين لكم تعاونكم"
-    ],
     "answers": [
       {
         "id": 1677,
@@ -1658,15 +1675,24 @@
         "created_at": "2025-05-04T19:54:55.572342+03:00",
         "updated_at": null,
         "task": 2234
+      },
+      {
+        "id": 2714,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/07/%D8%A7%D9%84%D8%AE%D8%B7%D8%A9_%D8%A7%D9%84%D8%AA%D9%86%D9%81%D9%8A%D8%B0%D9%8A%D8%A9_%D9%84%D8%A7%D8%AB%D8%B1%D8%A7%D8%A1_%D8%A7%D9%84%D8%AE%D9%8A%D8%B1.pdf",
+        "name": "الخطة_التنفيذية_لاثراء_الخير.pdf",
+        "size": 1.85,
+        "created_at": "2025-05-07T18:01:09.255767+03:00",
+        "updated_at": null,
+        "task": 2234
       }
     ],
-    "approved": "NONAPPROVED",
-    "done": "INPROGRESS",
+    "approved": "APPROVED",
+    "done": "DONE",
     "require_files": true,
     "description": "إتمام جميع التجهيزات اللازمة لخدمات الشؤون العامة (البرنامج الصحي (خدمات المرضى في المستشفيات بمكة والمشاعر، ومواليد، ووفيات) - برنامج التائهين - المفقودات، المفقودين ...) مثل: الحقائب الشعارات المحمولة، السيارات المتنقلة بهوية نسك عناية لنقل التائهين، الإسعافات، أجهزة الاتصال اللاسلكية",
     "guide_file": {},
-    "last_modified_date": "2025-05-04",
-    "last_modified_hijri_date": "1446-11-06",
+    "last_modified_date": "2025-05-07",
+    "last_modified_hijri_date": "1446-11-09",
     "urgency_status": "Medium"
   },
   {
@@ -2117,8 +2143,8 @@
         "task": 351
       }
     ],
-    "approved": "PENDING",
-    "done": "INPROGRESS",
+    "approved": "APPROVED",
+    "done": "DONE",
     "require_files": true,
     "description": "",
     "guide_file": {
@@ -2197,9 +2223,6 @@
     "name": "إتمام تعيين الفرق التشغيلية الخاصة باستلام وتوزيع وتفعيل بطاقة نسك",
     "hijri_end_date": "1446-10-25",
     "gregorian_end_date": "2025-04-23",
-    "notes": [
-      "بعد التحية\n نشكر لكم جهودكم ونتمنى لكم التوفيق والنجاح لخدمة الحجاج نأمل المراجعة حيث ان الاعداد لاتتناسب مع اعداد الحجاج \n شاكرين لكم تعاونكم"
-    ],
     "answers": [
       {
         "id": 800,
@@ -2226,15 +2249,42 @@
         "created_at": null,
         "updated_at": null,
         "task": 354
+      },
+      {
+        "id": 2712,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/07/%D8%A8%D9%8A%D8%A7%D9%86_%D8%A8%D8%A3%D8%B3%D9%85%D8%A7%D8%A1_%D8%A7%D9%84%D9%85%D9%88%D8%B8%D9%81%D9%8A%D9%86_%D9%88%D8%A3%D8%B1%D9%82%D8%A7%D9%85_%D8%B7%D9%84%D8%A8%D8%A7%D8%AA%D9%87%D9%85_-_%D8%A7%D9%84%D9%82%D8%B7%D8%A7%D8%B9_%D8%A7%D9%84%D8%AA%D8%AC%D8%A7%D8%B1%D9%8A.xlsx",
+        "name": "بيان_بأسماء_الموظفين_وأرقام_طلباتهم_-_القطاع_التجاري.xlsx",
+        "size": 0.01,
+        "created_at": "2025-05-07T17:45:12.085940+03:00",
+        "updated_at": null,
+        "task": 354
+      },
+      {
+        "id": 2713,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/07/Contracts.pdf",
+        "name": "Contracts.pdf",
+        "size": 4.35,
+        "created_at": "2025-05-07T17:45:12.087499+03:00",
+        "updated_at": null,
+        "task": 354
+      },
+      {
+        "id": 2765,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/07/%D8%B6%D8%A8%D8%A7%D8%B7_%D8%A5%D8%AA%D8%B5%D8%A7%D9%84_%D8%A8%D8%B7%D8%A7%D9%82%D8%A7%D8%AA_%D9%86%D8%B3%D9%83_%D9%84%D9%84%D9%85%D8%B1%D8%A7%D9%83%D8%B2.xlsx",
+        "name": "ضباط_إتصال_بطاقات_نسك_للمراكز.xlsx",
+        "size": 0.02,
+        "created_at": "2025-05-07T20:06:59.508344+03:00",
+        "updated_at": null,
+        "task": 354
       }
     ],
-    "approved": "NONAPPROVED",
-    "done": "INPROGRESS",
+    "approved": "APPROVED",
+    "done": "DONE",
     "require_files": true,
     "description": "",
     "guide_file": {},
-    "last_modified_date": "2025-04-28",
-    "last_modified_hijri_date": "1446-10-30",
+    "last_modified_date": "2025-05-07",
+    "last_modified_hijri_date": "1446-11-09",
     "urgency_status": "Medium"
   },
   {
@@ -3379,9 +3429,6 @@
     "name": "تكوين مركز اتصال بالشركة (خدمة العملاء) وتوفير قنوات متعددة لتلقي الشكاوى",
     "hijri_end_date": "1446-11-01",
     "gregorian_end_date": "2025-04-29",
-    "notes": [
-      "بعد التحية \nنشكر لكم جهودكم ونتمنى لكم التوفيق والنجاح في خدمة ضيوف الرحمن نأمل منكم المراجعة والتأكد من ارفاق البيانات التالية :\n\n-بيانات واعداد فريق خدمة العملاء واللغات \nشاكرين لكم تعاونكم"
-    ],
     "answers": [
       {
         "id": 1267,
@@ -3401,15 +3448,24 @@
         "created_at": "2025-05-01T18:22:00.363849+03:00",
         "updated_at": null,
         "task": 2248
+      },
+      {
+        "id": 2890,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/08/%D9%85%D8%B1%D9%83%D8%B2_%D8%A7%D8%AA%D8%B5%D8%A7%D9%84_%D8%AE%D8%AF%D9%85%D8%A9_%D8%A7%D9%84%D8%B9%D9%85%D9%84%D8%A7%D8%A1.pdf",
+        "name": "مركز_اتصال_خدمة_العملاء.pdf",
+        "size": 0.24,
+        "created_at": "2025-05-08T17:58:30.296837+03:00",
+        "updated_at": null,
+        "task": 2248
       }
     ],
-    "approved": "NONAPPROVED",
-    "done": "INPROGRESS",
+    "approved": "APPROVED",
+    "done": "DONE",
     "require_files": true,
     "description": "تكوين مركز اتصال بالشركة (خدمة العملاء) وتوفير قنوات متعددة لتلقي شكاوى الحجاج، والإجابة على استفساراتهم، ومعالجة تحدياتهم، (هاتف، تطبيق، حضوري)، بموظفين يتقنون لغات الحجاج",
     "guide_file": {},
-    "last_modified_date": "2025-05-01",
-    "last_modified_hijri_date": "1446-11-03",
+    "last_modified_date": "2025-05-08",
+    "last_modified_hijri_date": "1446-11-10",
     "urgency_status": "Medium"
   },
   {
@@ -3417,9 +3473,6 @@
     "name": "تدريب العاملين على بطاقة نسك وضمان تدريب 90 في المئة من الموظفين على المنصة",
     "hijri_end_date": "1446-11-05",
     "gregorian_end_date": "2025-05-03",
-    "notes": [
-      "بعد التحية\n نشكر لكم جهودكم ونتمنى لكم التوفيق والنجاح لخدمة الحجاج نأمل المراجعة حيث ان الاعداد لا تتناسب مع اعداد الحجاج \nشاكرين لكم تعاونكم"
-    ],
     "answers": [
       {
         "id": 1647,
@@ -3439,15 +3492,24 @@
         "created_at": "2025-05-04T17:49:42.016570+03:00",
         "updated_at": null,
         "task": 353
+      },
+      {
+        "id": 2934,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/08/%D8%AA%D8%AD%D8%B6%D9%8A%D8%B1_%D8%A7%D9%84%D9%85%D8%AA%D8%AF%D8%B1%D8%A8%D9%8A%D9%86_%D8%A7%D8%AB%D8%B1%D8%A7%D8%A1_%D8%A7%D9%84%D8%AE%D9%8A%D8%B1.xlsx",
+        "name": "تحضير_المتدربين_اثراء_الخير.xlsx",
+        "size": 0.04,
+        "created_at": "2025-05-08T22:21:13.140790+03:00",
+        "updated_at": null,
+        "task": 353
       }
     ],
-    "approved": "NONAPPROVED",
-    "done": "INPROGRESS",
+    "approved": "APPROVED",
+    "done": "DONE",
     "require_files": true,
     "description": "تدريب العاملين في بطاقة نسك، مع ضمان تدريب ما لا يقل عن 90% من الموظفين المعنيين باستخدام منصة نسك",
     "guide_file": {},
-    "last_modified_date": "2025-05-04",
-    "last_modified_hijri_date": "1446-11-06",
+    "last_modified_date": "2025-05-08",
+    "last_modified_hijri_date": "1446-11-10",
     "urgency_status": "Medium"
   },
   {
@@ -3455,22 +3517,43 @@
     "name": "تحميل بيانات العاملين بالشركة على منصة بطاقة نسك",
     "hijri_end_date": "1446-11-05",
     "gregorian_end_date": "2025-05-03",
-    "answers": [],
-    "questions": [
+    "answers": [
       {
-        "id": 318,
+        "id": 1841,
+        "answer": "نعم",
         "question": "هل تم ارفاق تقرير بأعداد العاملين المصدر لهم بطاقة نسك",
+        "task": 355,
         "question_type": "Short Answer"
       }
     ],
-    "files": [],
-    "approved": "UNAVAILABLE",
-    "done": "NOTSTARTED",
+    "questions": [],
+    "files": [
+      {
+        "id": 2711,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/07/%D8%A7%D8%B9%D8%AF%D8%A7%D8%AF_%D8%A7%D9%84%D9%85%D9%88%D8%B8%D9%81%D9%8A%D9%86_%D8%A7%D9%84%D9%85%D8%B1%D9%81%D9%88%D8%B9%D8%A9_%D8%A8%D9%8A%D8%A7%D9%86%D8%A7%D8%AA%D9%87%D9%85_%D9%81%D9%8A_%D9%85%D9%86%D8%B5%D8%A9_%D8%A8%D8%B7%D8%A7%D9%82%D8%A7%D8%AA_%D9%86%D8%B3%D9%83.pdf",
+        "name": "اعداد_الموظفين_المرفوعة_بياناتهم_في_منصة_بطاقات_نسك.pdf",
+        "size": 0.18,
+        "created_at": "2025-05-07T17:41:46.438286+03:00",
+        "updated_at": null,
+        "task": 355
+      },
+      {
+        "id": 2766,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/07/%D8%B1%D9%81%D8%B9_%D8%A8%D9%8A%D8%A7%D9%86%D8%A7%D8%AA_%D8%A7%D9%84%D8%B9%D8%A7%D9%85%D9%84%D9%8A%D9%86_%D8%B9%D9%84%D9%89_%D9%85%D9%86%D8%B5%D8%A9_%D8%A8%D8%B7%D8%A7%D9%82%D8%A9_%D9%86%D8%B3%D9%83.pdf",
+        "name": "رفع_بيانات_العاملين_على_منصة_بطاقة_نسك.pdf",
+        "size": 0.24,
+        "created_at": "2025-05-07T20:09:11.071278+03:00",
+        "updated_at": null,
+        "task": 355
+      }
+    ],
+    "approved": "APPROVED",
+    "done": "DONE",
     "require_files": true,
     "description": "",
     "guide_file": {},
-    "last_modified_date": "",
-    "last_modified_hijri_date": "",
+    "last_modified_date": "2025-05-07",
+    "last_modified_hijri_date": "1446-11-09",
     "urgency_status": "Medium"
   },
   {
@@ -3501,25 +3584,37 @@
     "name": "تحديد المباني الاحتياطية لإسكان الحجاج في مكة المكرمة لاستخدامها في الحالات الطارئة",
     "hijri_end_date": "1446-11-09",
     "gregorian_end_date": "2025-05-07",
-    "answers": [],
-    "questions": [
+    "answers": [
       {
-        "id": 507,
+        "id": 1840,
+        "answer": "نعم",
         "question": "هل تم إرفاق ملف pdf أو إكسل يوضح ببيانات المباني الاحتياطية لإسكان الحجاج في مكة المكرمة لاستخدامها في الحالات الطارئة بالتفاصيل الموضحة في ملف الاكسل المرفق؟",
+        "task": 2986,
         "question_type": "Short Answer"
       }
     ],
-    "files": [],
-    "approved": "UNAVAILABLE",
-    "done": "NOTSTARTED",
+    "questions": [],
+    "files": [
+      {
+        "id": 2710,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/07/%D8%A7%D8%B3%D9%85_%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9-%D9%86%D9%85%D9%88%D8%B0%D8%AC_%D9%85%D8%B3%D8%A7%D9%83%D9%86_%D8%B7%D9%88%D8%A7%D8%B1%D8%A6_%D8%A7%D9%84%D8%A5%D8%B3%D9%83%D8%A7%D9%86_wGAOXdj_2.xlsx",
+        "name": "اسم_الشركة-نموذج_مساكن_طوارئ_الإسكان_wGAOXdj_2.xlsx",
+        "size": 0.09,
+        "created_at": "2025-05-07T17:17:57.050290+03:00",
+        "updated_at": null,
+        "task": 2986
+      }
+    ],
+    "approved": "APPROVED",
+    "done": "DONE",
     "require_files": true,
     "description": "رفع ملف pdf  او اكسل يوضح ببيانات المباني الاحتياطية لإسكان الحجاج في مكة المكرمة لاستخدامها في الحالات الطارئة؛ وذلك بناء على تعميم وزارة الحج والعمرة برقم (461101499) وتاريخ 01/11/1446ه للشركات بتحديد المباني الاحتياطية التي تم استئجارها استعداد لأي حالة طارئة قد -لا قدر الله- تحدث خلال الموسم وأثناء إقامة الحجاج في مكة المكرمة ورفعها في تاريخ أقصاه 10/11/1446ه. يمكن للشركات الاستفادة من ملف الأكسل المرفق مع المهمة.",
     "guide_file": {
       "file_url": "http://dev.seedlab-sa.com/media/files/template/2025/05/04/%D8%A7%D8%B3%D9%85_%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9-%D9%86%D9%85%D9%88%D8%B0%D8%AC_%D9%85%D8%B3%D8%A7%D9%83%D9%86_%D8%B7%D9%88%D8%A7%D8%B1%D8%A6_%D8%A7%D9%84%D8%A5%D8%B3%D9%83%D8%A7%D9%86_wGAOXdj.xlsx",
       "file_name": "اسم_الشركة-نموذج_مساكن_طوارئ_الإسكان_wGAOXdj.xlsx"
     },
-    "last_modified_date": "",
-    "last_modified_hijri_date": "",
+    "last_modified_date": "2025-05-07",
+    "last_modified_hijri_date": "1446-11-09",
     "urgency_status": "MEDIUM"
   },
   {
@@ -3553,25 +3648,136 @@
     "name": "اكتمال بيانات الاستعداد وتأكيد تواجد ممثلي الشركات بغرفة عمليات الاستعداد المسبق بالمطارات- 01",
     "hijri_end_date": "1446-11-10",
     "gregorian_end_date": "2025-05-08",
-    "answers": [],
-    "questions": [
+    "answers": [
       {
-        "id": 482,
+        "id": 1907,
+        "answer": "نعم",
         "question": "هل تمت تعبئة نموذج الأكسل المرفق",
+        "task": 2572,
         "question_type": "Short Answer"
       }
     ],
-    "files": [],
-    "approved": "UNAVAILABLE",
-    "done": "NOTSTARTED",
+    "questions": [],
+    "files": [
+      {
+        "id": 2917,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/08/%D8%A7%D8%B3%D8%AA%D9%85%D8%A7%D8%B1%D8%A9_%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D8%B9%D8%AF%D8%A7%D8%AF_%D8%A7%D9%84%D9%85%D8%B3%D8%A8%D9%82_%D9%84%D9%84%D8%A7%D8%B3%D8%AA%D9%82%D8%A8%D8%A7%D9%84.xlsx",
+        "name": "استمارة_الاستعداد_المسبق_للاستقبال.xlsx",
+        "size": 1.01,
+        "created_at": "2025-05-08T21:25:34.024726+03:00",
+        "updated_at": null,
+        "task": 2572
+      },
+      {
+        "id": 2918,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/08/WhatsApp_Image_2025-05-08_at_8.35.34_PM.jpeg",
+        "name": "WhatsApp_Image_2025-05-08_at_8.35.34_PM.jpeg",
+        "size": 0.22,
+        "created_at": "2025-05-08T21:25:34.028345+03:00",
+        "updated_at": null,
+        "task": 2572
+      },
+      {
+        "id": 2919,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/08/WhatsApp_Image_2025-05-08_at_8.35.33_PM_2.jpeg",
+        "name": "WhatsApp_Image_2025-05-08_at_8.35.33_PM_2.jpeg",
+        "size": 0.22,
+        "created_at": "2025-05-08T21:25:34.030439+03:00",
+        "updated_at": null,
+        "task": 2572
+      },
+      {
+        "id": 2920,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/08/WhatsApp_Image_2025-05-08_at_8.35.33_PM_1.jpeg",
+        "name": "WhatsApp_Image_2025-05-08_at_8.35.33_PM_1.jpeg",
+        "size": 0.22,
+        "created_at": "2025-05-08T21:25:34.032709+03:00",
+        "updated_at": null,
+        "task": 2572
+      },
+      {
+        "id": 2921,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/08/WhatsApp_Image_2025-05-08_at_8.35.33_PM.jpeg",
+        "name": "WhatsApp_Image_2025-05-08_at_8.35.33_PM.jpeg",
+        "size": 0.22,
+        "created_at": "2025-05-08T21:25:34.035274+03:00",
+        "updated_at": null,
+        "task": 2572
+      },
+      {
+        "id": 2922,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/08/WhatsApp_Image_2025-05-08_at_8.35.32_PM_2.jpeg",
+        "name": "WhatsApp_Image_2025-05-08_at_8.35.32_PM_2.jpeg",
+        "size": 0.22,
+        "created_at": "2025-05-08T21:25:34.037582+03:00",
+        "updated_at": null,
+        "task": 2572
+      },
+      {
+        "id": 2923,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/08/WhatsApp_Image_2025-05-08_at_8.35.32_PM_1.jpeg",
+        "name": "WhatsApp_Image_2025-05-08_at_8.35.32_PM_1.jpeg",
+        "size": 0.22,
+        "created_at": "2025-05-08T21:25:34.039880+03:00",
+        "updated_at": null,
+        "task": 2572
+      },
+      {
+        "id": 2924,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/08/WhatsApp_Image_2025-05-08_at_8.35.32_PM.jpeg",
+        "name": "WhatsApp_Image_2025-05-08_at_8.35.32_PM.jpeg",
+        "size": 0.22,
+        "created_at": "2025-05-08T21:25:34.042186+03:00",
+        "updated_at": null,
+        "task": 2572
+      },
+      {
+        "id": 2925,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/08/WhatsApp_Image_2025-05-08_at_8.35.31_PM_2.jpeg",
+        "name": "WhatsApp_Image_2025-05-08_at_8.35.31_PM_2.jpeg",
+        "size": 0.22,
+        "created_at": "2025-05-08T21:25:34.043803+03:00",
+        "updated_at": null,
+        "task": 2572
+      },
+      {
+        "id": 2926,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/08/WhatsApp_Image_2025-05-08_at_8.35.31_PM_1.jpeg",
+        "name": "WhatsApp_Image_2025-05-08_at_8.35.31_PM_1.jpeg",
+        "size": 0.22,
+        "created_at": "2025-05-08T21:25:34.045335+03:00",
+        "updated_at": null,
+        "task": 2572
+      },
+      {
+        "id": 2927,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/08/WhatsApp_Image_2025-05-08_at_8.35.31_PM.jpeg",
+        "name": "WhatsApp_Image_2025-05-08_at_8.35.31_PM.jpeg",
+        "size": 0.2,
+        "created_at": "2025-05-08T21:25:34.047711+03:00",
+        "updated_at": null,
+        "task": 2572
+      },
+      {
+        "id": 2928,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/08/WhatsApp_Image_2025-05-08_at_8.35.30_PM.jpeg",
+        "name": "WhatsApp_Image_2025-05-08_at_8.35.30_PM.jpeg",
+        "size": 0.22,
+        "created_at": "2025-05-08T21:25:34.049754+03:00",
+        "updated_at": null,
+        "task": 2572
+      }
+    ],
+    "approved": "APPROVED",
+    "done": "DONE",
     "require_files": true,
     "description": "تعبئة ملف الأكسل المرفق وتحديثه بشكل دوري لتأكيد اكتمال بيانات الاستعداد المسبق لمرحلة الوصول شاملة (بيانات احداثيات السكن والمصادقة عليها قبل الرحلة ب ٤٨ ساعة) في مطار الملك عبدالعزيز ومطار الأمير محمد بن عبدالعزيز. وإرفاق ما يثبت تواجد ممثلي الشركات في غرفة عمليات الاستعداد المسبق في المطارين في نفس ملف الاكسل",
     "guide_file": {
       "file_url": "http://dev.seedlab-sa.com/media/files/template/2025/05/03/%D9%85%D9%88%D8%B3%D9%85_1446_%D8%B4%D8%B1%D9%83%D8%A9_-%D8%A7%D8%B3%D9%85_%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9_-%D9%83%D8%B4%D9%81_%D8%A8%D9%8A%D8%A7%D9%86%D8%A7%D8%AA_%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D8%B9%D8%AF%D8%A7%D8%AF_%D8%A7%D9%84%D9%85%D8%B3%D8%A8%D9%82_%D9%88%D8%AD%D8%B6%D9%88%D8%B1_hoVWli4.xlsx",
       "file_name": "موسم_1446_شركة_-اسم_الشركة_-كشف_بيانات_الاستعداد_المسبق_وحضور_hoVWli4.xlsx"
     },
-    "last_modified_date": "",
-    "last_modified_hijri_date": "",
+    "last_modified_date": "2025-05-08",
+    "last_modified_hijri_date": "1446-11-10",
     "urgency_status": "MEDIUM"
   },
   {
@@ -3973,9 +4179,6 @@
     "name": "إتمام ابرام العقود مع متعهدي الاعاشة، وشركة السلامة الغذائية",
     "hijri_end_date": "1446-11-29",
     "gregorian_end_date": "2025-05-27",
-    "notes": [
-      "بعد التحية \nنشكر لكم جهودكم ونتمنى لكم التوفيق والنجاح في خدمة ضيوف الرحمن نأمل منكم المراجعة والتأكد من ارفاق البيانات التالية :\n\n-الاعداد لا تتناسب مع اعداد الحجاج \n\nشاكرين لكم"
-    ],
     "answers": [
       {
         "id": 1268,
@@ -4002,15 +4205,24 @@
         "created_at": "2025-05-01T18:49:24.411150+03:00",
         "updated_at": null,
         "task": 2228
+      },
+      {
+        "id": 2891,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/08/%D8%B9%D9%82%D9%88%D8%AF_%D8%A7%D9%84%D8%A5%D8%B9%D8%A7%D8%B4%D8%A9_1.pdf",
+        "name": "عقود_الإعاشة_1.pdf",
+        "size": 6.25,
+        "created_at": "2025-05-08T18:02:28.754646+03:00",
+        "updated_at": null,
+        "task": 2228
       }
     ],
-    "approved": "NONAPPROVED",
-    "done": "INPROGRESS",
+    "approved": "APPROVED",
+    "done": "DONE",
     "require_files": true,
     "description": "",
     "guide_file": {},
-    "last_modified_date": "2025-05-01",
-    "last_modified_hijri_date": "1446-11-03",
+    "last_modified_date": "2025-05-08",
+    "last_modified_hijri_date": "1446-11-10",
     "urgency_status": "Medium"
   },
   {
@@ -4501,22 +4713,34 @@
     "name": "تسليم وتفعيل بطاقات نسك خلال 24 ساعة من الوصول مع إعداد تقارير دورية للمتابعة",
     "hijri_end_date": "1446-12-06",
     "gregorian_end_date": "2025-06-02",
-    "answers": [],
-    "questions": [
+    "answers": [
       {
-        "id": 334,
+        "id": 1903,
+        "answer": "نعم",
         "question": "هل تم ارفاق تقرير يوضح عدد البطاقات المستلمة والمفعلة مقارنة بعدد الحجاج القادمين حسب وصول أفواجهم",
+        "task": 381,
         "question_type": "Short Answer"
       }
     ],
-    "files": [],
-    "approved": "UNAVAILABLE",
-    "done": "NOTSTARTED",
+    "questions": [],
+    "files": [
+      {
+        "id": 2908,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/08/%D8%AA%D9%82%D8%B1%D9%8A%D8%B1_%D8%B9%D9%86_%D8%A7%D8%B9%D8%AF%D8%A7%D8%AF_%D8%A7%D9%84%D9%88%D8%A7%D8%B5%D9%84%D9%8A%D9%86_%D9%84%D9%84%D9%85%D9%85%D9%84%D9%83%D8%A9_%D9%88%D8%A7%D9%84%D8%A8%D8%B7%D8%A7%D9%82%D8%A7%D8%AA_%D8%A7%D9%84%D9%85%D9%81%D8%B9%D9%84%D8%A9_%D8%A8%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE_8.5.2025.pdf",
+        "name": "تقرير_عن_اعداد_الواصلين_للمملكة_والبطاقات_المفعلة_بتاريخ_8.5.2025.pdf",
+        "size": 0.29,
+        "created_at": "2025-05-08T19:53:31.931848+03:00",
+        "updated_at": null,
+        "task": 381
+      }
+    ],
+    "approved": "APPROVED",
+    "done": "DONE",
     "require_files": true,
     "description": "تسليم وتفعيل بطاقات نسك للحجاج خلال 24 ساعة كحد أقصى من وصولهم، وإعداد التقارير الدورية لمتابعة تقديم بطاقة نسك",
     "guide_file": {},
-    "last_modified_date": "",
-    "last_modified_hijri_date": "",
+    "last_modified_date": "2025-05-08",
+    "last_modified_hijri_date": "1446-11-10",
     "urgency_status": "Medium"
   },
   {

@@ -1,6 +1,8 @@
 "use client"
 
 import * as React from "react"
+import PropTypes from 'prop-types'
+import { cn } from "@/lib/utils"
 import { Label, Pie, PieChart } from "recharts"
 import {
   Dialog,
@@ -21,26 +23,6 @@ import {
 } from "@/components/ui/chart"
 import { MetaData } from "./meta-data"
 
-const data = [...await (await fetch("/data/tasks.json"))?.json()|| []].filter(itm => itm.business_model == 'B2C')
-// window.data = data
-const chartData = [
-  { task: "مرفوضة", count: data.filter(itm => itm.is_approved == 'NONAPPROVED').length, fill: "#DF3838" },
-  { task: "مقبولة", count: data.filter(itm => itm.is_approved == "APPROVED").length, fill: "#008086" },
-  { task: "لم ترسل (متأخرة)", count: data.filter(itm => 
-    (itm.is_approved !== 'NONAPPROVED') && 
-    itm.is_approved !== "APPROVED" && 
-    itm.is_approved !== "PENDING" && 
-    new Date(itm.end_date) < new Date()
-  ).length, fill: "#C29979" },
-  { task: "لم ترسل (لم ينتهي موعد التسليم)", count: data.filter(itm => 
-    (itm.is_approved !== 'NONAPPROVED') && 
-    itm.is_approved !== "APPROVED" && 
-    itm.is_approved !== "PENDING" && 
-    new Date(itm.end_date) >= new Date()
-  ).length, fill: "#E6B17E" },
-  { task: "تحت المراجعة", count: data.filter(itm => (itm.is_approved !== 'NONAPPROVED') && itm.is_approved !== "APPROVED" && itm.is_approved == "PENDING").length, fill: "#000" },
-]
-
 const chartConfig = {
   task: {
     label: "مهمة",
@@ -59,11 +41,30 @@ const chartConfig = {
   }
 } 
 
-export function HajjReady() {
+export function HajjReady({ data = [], taskDetails = [] }) {
   const [selectedTask, setSelectedTask] = React.useState(null)
+  
+  const chartData = React.useMemo(() => [
+    { task: "مرفوضة", count: data.filter(itm => itm.is_approved == 'NONAPPROVED').length, fill: "#DF3838" },
+    { task: "مقبولة", count: data.filter(itm => itm.is_approved == "APPROVED").length, fill: "#008086" },
+    { task: "لم ترسل (متأخرة)", count: data.filter(itm => 
+      (itm.is_approved !== 'NONAPPROVED') && 
+      itm.is_approved !== "APPROVED" && 
+      itm.is_approved !== "PENDING" && 
+      new Date(itm.end_date) < new Date()
+    ).length, fill: "#C29979" },
+    { task: "لم ينتهي موعد التسليم", count: data.filter(itm => 
+      (itm.is_approved !== 'NONAPPROVED') && 
+      itm.is_approved !== "APPROVED" && 
+      itm.is_approved !== "PENDING" && 
+      new Date(itm.end_date) >= new Date()
+    ).length, fill: "#E6B17E" },
+    { task: "تحت المراجعة", count: data.filter(itm => (itm.is_approved !== 'NONAPPROVED') && itm.is_approved !== "APPROVED" && itm.is_approved == "PENDING").length, fill: "#000" },
+  ], [data]);
+
   const totalcount = React.useMemo(() => {
     return chartData.reduce((acc, curr) => acc + curr.count, 0)
-  }, [])
+  }, [chartData])
 
   const handleTaskClick = (task) => {
     const taskData = data.filter(itm => {
@@ -169,8 +170,8 @@ export function HajjReady() {
           </DialogHeader>
           <div className="mt-4 max-h-[75vh] overflow-y-auto">
             <div className="grid gap-4">
-              {selectedTask?.details.map((item, index) => (
-                <div key={index} className="flex flex-col gap-2 p-3 border rounded">
+              {selectedTask?.details.map((item) => (
+                <div key={item.id} className="flex flex-col gap-2 p-3 border rounded">
                   <div className="flex justify-between items-center">
                   <span className="text-sm font-black text-muted-foreground">{item.id}</span>
                   <span className="text-sm text-muted-foreground">{item.business_model}</span>
@@ -192,7 +193,8 @@ export function HajjReady() {
                     day: 'numeric',
                     })}</div>
                   </div>
-                  {selectedTask?.task === "مرفوضة" && <Details id={item.id} />}
+                  {selectedTask?.task === "مرفوضة" && <Details mode="مرفوضة" id={item.id} taskDetails={taskDetails} />}
+                  {selectedTask?.task !== "مرفوضة" && <Details id={item.id} taskDetails={taskDetails} />}
                 </div>
               ))}
             </div>
@@ -203,20 +205,36 @@ export function HajjReady() {
   )
 }
 
-function Details({ id }) {
-  const [details, setDetails] = React.useState([]);
+HajjReady.propTypes = {
+  data: PropTypes.arrayOf(PropTypes.shape({
+    id: PropTypes.string.isRequired,
+    business_model: PropTypes.string.isRequired,
+    is_approved: PropTypes.string.isRequired,
+    end_date: PropTypes.string.isRequired,
+    name: PropTypes.string.isRequired,
+    start_date: PropTypes.string.isRequired
+  })),
+  taskDetails: PropTypes.arrayOf(PropTypes.shape({
+    id: PropTypes.string.isRequired,
+    notes: PropTypes.arrayOf(PropTypes.string),
+    description: PropTypes.string
+  }))
+}
+
+function Details({ id, mode, taskDetails = [] }) {
+  const [details, setDetails] = React.useState(null);
+  const detailsRef = React.useRef(null);
 
   React.useEffect(() => {
-    const fetchDetails = async () => {
-      const response = await fetch("/data/taskDetails.json");
-      const data = await response.json();
-      setDetails(data.find(itm => itm.id === id).notes);
-      // Scroll to details after data is loaded
-    };
-    fetchDetails();
-  }, [id]);
-
-  const detailsRef = React.useRef(null);
+    const taskDetail = taskDetails.find(itm => itm.id === id);
+    if (taskDetail) {
+      if (mode === "مرفوضة") {
+        setDetails(taskDetail.notes);
+      } else {
+        setDetails(taskDetail.description);
+      }
+    }
+  }, [id, mode, taskDetails]);
 
   return (
     details ? (<details className="text-xs text-muted-foreground" onToggle={(e) => {
@@ -225,19 +243,39 @@ function Details({ id }) {
       }
     }}>
       <summary ref={detailsRef} className="cursor-pointer font-black">تفاصيل</summary>
-      <div className="flex flex-col gap-2 mt-2">
+      {(mode === "مرفوضة") && (<div className="flex flex-col gap-2 mt-2">
         {
           details.map((item, index) => (
             <div key={index} className="flex flex-col gap-1 p-2 border rounded">
-              <span className="text-sm font-medium text-red-400">{item}</span>
+              <span className={cn("text-sm font-medium", (mode === "مرفوضة") && "text-red-400" )}>{item}</span>
             </div>
           ))
         }
-      </div>
+      </div>)
+      }
+      {
+        (mode !== "مرفوضة") && (<div className="flex flex-col gap-2 mt-2">
+        {
+            <div className="flex flex-col gap-1 p-2 border rounded">
+              <span className={cn("text-sm font-medium", (mode === "مرفوضة") && "text-red-400" )}>{details}</span>
+            </div>
+        }
+      </div>)
+      }
     </details>) : (
       <div className="h-2 bg-gray-200 rounded animate-pulse">
         <span className="sr-only">Loading...</span>
       </div>
     )
   );
+}
+
+Details.propTypes = {
+  id: PropTypes.string.isRequired,
+  mode: PropTypes.string,
+  taskDetails: PropTypes.arrayOf(PropTypes.shape({
+    id: PropTypes.string.isRequired,
+    notes: PropTypes.arrayOf(PropTypes.string),
+    description: PropTypes.string
+  }))
 }
