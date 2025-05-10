@@ -62,7 +62,7 @@ const sectionGlobalIndexOffsets = questionsData.map(section => {
 });
 
 
-export function TestPage() {
+export function SurveyPage() {
   const [currentSectionIndex, setCurrentSectionIndex] = useState(0);
 
   useEffect(() => {
@@ -233,4 +233,4 @@ export function TestPage() {
   );
 }
 
-TestPage.tab = "test";
+SurveyPage.tab = "survey";

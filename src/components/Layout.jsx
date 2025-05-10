@@ -12,7 +12,7 @@ import React from "react"
 
 const TABS = [
   { id: 'home', label: 'الصفحة الرئيسية', path: '/' },
-  { id: 'test', label: 'تجربة', path: '/test' },
+  { id: 'survey', label: 'الاستمارة', path: '/survey' },
 ]
 
 export function Layout(
