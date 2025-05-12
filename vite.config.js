@@ -1,8 +1,12 @@
 import path from "path"
 import { fileURLToPath } from 'url'
+// fs is no longer needed here, it's used in vite-macros.js
 import { defineConfig } from 'vite'
 import tailwindcss from '@tailwindcss/vite'
 import react from '@vitejs/plugin-react'
+import Macros from 'unplugin-macros/vite'
+
+// Import macros from the external file
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 
@@ -10,7 +14,8 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url))
 export default defineConfig({
   plugins: [
     tailwindcss(),
-    react()
+    react(),
+    Macros()
   ],
   resolve: {
     alias: {

@@ -144,27 +144,68 @@
     "name": "تشكيل مراكز الخدمة وتقديم مخططات التوزيع الميداني حسب التصنيف وتعليمات الوزارة",
     "hijri_end_date": "1446-10-17",
     "gregorian_end_date": "2025-04-15",
-    "answers": [],
-    "questions": [
+    "answers": [
       {
-        "id": 285,
+        "id": 1961,
+        "answer": "نعم",
         "question": "هل تم ارفاق مخططات المراكز الميدانية مع خطاب اعتماد الوزارة  قائمة الفرق التشغيلية",
+        "task": 332,
         "question_type": "Short Answer"
       },
       {
-        "id": 286,
+        "id": 1962,
+        "answer": "نعم",
         "question": "هل تم ارفاق نسخ من العقود",
+        "task": 332,
         "question_type": "Short Answer"
       }
     ],
-    "files": [],
-    "approved": "UNAVAILABLE",
-    "done": "NOTSTARTED",
+    "questions": [],
+    "files": [
+      {
+        "id": 3028,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/10/%D8%A7%D9%84%D9%85%D9%88%D8%A7%D9%82%D8%B9_%D9%88%D8%A7%D9%84%D8%A7%D8%AD%D8%AF%D8%A7%D8%AB%D9%8A%D8%A7%D8%AA_%D9%84%D9%84%D9%85%D8%B1%D8%A7%D9%83%D8%B2.xlsx",
+        "name": "المواقع_والاحداثيات_للمراكز.xlsx",
+        "size": 0.02,
+        "created_at": "2025-05-10T21:48:01.632948+03:00",
+        "updated_at": null,
+        "task": 332
+      },
+      {
+        "id": 3029,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/10/%D8%B9%D9%82%D8%AF_%D9%81%D8%A7%D8%B1%D8%BA_%D9%84%D9%84%D9%85%D8%B1%D8%A7%D9%83%D8%B2.pdf",
+        "name": "عقد_فارغ_للمراكز.pdf",
+        "size": 0.39,
+        "created_at": "2025-05-10T21:48:01.634972+03:00",
+        "updated_at": null,
+        "task": 332
+      },
+      {
+        "id": 3030,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/10/%D8%AA%D8%B4%D9%83%D9%8A%D9%84_%D8%A7%D9%84%D9%85%D8%B1%D8%A7%D9%83%D8%B2_%D9%83%D8%A7%D9%85%D9%84.xlsx",
+        "name": "تشكيل_المراكز_كامل.xlsx",
+        "size": 0.04,
+        "created_at": "2025-05-10T21:48:01.637013+03:00",
+        "updated_at": null,
+        "task": 332
+      },
+      {
+        "id": 3245,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/12/%D8%A7%D9%84%D9%85%D9%88%D8%A7%D9%82%D8%B9_%D9%88%D8%A7%D9%84%D8%A7%D8%AD%D8%AF%D8%A7%D8%AB%D9%8A%D8%A7%D8%AA_%D9%84%D9%84%D9%85%D8%B1%D8%A7%D9%83%D8%B2_1_MElLGBr.xlsx",
+        "name": "المواقع_والاحداثيات_للمراكز_1_MElLGBr.xlsx",
+        "size": 0.03,
+        "created_at": "2025-05-12T08:42:25.295201+03:00",
+        "updated_at": null,
+        "task": 332
+      }
+    ],
+    "approved": "APPROVED",
+    "done": "DONE",
     "require_files": true,
     "description": "إتمام تشكيل مراكز الخدمة من حيث المواقع والفريق والتجهيزات، وتقديم المخططات التفصيلية لتوزيع مراكز الخدمة الميدانية (GIS) ، طبقا للتصنيف الكمي والنوعي وتعليمات الوزارة",
     "guide_file": {},
-    "last_modified_date": "",
-    "last_modified_hijri_date": "",
+    "last_modified_date": "2025-05-12",
+    "last_modified_hijri_date": "1446-11-14",
     "urgency_status": "Medium"
   },
   {
@@ -235,25 +276,46 @@
     "name": "تقديم الخطة التنفيذية لمراكز الخدمة (الكادر البشري، الأعداد، المواقع).",
     "hijri_end_date": "1446-10-18",
     "gregorian_end_date": "2025-04-16",
-    "answers": [],
-    "questions": [
+    "answers": [
       {
-        "id": 287,
+        "id": 1945,
+        "answer": "نعم",
         "question": "هل تم ارفاق الخطة التنفيذية",
+        "task": 333,
         "question_type": "Short Answer"
       }
     ],
-    "files": [],
-    "approved": "UNAVAILABLE",
-    "done": "NOTSTARTED",
+    "questions": [],
+    "files": [
+      {
+        "id": 3007,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/10/%D8%A7%D8%B3%D9%85_%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9__%D9%86%D9%85%D9%88%D8%B0%D8%AC_%D9%85%D8%AA%D8%A7%D8%A8%D8%B9%D8%A9_%D9%85%D8%B1%D8%A7%D9%83%D8%B2_%D8%A7%D9%84%D8%AE%D8%AF%D9%85%D8%A9_%D9%88_%D8%AA%D8%B9%D9%8A%D9%8A%D9%86_%D8%A7%D9%84%D9%83%D9%88%D8%A7%D8%AF%D8%B1__1_godtOwy_1_1.xlsx",
+        "name": "اسم_الشركة__نموذج_متابعة_مراكز_الخدمة_و_تعيين_الكوادر__1_godtOwy_1_1.xlsx",
+        "size": 0.08,
+        "created_at": "2025-05-10T18:28:05.263739+03:00",
+        "updated_at": null,
+        "task": 333
+      },
+      {
+        "id": 3008,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/10/%D8%A7%D9%84%D8%AE%D8%B7%D8%A9_%D8%A7%D9%84%D8%AA%D8%B4%D8%BA%D9%8A%D9%84%D9%8A%D8%A9_%D8%A7%D8%AF%D8%A7%D8%B1%D8%A9_%D8%B9%D9%85%D9%84%D9%8A%D8%A7%D8%AA_%D9%85%D8%B1%D8%A7%D9%83%D8%B2_%D8%A7%D9%84%D8%AE%D8%AF%D9%85%D8%A9_1.pdf",
+        "name": "الخطة_التشغيلية_ادارة_عمليات_مراكز_الخدمة_1.pdf",
+        "size": 0.62,
+        "created_at": "2025-05-10T18:28:05.265878+03:00",
+        "updated_at": null,
+        "task": 333
+      }
+    ],
+    "approved": "APPROVED",
+    "done": "DONE",
     "require_files": true,
     "description": "",
     "guide_file": {
       "file_url": "http://dev.seedlab-sa.com/media/files/template/2025/04/14/%D8%A7%D8%B3%D9%85_%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9__%D9%86%D9%85%D9%88%D8%B0%D8%AC_%D9%85%D8%AA%D8%A7%D8%A8%D8%B9%D8%A9_%D9%85%D8%B1%D8%A7%D9%83%D8%B2_%D8%A7%D9%84%D8%AE%D8%AF%D9%85%D8%A9_%D9%88_%D8%AA%D8%B9%D9%8A%D9%8A%D9%86_%D8%A7%D9%84%D9%83%D9%88%D8%A7%D8%AF%D8%B1__1_godtOwy.xlsx",
       "file_name": "اسم_الشركة__نموذج_متابعة_مراكز_الخدمة_و_تعيين_الكوادر__1_godtOwy.xlsx"
     },
-    "last_modified_date": "",
-    "last_modified_hijri_date": "",
+    "last_modified_date": "2025-05-10",
+    "last_modified_hijri_date": "1446-11-12",
     "urgency_status": "Medium"
   },
   {
@@ -550,17 +612,36 @@
       }
     ],
     "questions": [],
-    "files": [],
-    "approved": "UNAVAILABLE",
-    "done": "INPROGRESS",
+    "files": [
+      {
+        "id": 2985,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/10/%D9%85%D9%87%D8%A7%D9%85_%D8%A7%D9%84%D8%A7%D8%B3%D9%83%D8%A7%D9%86.xlsx",
+        "name": "مهام_الاسكان.xlsx",
+        "size": 0.19,
+        "created_at": "2025-05-10T16:23:40.083910+03:00",
+        "updated_at": null,
+        "task": 335
+      },
+      {
+        "id": 2986,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/10/%D8%A7%D9%84%D8%AE%D8%B7%D8%A9_%D8%A7%D9%84%D8%AA%D9%86%D9%81%D9%8A%D8%B0%D9%8A%D8%A9_%D9%84%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9_%D8%A7%D9%84%D8%A5%D8%B3%D9%83%D8%A7%D9%86_.pptx",
+        "name": "الخطة_التنفيذية_لإدارة_الإسكان_.pptx",
+        "size": 4.51,
+        "created_at": "2025-05-10T16:23:40.085800+03:00",
+        "updated_at": null,
+        "task": 335
+      }
+    ],
+    "approved": "APPROVED",
+    "done": "DONE",
     "require_files": true,
     "description": "",
     "guide_file": {
       "file_url": "http://dev.seedlab-sa.com/media/files/template/2025/04/14/%D8%A7%D8%B3%D9%85_%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9-%D9%86%D9%85%D9%88%D8%B0%D8%AC_%D9%85%D9%84%D8%AD%D9%82_%D8%AE%D8%B7%D8%A9_%D8%A7%D9%84%D8%A5%D8%B3%D9%83%D8%A7%D9%86_%D8%A7%D9%84%D8%AA%D9%86%D9%81%D9%8A%D8%B0%D9%8A%D8%A9%D9%8601_EsUZ6z5.xlsx",
       "file_name": "اسم_الشركة-نموذج_ملحق_خطة_الإسكان_التنفيذيةن01_EsUZ6z5.xlsx"
     },
-    "last_modified_date": "2025-05-03",
-    "last_modified_hijri_date": "1446-11-05",
+    "last_modified_date": "2025-05-10",
+    "last_modified_hijri_date": "1446-11-12",
     "urgency_status": "Medium"
   },
   {
@@ -724,30 +805,62 @@
     "name": "تقديم الخطة التنفيذية للإسكان",
     "hijri_end_date": "1446-10-19",
     "gregorian_end_date": "2025-04-17",
-    "answers": [],
-    "questions": [
+    "answers": [
       {
-        "id": 411,
+        "id": 2164,
+        "answer": "نعم",
         "question": "هل تم إرفاق الخطة التنفيذية؟",
+        "task": 2222,
         "question_type": "Short Answer"
       },
       {
-        "id": 412,
+        "id": 2165,
+        "answer": "نعم",
         "question": "هل تم إرفاق نموذج الإكسل المرفق بعد تعبئته؟",
+        "task": 2222,
         "question_type": "Short Answer"
       }
     ],
-    "files": [],
-    "approved": "UNAVAILABLE",
-    "done": "NOTSTARTED",
+    "questions": [],
+    "files": [
+      {
+        "id": 3346,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/12/%D8%A7%D8%B3%D9%85_%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9-%D9%86%D9%85%D9%88%D8%B0%D8%AC_%D9%85%D9%84%D8%AD%D9%82_%D8%AE%D8%B7%D8%A9_%D8%A7%D9%84%D8%A5%D8%B3%D9%83%D8%A7%D9%86_%D8%A7%D9%84%D8%AA%D9%86%D9%81%D9%8A%D8%B0%D9%8A%D8%A9%D9%8601.xlsx",
+        "name": "اسم_الشركة-نموذج_ملحق_خطة_الإسكان_التنفيذيةن01.xlsx",
+        "size": 0.16,
+        "created_at": "2025-05-12T19:19:23.668294+03:00",
+        "updated_at": null,
+        "task": 2222
+      },
+      {
+        "id": 3347,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/12/%D8%B9%D9%82%D9%88%D8%AF_%D8%A7%D9%84%D8%A5%D8%B3%D9%83%D8%A7%D9%86.pdf",
+        "name": "عقود_الإسكان.pdf",
+        "size": 47.59,
+        "created_at": "2025-05-12T19:19:23.670326+03:00",
+        "updated_at": null,
+        "task": 2222
+      },
+      {
+        "id": 3348,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/12/%D8%A7%D9%84%D8%AE%D8%B7%D8%A9_%D8%A7%D9%84%D8%AA%D8%B4%D8%BA%D9%8A%D9%84%D9%8A%D8%A9_1_%D9%84%D9%84%D8%A7%D8%B3%D9%83%D8%A7%D9%86.pdf",
+        "name": "الخطة_التشغيلية_1_للاسكان.pdf",
+        "size": 5.14,
+        "created_at": "2025-05-12T19:19:23.728269+03:00",
+        "updated_at": null,
+        "task": 2222
+      }
+    ],
+    "approved": "PENDING",
+    "done": "DONE",
     "require_files": true,
     "description": "",
     "guide_file": {
       "file_url": "http://dev.seedlab-sa.com/media/files/template/2025/04/14/%D8%A7%D8%B3%D9%85_%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9-%D9%86%D9%85%D9%88%D8%B0%D8%AC_%D9%85%D9%84%D8%AD%D9%82_%D8%AE%D8%B7%D8%A9_%D8%A7%D9%84%D8%A5%D8%B3%D9%83%D8%A7%D9%86_%D8%A7%D9%84%D8%AA%D9%86%D9%81%D9%8A%D8%B0%D9%8A%D8%A9%D9%8601.xlsx",
       "file_name": "اسم_الشركة-نموذج_ملحق_خطة_الإسكان_التنفيذيةن01.xlsx"
     },
-    "last_modified_date": "",
-    "last_modified_hijri_date": "",
+    "last_modified_date": "2025-05-12",
+    "last_modified_hijri_date": "1446-11-14",
     "urgency_status": "Medium"
   },
   {
@@ -1089,49 +1202,35 @@
     "name": "تجهيز مراكز الخدمة بالمدينة لضمان استمرارية خدمة الحجاج",
     "hijri_end_date": "1446-10-20",
     "gregorian_end_date": "2025-04-18",
-    "answers": [],
-    "questions": [
+    "answers": [
       {
-        "id": 469,
+        "id": 2094,
+        "answer": "نعم",
         "question": "هل تم ارفاق تقرير جاهزية مكاتب الخدمة بالمدينة المنورة (مطار المدينة/ينبع، مركز الهجرة, الخ)",
+        "task": 377,
         "question_type": "Short Answer"
       }
     ],
-    "files": [],
-    "approved": "UNAVAILABLE",
-    "done": "NOTSTARTED",
+    "questions": [],
+    "files": [
+      {
+        "id": 3205,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/11/%D8%AA%D8%AC%D9%87%D9%8A%D8%B2_%D9%85%D8%B1%D8%A7%D9%83%D8%B2_%D8%A7%D9%84%D8%AE%D8%AF%D9%85%D8%A9_%D8%A8%D8%A7%D9%84%D9%85%D8%AF%D9%8A%D9%86%D8%A9_%D9%84%D8%B6%D9%85%D8%A7%D9%86_%D8%A7%D8%B3%D8%AA%D9%85%D8%B1%D8%A7%D8%B1%D9%8A%D8%A9_%D8%AE%D8%AF%D9%85%D8%A9_%D8%A7%D9%84%D8%AD%D8%AC%D8%A7%D8%AC.pdf",
+        "name": "تجهيز_مراكز_الخدمة_بالمدينة_لضمان_استمرارية_خدمة_الحجاج.pdf",
+        "size": 11.14,
+        "created_at": "2025-05-11T20:55:51.920239+03:00",
+        "updated_at": null,
+        "task": 377
+      }
+    ],
+    "approved": "APPROVED",
+    "done": "DONE",
     "require_files": true,
     "description": "تجهيز مراكز الخدمة بالمدينة المنورة (كالمطار ومحطة الهجرة ومحطة القطار) لضمان خدمة الحجاج واستمراريتها",
     "guide_file": {},
-    "last_modified_date": "",
-    "last_modified_hijri_date": "",
+    "last_modified_date": "2025-05-11",
+    "last_modified_hijri_date": "1446-11-13",
     "urgency_status": "Medium"
-  },
-  {
-    "id": 2213,
-    "name": "إتمام الإجراءات والأدوات التقنية اللازمة لادارة العمليات ومشاركة البيانات",
-    "hijri_end_date": "1446-10-20",
-    "gregorian_end_date": "2025-04-18",
-    "answers": [],
-    "questions": [
-      {
-        "id": 399,
-        "question": "هل تم إرفاق نموذج الإكسل المرفق بعد تعبئته؟",
-        "question_type": "Short Answer"
-      }
-    ],
-    "files": [],
-    "approved": "UNAVAILABLE",
-    "done": "NOTSTARTED",
-    "require_files": true,
-    "description": "إتمام الإجراءات والأدوات التقنية اللازمة لادارة العمليات ومشاركة البيانات بين أعضاء الفريق واللجان ومراكز الخدمة، وإدارة المهام والمسؤوليات ومتابعة المؤشرات (منصات رقمية داخلية ولوحات بيانات)، الربط مع منصات الوزارة والجهات ذات العلاقة. مدى وصول وتحديث البيانات للفرق التشغيلية المختلفة بدء بمواعيد الوصول وفرق النقل والاعاشة ،... والشؤون العامة، واسكان المشاعر",
-    "guide_file": {
-      "file_url": "http://dev.seedlab-sa.com/media/files/template/2025/04/14/%D8%A7%D8%B3%D9%85_%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9-%D8%A7%D9%84%D8%A3%D8%AF%D9%88%D8%AA_%D8%A7%D9%84%D8%AA%D9%82%D9%86%D9%8A%D8%A9_%D9%88%D8%A3%D8%AF%D9%88%D8%A7%D8%AA_%D8%A7%D9%84%D8%AA%D9%88%D8%A7%D8%B5%D9%84_%D9%8601.xlsx",
-      "file_name": "اسم_الشركة-الأدوت_التقنية_وأدوات_التواصل_ن01.xlsx"
-    },
-    "last_modified_date": "",
-    "last_modified_hijri_date": "",
-    "urgency_status": "MEDIUM"
   },
   {
     "id": 2215,
@@ -1166,6 +1265,44 @@
     "guide_file": {},
     "last_modified_date": "2025-05-01",
     "last_modified_hijri_date": "1446-11-03",
+    "urgency_status": "MEDIUM"
+  },
+  {
+    "id": 2213,
+    "name": "إتمام الإجراءات والأدوات التقنية اللازمة لادارة العمليات ومشاركة البيانات",
+    "hijri_end_date": "1446-10-20",
+    "gregorian_end_date": "2025-04-18",
+    "answers": [
+      {
+        "id": 2097,
+        "answer": "نعم",
+        "question": "هل تم إرفاق نموذج الإكسل المرفق بعد تعبئته؟",
+        "task": 2213,
+        "question_type": "Short Answer"
+      }
+    ],
+    "questions": [],
+    "files": [
+      {
+        "id": 3332,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/12/%D8%A7%D8%B3%D9%85_%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9-%D8%A7%D9%84%D8%A3%D8%AF%D9%88%D8%AA_%D8%A7%D9%84%D8%AA%D9%82%D9%86%D9%8A%D8%A9_%D9%88%D8%A3%D8%AF%D9%88%D8%A7%D8%AA_%D8%A7%D9%84%D8%AA%D9%88%D8%A7%D8%B5%D9%84_%D9%8601_AoewHlw_1%D8%A7%D9%84%D8%AE%D9%8A%D8%B1_1.xlsx",
+        "name": "اسم_الشركة-الأدوت_التقنية_وأدوات_التواصل_ن01_AoewHlw_1الخير_1.xlsx",
+        "size": 0.08,
+        "created_at": "2025-05-12T17:44:46.196161+03:00",
+        "updated_at": null,
+        "task": 2213
+      }
+    ],
+    "approved": "PENDING",
+    "done": "DONE",
+    "require_files": true,
+    "description": "إتمام الإجراءات والأدوات التقنية اللازمة لادارة العمليات ومشاركة البيانات بين أعضاء الفريق واللجان ومراكز الخدمة، وإدارة المهام والمسؤوليات ومتابعة المؤشرات (منصات رقمية داخلية ولوحات بيانات)، الربط مع منصات الوزارة والجهات ذات العلاقة. مدى وصول وتحديث البيانات للفرق التشغيلية المختلفة بدء بمواعيد الوصول وفرق النقل والاعاشة ،... والشؤون العامة، واسكان المشاعر",
+    "guide_file": {
+      "file_url": "http://dev.seedlab-sa.com/media/files/template/2025/04/14/%D8%A7%D8%B3%D9%85_%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9-%D8%A7%D9%84%D8%A3%D8%AF%D9%88%D8%AA_%D8%A7%D9%84%D8%AA%D9%82%D9%86%D9%8A%D8%A9_%D9%88%D8%A3%D8%AF%D9%88%D8%A7%D8%AA_%D8%A7%D9%84%D8%AA%D9%88%D8%A7%D8%B5%D9%84_%D9%8601.xlsx",
+      "file_name": "اسم_الشركة-الأدوت_التقنية_وأدوات_التواصل_ن01.xlsx"
+    },
+    "last_modified_date": "2025-05-12",
+    "last_modified_hijri_date": "1446-11-14",
     "urgency_status": "MEDIUM"
   },
   {
@@ -1428,22 +1565,43 @@
     "name": "تجهيز مراكز الخدمة بالمدينة المنورة لضمان خدمة الحجاج واستمراريتها",
     "hijri_end_date": "1446-10-20",
     "gregorian_end_date": "2025-04-18",
-    "answers": [],
-    "questions": [
+    "answers": [
       {
-        "id": 475,
+        "id": 2096,
+        "answer": "نعم",
         "question": "هل تم إرفاق تقرير جاهزية مكاتب الخدمة بالمدينة المنورة (مطار المدينة/ينبع، مركز الهجرة, الخ)؟",
+        "task": 2246,
         "question_type": "Short Answer"
       }
     ],
-    "files": [],
-    "approved": "UNAVAILABLE",
-    "done": "NOTSTARTED",
+    "questions": [],
+    "files": [
+      {
+        "id": 3211,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/11/%D8%A7%D9%84%D8%AE%D8%B7%D8%A9_%D8%A7%D8%A7%D9%84%D8%AA%D8%BA%D8%B4%D9%8A%D9%84%D9%8A%D8%A9_%D9%84%D9%84%D9%85%D8%AF%D9%8A%D9%86%D8%A9.pdf",
+        "name": "الخطة_االتغشيلية_للمدينة.pdf",
+        "size": 0.35,
+        "created_at": "2025-05-11T21:54:54.341241+03:00",
+        "updated_at": null,
+        "task": 2246
+      },
+      {
+        "id": 3284,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/12/%D8%AC%D8%A7%D9%87%D8%B2%D9%8A%D8%A9_%D9%85%D9%83%D8%A7%D8%AA%D8%A8_%D8%A7%D9%84%D9%85%D8%AF%D9%8A%D9%86%D8%A9_%D8%A7%D9%84%D9%85%D9%86%D9%88%D8%B1%D8%A9.pdf",
+        "name": "جاهزية_مكاتب_المدينة_المنورة.pdf",
+        "size": 1.65,
+        "created_at": "2025-05-12T14:09:30.016701+03:00",
+        "updated_at": null,
+        "task": 2246
+      }
+    ],
+    "approved": "PENDING",
+    "done": "DONE",
     "require_files": true,
     "description": "تجهيز مراكز الخدمة بالمدينة المنورة (كالمطار ومحطة الهجرة ومحطة القطار) لضمان خدمة الحجاج واستمراريتها",
     "guide_file": {},
-    "last_modified_date": "",
-    "last_modified_hijri_date": "",
+    "last_modified_date": "2025-05-12",
+    "last_modified_hijri_date": "1446-11-14",
     "urgency_status": "Medium"
   },
   {
@@ -1624,22 +1782,34 @@
     "name": "إتمام رفع تذاكر الطيران على المنصة للحجاج الذين حجزوا رحلات الطيران المقدمة",
     "hijri_end_date": "1446-10-22",
     "gregorian_end_date": "2025-04-20",
-    "answers": [],
-    "questions": [
+    "answers": [
       {
-        "id": 371,
+        "id": 1939,
+        "answer": "نعم",
         "question": "هل تم إرفاق صورة من النظام توضح تحميل تذاكر الطيران وتأكيد الحجز؟",
+        "task": 2194,
         "question_type": "Short Answer"
       }
     ],
-    "files": [],
-    "approved": "UNAVAILABLE",
-    "done": "NOTSTARTED",
+    "questions": [],
+    "files": [
+      {
+        "id": 2989,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/10/33-%D8%A5%D8%B5%D8%AF%D8%A7%D8%B1_%D8%AA%D8%B0%D8%A7%D9%83%D8%B1_%D8%A7%D9%84%D8%B7%D9%8A%D8%B1%D8%A7%D9%86_%D9%88%D8%B1%D9%81%D8%B9%D9%87%D8%A7_%D8%B9%D9%84%D9%89_%D8%A7%D9%84%D9%85%D9%86%D8%B5%D8%A9.pdf",
+        "name": "33-إصدار_تذاكر_الطيران_ورفعها_على_المنصة.pdf",
+        "size": 0.37,
+        "created_at": "2025-05-10T17:40:28.705848+03:00",
+        "updated_at": null,
+        "task": 2194
+      }
+    ],
+    "approved": "APPROVED",
+    "done": "DONE",
     "require_files": true,
     "description": "إتمام رفع تذاكر الطيران على المنصة للحجاج الذين حجزوا رحلات الطيران المقدمة من خلال شركات تقديم الخدمة",
     "guide_file": {},
-    "last_modified_date": "",
-    "last_modified_hijri_date": "",
+    "last_modified_date": "2025-05-10",
+    "last_modified_hijri_date": "1446-11-12",
     "urgency_status": "Medium"
   },
   {
@@ -1954,27 +2124,77 @@
     "name": "توفير مكتب صيانة في المساكن لاستقبال الشكاوى مع وجود عقود خدمة العملاء والحراسة الأمنية",
     "hijri_end_date": "1446-10-25",
     "gregorian_end_date": "2025-04-23",
-    "answers": [],
-    "questions": [
+    "answers": [
       {
-        "id": 288,
+        "id": 2091,
+        "answer": "نعم",
         "question": "هل تم ارفاق صور لمكتب الصيانة بكل سكن وكشف بأسماء المشرفين المناوبين وخدمة العملاء",
+        "task": 334,
         "question_type": "Short Answer"
       },
       {
-        "id": 289,
+        "id": 2092,
+        "answer": "نعم",
         "question": "هل تم ارفاق  كشف بعقود الحراسات  الأمنية",
+        "task": 334,
         "question_type": "Short Answer"
       }
     ],
-    "files": [],
-    "approved": "UNAVAILABLE",
-    "done": "NOTSTARTED",
+    "questions": [],
+    "files": [
+      {
+        "id": 3189,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/11/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%B9%D9%82%D9%88%D8%AF_%D8%A7%D9%84%D8%AD%D8%B1%D8%B3%D8%A7%D8%AA_%D8%A7%D9%84%D8%A7%D9%85%D9%86%D9%8A%D8%A9_2.xlsx",
+        "name": "قائمة_عقود_الحرسات_الامنية_2.xlsx",
+        "size": 49.83,
+        "created_at": "2025-05-11T18:25:39.722679+03:00",
+        "updated_at": null,
+        "task": 334
+      },
+      {
+        "id": 3190,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/11/%D9%85%D8%B4%D8%B1%D9%81%D9%8A%D9%86_%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9_%D8%A7%D9%84%D8%A5%D8%B3%D9%83%D8%A7%D9%86_%D8%A8%D8%B4%D8%B1%D9%83%D8%A9_%D8%A5%D8%AB%D8%B1%D8%A7%D8%A1_%D8%A7%D9%84%D8%AE%D9%8A%D8%B1.xlsx",
+        "name": "مشرفين_إدارة_الإسكان_بشركة_إثراء_الخير.xlsx",
+        "size": 0.01,
+        "created_at": "2025-05-11T18:25:39.772026+03:00",
+        "updated_at": null,
+        "task": 334
+      },
+      {
+        "id": 3191,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/11/%D9%85%D8%B1%D8%A7%D9%83%D8%B2_%D8%AE%D8%AF%D9%85%D8%A9_%D8%A7%D9%84%D8%B9%D9%85%D9%84%D8%A7%D8%A1_%D8%A7%D8%AB%D8%B1%D8%A7%D8%A1_%D8%A7%D9%84%D8%AE%D9%8A%D8%B1.xlsx",
+        "name": "مراكز_خدمة_العملاء_اثراء_الخير.xlsx",
+        "size": 4.1,
+        "created_at": "2025-05-11T18:25:39.773592+03:00",
+        "updated_at": null,
+        "task": 334
+      },
+      {
+        "id": 3246,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/12/WhatsApp_Image_2025-05-12_at_8.14.48_AM.jpeg",
+        "name": "WhatsApp_Image_2025-05-12_at_8.14.48_AM.jpeg",
+        "size": 0.28,
+        "created_at": "2025-05-12T08:47:12.889721+03:00",
+        "updated_at": null,
+        "task": 334
+      },
+      {
+        "id": 3247,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/12/WhatsApp_Image_2025-05-12_at_8.14.49_AM.jpeg",
+        "name": "WhatsApp_Image_2025-05-12_at_8.14.49_AM.jpeg",
+        "size": 0.31,
+        "created_at": "2025-05-12T08:47:12.892536+03:00",
+        "updated_at": null,
+        "task": 334
+      }
+    ],
+    "approved": "APPROVED",
+    "done": "DONE",
     "require_files": true,
     "description": "توفر مكتب للخدمات والصيانة عند المدخل أو البهو لاستقبال شكاوى الحجاج بخصوص الأعطال  والنظافة + وجود عقود خدمة العملاء والحراسة الأمنية في المساكن تصنيف أقل من 4 نجوم",
     "guide_file": {},
-    "last_modified_date": "",
-    "last_modified_hijri_date": "",
+    "last_modified_date": "2025-05-12",
+    "last_modified_hijri_date": "1446-11-14",
     "urgency_status": "Medium"
   },
   {
@@ -2026,9 +2246,6 @@
     "name": "تقديم خطة النقل والتفويج تشمل توزيع المهام ومسارات الحافلات وخطة استلامها",
     "hijri_end_date": "1446-10-25",
     "gregorian_end_date": "2025-04-23",
-    "notes": [
-      "بعد التحية نشكر لكم جهودكم ونتمنى لكم التوفيق والنجاح لخدمة الحجاج نأمل المراجعة حيث ان المرفق يظهر خطة تشغيلية عامة وليست خطة تنفيذية مع الشكر"
-    ],
     "answers": [
       {
         "id": 1042,
@@ -2039,7 +2256,7 @@
       },
       {
         "id": 1043,
-        "answer": "لا يوجد ملف اكسل مرفق على المنصة",
+        "answer": "نعم",
         "question": "هل تمت تعبئة نموذج الاكسل المرفق",
         "task": 345,
         "question_type": "Short Answer"
@@ -2055,15 +2272,33 @@
         "created_at": null,
         "updated_at": null,
         "task": 345
+      },
+      {
+        "id": 3309,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/12/%D8%A7%D8%B3%D9%85_%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9__%D9%86%D9%85%D9%88%D8%B0%D8%AC_%D9%85%D8%AA%D8%A7%D8%A8%D8%B9%D8%A9_%D8%A7%D9%84%D9%86%D9%82%D9%84_%D9%88%D8%A7%D9%84%D8%AA%D9%81%D9%88%D9%8A%D8%AC_2.xlsx",
+        "name": "اسم_الشركة__نموذج_متابعة_النقل_والتفويج_2.xlsx",
+        "size": 0.03,
+        "created_at": "2025-05-12T16:30:41.987762+03:00",
+        "updated_at": null,
+        "task": 345
+      },
+      {
+        "id": 3310,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/12/%D8%A7%D8%AB%D8%B1%D8%A7%D8%A1_%D8%A7%D9%84%D8%AE%D9%8A%D8%B1_%D8%A7%D9%84%D8%AE%D8%B7%D8%A9_%D8%A7%D9%84%D8%AA%D8%B4%D8%BA%D9%8A%D9%84%D9%8A%D8%A9_%D9%85%D9%88%D8%B3%D9%85_%D8%AD%D8%AC_1446.pdf",
+        "name": "اثراء_الخير_الخطة_التشغيلية_موسم_حج_1446.pdf",
+        "size": 22.02,
+        "created_at": "2025-05-12T16:30:41.989883+03:00",
+        "updated_at": null,
+        "task": 345
       }
     ],
-    "approved": "NONAPPROVED",
-    "done": "INPROGRESS",
+    "approved": "APPROVED",
+    "done": "DONE",
     "require_files": true,
     "description": "تقديم الخطط التنفيذية للنقل  والتفويج موضحة توزيع المهام وتحديد مسارات اتجاه الحافلات الى المشاعر المقدسة ومنها، مع التأكيد على خطة استلام الحافلات، ونامل ان تشمل الخطة التنفيذية المكونات التالية :\t\t\t\t\t\t\r\nالفريق التنفيذي الرئيسي في الشركة\t\t\t\t\t\t\t\t\r\nقائمة عقود النقل\t\t\t\t\t\t\t\t\r\nمعايير اختيار متعهدي النقل   \t\t\t\t\t\t\t\t\r\nإجراءات التحقق من جاهزية وسائل النقل (إرفاق نموذج التحقق من جاهزية وسائل النقل) \t\t\r\nإجراءات حصر تفضيلات الحجاج في اختيار وسائل النقل أو المشي لأداء المناسك  \t\t\t\r\nإجراءات تصميم خطط النقل والتفويج (إرفاق نموذج النقل وتحركات مجموعات الحجاج، ونموذج تحديد مسارات اتجاه سلوك الحافلات الى المشاعر المقدسة ومنها) \t\t\t\t\t\r\nإجراءات تدريب وتأهيل الفرق التشغيلية ومرشدي الحافلات  \t\t\t\t\t\r\nإجراءات نقل الحجاج وأمتعتهم من خلال قطار الحرمين -إن وجد-\t\t\t\t\t\r\nإجراءات نقل الحجاج من خلال قطار المشاعر -إن وجد-\t\t\t\t\t\t\r\nإجراءات نقل الحجاج ذوي الاحتياجات الخاصة  \t\t\t\t\t\t\r\nإجراءات نقل الحجاج المرضى \t\t\t\t\t\t\t\t\r\nإجراءات نقل الحجاج من المنافذ ونقاط الفرز\t\t\t\t\t\t\t\r\nإجراءات نقل الحجاج بين المدن  \t\t\t\t\t\t\t\t\r\nإجراءات نقل الحجاج من مساكنهم لأداء  الصلوات \t\t\t\t\t\t\r\nإجراءات نقل الحجاج في المشاعر المقدسة بحسب أنماط النقل المختلفة (رد / ردين - ترددية - قطار المشاعر)  \r\nإجراءات التفويج لرمي الجمرات \t\t\t\t\t\t\t\t\r\nإجراءات النقل لأداء طواف الإفاضة، وطواف الوداع  \t\t\t\t\t\t\r\nإجراءات الإسناد في النقل، والتعامل مع الحالات الطارئة",
     "guide_file": {},
-    "last_modified_date": "2025-04-30",
-    "last_modified_hijri_date": "1446-11-02",
+    "last_modified_date": "2025-05-12",
+    "last_modified_hijri_date": "1446-11-14",
     "urgency_status": "MEDIUM"
   },
   {
@@ -2459,9 +2694,6 @@
     "name": "تقديم الخطة التنفيذية لزيارة المدينة مع توصيف واضح للخدمات",
     "hijri_end_date": "1446-10-25",
     "gregorian_end_date": "2025-04-23",
-    "notes": [
-      "بعد التحية\n نشكر لكم جهودكم ونتمنى لكم التوفيق والنجاح لخدمة الحجاج نأمل المراجعة حيث لم تشمل الملفات على توضيح بيانات مايلي :\n\nالفريق التنفيذي القيادي لخدمات زيارة المدينة المنورة مع المؤهلات العلمية ودور كل موظف \t\t\t\t\t\t\t\t\t\t\t\t\t\t \t\t\t\t\t\t\t\t\nالجولات الإثرائية المتضمنة في الباقات أثناء الزيارة \t\t\t\t\t\t\t\t\n\n\nشاكرين لكم تعاونكم"
-    ],
     "answers": [
       {
         "id": 1734,
@@ -2481,25 +2713,25 @@
     "questions": [],
     "files": [
       {
-        "id": 2515,
-        "file": "http://dev.seedlab-sa.com/media/files/2025/05/05/%D8%A7%D9%84%D8%AE%D8%B7%D8%A9_%D8%A7%D9%84%D8%AA%D8%B4%D8%BA%D9%8A%D9%84%D9%8A%D8%A9_%D8%A7%D8%AB%D8%B1%D8%A7%D8%A1_%D8%A7%D9%84%D8%AE%D9%8A%D8%B1_18-3-2025.pdf",
-        "name": "الخطة_التشغيلية_اثراء_الخير_18-3-2025.pdf",
-        "size": 1.99,
-        "created_at": "2025-05-05T16:13:54.860817+03:00",
+        "id": 3084,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/11/%D8%A7%D9%84%D8%AE%D8%B7%D8%A9_%D8%A7%D9%84%D8%AA%D9%86%D9%81%D9%8A%D8%B0%D9%8A%D8%A9-%D8%A7%D8%AB%D8%B1%D8%A7%D8%A1_%D8%A7%D9%84%D8%AE%D9%8A%D8%B1.pdf",
+        "name": "الخطة_التنفيذية-اثراء_الخير.pdf",
+        "size": 14.44,
+        "created_at": "2025-05-11T12:03:52.111220+03:00",
         "updated_at": null,
         "task": 375
       }
     ],
-    "approved": "NONAPPROVED",
-    "done": "INPROGRESS",
+    "approved": "APPROVED",
+    "done": "DONE",
     "require_files": true,
     "description": "تقديم الخطة التنفيذية لخدمات زيارة المدينة المنورة، متضمنة توصيف واضح للخدمات وتشمل أسماء المنفذين وتوزيعهم وخطة التنفيذ",
     "guide_file": {
       "file_url": "http://dev.seedlab-sa.com/media/files/template/2025/04/14/%D8%A7%D8%B3%D9%85_%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9__%D9%86%D9%85%D9%88%D8%B0%D8%AC_%D9%85%D8%AA%D8%A7%D8%A8%D8%B9%D8%A9_%D8%B2%D9%8A%D8%A7%D8%B1%D8%A9_%D8%A7%D9%84%D9%85%D8%AF%D9%8A%D9%86%D8%A9_gOps3xg.xlsx",
       "file_name": "اسم_الشركة__نموذج_متابعة_زيارة_المدينة_gOps3xg.xlsx"
     },
-    "last_modified_date": "2025-05-05",
-    "last_modified_hijri_date": "1446-11-07",
+    "last_modified_date": "2025-05-11",
+    "last_modified_hijri_date": "1446-11-13",
     "urgency_status": "Medium"
   },
   {
@@ -2507,22 +2739,52 @@
     "name": "تعيين فرق أو إنشاء أو التعاقد لتقديم خدمات زيارة المدينة المنورة",
     "hijri_end_date": "1446-10-25",
     "gregorian_end_date": "2025-04-23",
-    "answers": [],
-    "questions": [
+    "answers": [
       {
-        "id": 468,
+        "id": 1992,
+        "answer": "نعم",
         "question": "هل تم ارفاق قائمة الفرق التشغيلية / السجل التجاري للشركة التابعة/ أو نسخة من العقود",
+        "task": 376,
         "question_type": "Short Answer"
       }
     ],
-    "files": [],
-    "approved": "UNAVAILABLE",
-    "done": "NOTSTARTED",
+    "questions": [],
+    "files": [
+      {
+        "id": 3085,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/11/%D8%A7%D9%84%D8%AE%D8%B7%D8%A9_%D8%A7%D9%84%D8%AA%D9%86%D9%81%D9%8A%D8%B0%D9%8A%D8%A9-%D8%A7%D8%AB%D8%B1%D8%A7%D8%A1_%D8%A7%D9%84%D8%AE%D9%8A%D8%B1_kVmcpiV.pdf",
+        "name": "الخطة_التنفيذية-اثراء_الخير_kVmcpiV.pdf",
+        "size": 14.44,
+        "created_at": "2025-05-11T12:17:10.093659+03:00",
+        "updated_at": null,
+        "task": 376
+      },
+      {
+        "id": 3086,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/11/%D8%AC%D8%A7%D9%87%D8%B2%D9%8A%D8%A9_%D9%88%D8%A7%D8%B3%D8%AA%D8%B9%D8%AF%D8%A7%D8%AF_%D8%B4%D8%B1%D9%83%D8%A9_%D8%A7%D8%AB%D8%B1%D8%A7%D8%A1_%D8%A7%D9%84%D8%AE%D9%8A%D8%B1_1_copy_1.PDF",
+        "name": "جاهزية_واستعداد_شركة_اثراء_الخير_1_copy_1.PDF",
+        "size": 0.41,
+        "created_at": "2025-05-11T12:17:10.111390+03:00",
+        "updated_at": null,
+        "task": 376
+      },
+      {
+        "id": 3090,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/11/%D8%B9%D9%82%D8%AF_%D9%81%D8%A7%D8%B1%D8%BA_%D9%84%D9%84%D9%85%D8%B1%D8%A7%D9%83%D8%B2_1.pdf",
+        "name": "عقد_فارغ_للمراكز_1.pdf",
+        "size": 0.39,
+        "created_at": "2025-05-11T12:18:51.207965+03:00",
+        "updated_at": null,
+        "task": 376
+      }
+    ],
+    "approved": "APPROVED",
+    "done": "DONE",
     "require_files": true,
     "description": "إتمام تعيين الفرق التشغيلية الموسمية لخدمات زيارة المدينة المنورة/ أو إنشاء شركة تابعة لتقديم الخدمة/ أو التعاقد مع شركات تقديم خدمة بالمدينة",
     "guide_file": {},
-    "last_modified_date": "",
-    "last_modified_hijri_date": "",
+    "last_modified_date": "2025-05-11",
+    "last_modified_hijri_date": "1446-11-13",
     "urgency_status": "Medium"
   },
   {
@@ -2581,27 +2843,134 @@
     "name": "تقديم الخطط التنفيذية للنقل والتفويج موضحة توزيع المهام وتحديد مسارات الحافلات",
     "hijri_end_date": "1446-10-25",
     "gregorian_end_date": "2025-04-23",
-    "answers": [],
-    "questions": [
+    "notes": [
+      "بعد التحية\n نشكر لكم جهودكم ونتمنى لكم التوفيق والنجاح لخدمة الحجاج نأمل المراجعة حيث لم تشمل الملفات على مايلي :\n\nتحديد مسارات اتجاه الحافلات الى المشاعر المقدسة ومنها\nشاكرين لكم تعاونكم"
+    ],
+    "answers": [
       {
-        "id": 383,
+        "id": 1942,
+        "answer": "نعم",
         "question": "هل تم إرفاق الخطة التنفيذية؟",
+        "task": 2203,
         "question_type": "Short Answer"
       },
       {
-        "id": 384,
+        "id": 1943,
+        "answer": "نعم",
         "question": "هل تم إرفاق نموذج الإكسل المرفق بعد تعبئته؟",
+        "task": 2203,
         "question_type": "Short Answer"
       }
     ],
-    "files": [],
-    "approved": "UNAVAILABLE",
-    "done": "NOTSTARTED",
+    "questions": [],
+    "files": [
+      {
+        "id": 2993,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/10/%D8%A7%D8%B3%D9%85_%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9__%D9%86%D9%85%D9%88%D8%B0%D8%AC_%D9%85%D8%AA%D8%A7%D8%A8%D8%B9%D8%A9_%D8%A7%D9%84%D9%86%D9%82%D9%84_%D9%88%D8%A7%D9%84%D8%AA%D9%81%D9%88%D9%8A%D8%AC.xlsx",
+        "name": "اسم_الشركة__نموذج_متابعة_النقل_والتفويج.xlsx",
+        "size": 0.03,
+        "created_at": "2025-05-10T17:52:31.399626+03:00",
+        "updated_at": null,
+        "task": 2203
+      },
+      {
+        "id": 2994,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/10/%D8%A7%D8%AA%D9%81%D8%A7%D9%82%D9%8A%D8%A9_%D8%A7%D8%B7%D8%A7%D8%B1%D9%8A%D8%A9_%D9%84%D8%AE%D8%AF%D9%85%D8%A7%D8%AA_%D9%86%D9%82%D9%84_%D8%AD%D8%AC%D8%A7%D8%AC_B2C__%D8%A8%D8%A7%D9%84%D8%AD%D8%A7%D9%81%D9%84%D8%A7%D8%AA_%D9%84%D9%85%D9%88%D8%B3%D9%85_%D8%AD%D8%AC_1446_%D9%87%D9%80.pdf",
+        "name": "اتفاقية_اطارية_لخدمات_نقل_حجاج_B2C__بالحافلات_لموسم_حج_1446_هـ.pdf",
+        "size": 3.71,
+        "created_at": "2025-05-10T17:52:31.402807+03:00",
+        "updated_at": null,
+        "task": 2203
+      },
+      {
+        "id": 2995,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/10/%D8%A5%D8%AC%D8%B1%D8%A7%D8%A1%D8%A7%D8%AA_%D9%86%D9%82%D9%84_%D8%A7%D9%84%D8%AD%D8%AC%D8%A7%D8%AC_%D8%B0%D9%88%D9%8A_%D8%A7%D9%84%D8%A7%D8%AD%D8%AA%D9%8A%D8%A7%D8%AC%D8%A7%D8%AA_%D8%A7%D9%84%D8%AE%D8%A7%D8%B5%D8%A9_%D9%84%D9%85%D9%88%D8%B3%D9%85_%D8%AD%D8%AC_1446%D9%87%D9%80.pdf",
+        "name": "إجراءات_نقل_الحجاج_ذوي_الاحتياجات_الخاصة_لموسم_حج_1446هـ.pdf",
+        "size": 0.21,
+        "created_at": "2025-05-10T17:52:31.410229+03:00",
+        "updated_at": null,
+        "task": 2203
+      },
+      {
+        "id": 2996,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/10/%D8%A5%D8%AC%D8%B1%D8%A7%D8%A1%D8%A7%D8%AA_%D9%86%D9%82%D9%84_%D8%A7%D9%84%D8%AD%D8%AC%D8%A7%D8%AC_%D8%A8%D9%8A%D9%86_%D8%A7%D9%84%D9%85%D8%AF%D9%86_%D9%84%D9%85%D9%88%D8%B3%D9%85_%D8%AD%D8%AC_1446%D9%87%D9%80.pdf",
+        "name": "إجراءات_نقل_الحجاج_بين_المدن_لموسم_حج_1446هـ.pdf",
+        "size": 0.18,
+        "created_at": "2025-05-10T17:52:31.412737+03:00",
+        "updated_at": null,
+        "task": 2203
+      },
+      {
+        "id": 2997,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/10/%D8%A5%D8%AC%D8%B1%D8%A7%D8%A1%D8%A7%D8%AA_%D9%86%D9%82%D9%84_%D8%A7%D9%84%D8%AD%D8%AC%D8%A7%D8%AC_%D9%85%D9%86_%D8%A7%D9%84%D9%85%D9%86%D8%A7%D9%81%D8%B0_%D9%88%D9%86%D9%82%D8%A7%D8%B7_%D8%A7%D9%84%D9%81%D8%B1%D8%B2_%D9%84%D9%85%D9%88%D8%B3%D9%85_%D8%AD%D8%AC_1446%D9%87.pdf",
+        "name": "إجراءات_نقل_الحجاج_من_المنافذ_ونقاط_الفرز_لموسم_حج_1446ه.pdf",
+        "size": 0.26,
+        "created_at": "2025-05-10T17:52:31.414956+03:00",
+        "updated_at": null,
+        "task": 2203
+      },
+      {
+        "id": 2998,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/10/%D8%A5%D8%AC%D8%B1%D8%A7%D8%A1%D8%A7%D8%AA_%D9%86%D9%82%D9%84_%D8%A7%D9%84%D8%AD%D8%AC%D8%A7%D8%AC_%D9%85%D9%86_%D9%85%D8%B3%D8%A7%D9%83%D9%86%D9%87%D9%85_%D9%84%D8%A3%D8%AF%D8%A7%D8%A1_%D8%A7%D9%84%D8%B5%D9%84%D9%88%D8%A7%D8%AA_%D9%84%D9%85%D9%88%D8%B3%D9%85_%D8%AD%D8%AC_1446%D9%87.pdf",
+        "name": "إجراءات_نقل_الحجاج_من_مساكنهم_لأداء_الصلوات_لموسم_حج_1446ه.pdf",
+        "size": 0.18,
+        "created_at": "2025-05-10T17:52:31.417247+03:00",
+        "updated_at": null,
+        "task": 2203
+      },
+      {
+        "id": 2999,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/10/%D8%A7%D9%84%D8%AA%D9%86%D8%B3%D9%8A%D9%82_%D9%85%D8%B9_%D9%85%D8%B4%D8%BA%D9%84%D9%8A_%D8%A7%D9%84%D9%82%D8%B7%D8%A7%D8%B1%D8%A7%D8%AA_%D8%AE%D9%84%D8%A7%D9%84_%D9%85%D9%88%D8%B3%D9%85_%D8%AD%D8%AC_1446.pdf",
+        "name": "التنسيق_مع_مشغلي_القطارات_خلال_موسم_حج_1446.pdf",
+        "size": 0.21,
+        "created_at": "2025-05-10T17:52:31.419676+03:00",
+        "updated_at": null,
+        "task": 2203
+      },
+      {
+        "id": 3000,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/10/%D8%AA%D8%B5%D9%86%D9%8A%D9%81_%D8%A7%D9%84%D8%AD%D8%AC%D8%A7%D8%AC_%D8%A8%D9%86%D8%A7%D8%A1_%D8%B9%D9%84%D9%89_%D8%AA%D9%81%D8%B6%D9%8A%D9%84%D8%A7%D8%AA%D9%87%D9%85_%D9%81%D9%8A_%D8%A7%D9%84%D9%86%D9%82%D9%84_%D9%84%D9%85%D9%88%D8%B3%D9%85_%D8%AD%D8%AC.pdf",
+        "name": "تصنيف_الحجاج_بناء_على_تفضيلاتهم_في_النقل_لموسم_حج.pdf",
+        "size": 0.22,
+        "created_at": "2025-05-10T17:52:31.421987+03:00",
+        "updated_at": null,
+        "task": 2203
+      },
+      {
+        "id": 3001,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/10/%D8%A5%D8%AC%D8%B1%D8%A7%D8%A1%D8%A7%D8%AA_%D9%86%D9%82%D9%84_%D8%A7%D9%84%D8%AD%D8%AC%D8%A7%D8%AC_%D8%A7%D9%84%D9%85%D8%B1%D8%B6%D9%89_%D9%84%D9%85%D9%88%D8%B3%D9%85_%D8%AD%D8%AC_1446%D9%87%D9%80.pdf",
+        "name": "إجراءات_نقل_الحجاج_المرضى_لموسم_حج_1446هـ.pdf",
+        "size": 0.22,
+        "created_at": "2025-05-10T17:52:31.424552+03:00",
+        "updated_at": null,
+        "task": 2203
+      },
+      {
+        "id": 3002,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/10/%D9%83%D8%B4%D9%81_%D8%AC%D8%A7%D9%87%D8%B2%D9%8A%D8%A9_%D8%A7%D9%84%D8%AD%D8%A7%D9%81%D9%84%D8%A7%D8%AA.docx",
+        "name": "كشف_جاهزية_الحافلات.docx",
+        "size": 0.03,
+        "created_at": "2025-05-10T17:52:31.427199+03:00",
+        "updated_at": null,
+        "task": 2203
+      },
+      {
+        "id": 3003,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/10/%D8%A5%D8%AC%D8%B1%D8%A7%D8%A1%D8%A7%D8%AA_%D9%86%D9%82%D9%84_%D8%A7%D9%84%D8%AD%D8%AC%D8%A7%D8%AC_%D9%81%D9%8A_%D8%A7%D9%84%D9%85%D8%B4%D8%A7%D8%B9%D8%B1_%D8%A7%D9%84%D9%85%D9%82%D8%AF%D8%B3%D8%A9_%D8%AD%D8%B3%D8%A8_%D8%A3%D9%86%D9%85%D8%A7%D8%B7_%D8%A7%D9%84%D9%86%D9%82%D9%84_%D8%A7%D9%84%D9%85%D8%AE%D8%AA%D9%84%D9%81%D8%A9_%D9%84%D9%85%D9%88%D8%B3%D9%85_%D8%AD%D8%AC_1446%D9%87%D9%80.pdf",
+        "name": "إجراءات_نقل_الحجاج_في_المشاعر_المقدسة_حسب_أنماط_النقل_المختلفة_لموسم_حج_1446هـ.pdf",
+        "size": 0.19,
+        "created_at": "2025-05-10T17:52:31.429352+03:00",
+        "updated_at": null,
+        "task": 2203
+      }
+    ],
+    "approved": "NONAPPROVED",
+    "done": "INPROGRESS",
     "require_files": true,
     "description": "تقديم الخطط التنفيذية للنقل والتفويج موضحة توزيع المهام وتحديد مسارات اتجاه الحافلات الى المشاعر المقدسة ومنها، مع التأكيد على خطة استلام الحافلات",
     "guide_file": {},
-    "last_modified_date": "",
-    "last_modified_hijri_date": "",
+    "last_modified_date": "2025-05-10",
+    "last_modified_hijri_date": "1446-11-12",
     "urgency_status": "Medium"
   },
   {
@@ -2761,22 +3130,43 @@
     "name": "إتمام التعاقد لأجهزة النداء (اللاسلكي)، واستلامها وتفعيلها لجميع الموظفين",
     "hijri_end_date": "1446-10-25",
     "gregorian_end_date": "2025-04-23",
-    "answers": [],
-    "questions": [
+    "answers": [
       {
-        "id": 400,
+        "id": 1944,
+        "answer": "نعم",
         "question": "هل تم إرفاق محضر استلام الأجهزة مع إرفاق صور لها؟",
+        "task": 2214,
         "question_type": "Short Answer"
       }
     ],
-    "files": [],
-    "approved": "UNAVAILABLE",
-    "done": "NOTSTARTED",
+    "questions": [],
+    "files": [
+      {
+        "id": 3004,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/10/57-_%D8%AA%D9%88%D9%81%D9%8A%D8%B1_%D9%88%D8%AA%D8%B4%D8%BA%D9%8A%D9%84_%D8%A3%D8%AC%D9%87%D8%B2%D8%A9_%D8%A7%D9%84%D8%A7%D8%AA%D8%B5%D8%A7%D9%84%D8%A7%D8%AA_%D8%A7%D9%84%D8%B3%D9%84%D9%83%D9%8A%D8%A9_%D9%88%D8%A7%D9%84%D9%84%D8%A7%D8%B3%D9%84%D9%83%D9%8A%D8%A9.pdf",
+        "name": "57-_توفير_وتشغيل_أجهزة_الاتصالات_السلكية_واللاسلكية.pdf",
+        "size": 2.42,
+        "created_at": "2025-05-10T17:53:08.051715+03:00",
+        "updated_at": null,
+        "task": 2214
+      },
+      {
+        "id": 3349,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/12/%D9%85%D8%AD%D8%A7%D8%B6%D8%B1_%D8%A7%D8%B3%D8%AA%D9%84%D8%A7%D9%85_%D8%A3%D8%AC%D9%87%D8%B2%D8%A9%D8%A7%D9%84%D9%84%D8%A7%D8%B3%D9%84%D9%83%D9%8A.pdf",
+        "name": "محاضر_استلام_أجهزةاللاسلكي.pdf",
+        "size": 3.39,
+        "created_at": "2025-05-12T19:19:47.780458+03:00",
+        "updated_at": null,
+        "task": 2214
+      }
+    ],
+    "approved": "PENDING",
+    "done": "DONE",
     "require_files": true,
     "description": "إتمام التعاقد لأجهزة النداء (اللاسلكي)، واستلامها وتفعيلها لجميع الموظفين في الموعد المحدد (التعاقد - استلام - تفعيل)",
     "guide_file": {},
-    "last_modified_date": "",
-    "last_modified_hijri_date": "",
+    "last_modified_date": "2025-05-12",
+    "last_modified_hijri_date": "1446-11-14",
     "urgency_status": "Medium"
   },
   {
@@ -2784,9 +3174,6 @@
     "name": "تقديم خطة الطوارئ وتتضمن تكوين فريق معني بالطوارئ",
     "hijri_end_date": "1446-10-25",
     "gregorian_end_date": "2025-04-23",
-    "notes": [
-      "بعد التحية\n نشكر لكم جهودكم ونتمنى لكم التوفيق والنجاح لخدمة الحجاج نأمل المراجعة حيث لم تشمل الملفات على توضيح بيانات مايلي :\n\t\t\t\t\t\t\t\t\nبيانات الفريق المعني بالطوارئ للخدمات لمعالجة أي قصور في جاهزية السكن أو الإخفاق في تقديم الخدمات بناء على قرار مجلس الإدارة\nشاكرين لكم تعاونكم"
-    ],
     "answers": [
       {
         "id": 1265,
@@ -2806,22 +3193,31 @@
     "questions": [],
     "files": [
       {
-        "id": 2416,
-        "file": "http://dev.seedlab-sa.com/media/files/2025/05/04/%D8%AE%D8%B7%D8%A9_%D8%A7%D9%84%D8%B7%D9%88%D8%A7%D8%B1%D8%A6_%D9%88%D8%A7%D9%84%D8%A5%D8%B3%D9%86%D8%A7%D8%AF__1446%D9%87%D9%80_3.pdf",
-        "name": "خطة_الطوارئ_والإسناد__1446هـ_3.pdf",
-        "size": 1.03,
-        "created_at": "2025-05-04T20:07:07.904274+03:00",
+        "id": 3006,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/10/%D8%AC%D8%A7%D9%87%D8%B2%D9%8A%D8%A9_%D8%A7%D9%84%D8%A8%D8%AF%D8%A7%D9%8A%D9%84_%D9%81%D9%8A_%D8%AD%D8%A7%D9%84%D8%A9_%D8%A7%D9%84%D8%B7%D9%88%D8%A7%D8%B1%D9%8A.pdf",
+        "name": "جاهزية_البدايل_في_حالة_الطواري.pdf",
+        "size": 1.17,
+        "created_at": "2025-05-10T18:25:04.409164+03:00",
+        "updated_at": null,
+        "task": 2216
+      },
+      {
+        "id": 3350,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/12/%D8%AC%D8%A7%D9%87%D8%B2%D9%8A%D8%A9_%D8%A7%D9%84%D8%A8%D8%AF%D8%A7%D8%A6%D9%84_%D9%81%D9%8A_%D8%AD%D8%A7%D9%84%D8%A9_%D8%A7%D9%84%D8%B7%D9%88%D8%A7%D8%B1%D8%A6.pdf",
+        "name": "جاهزية_البدائل_في_حالة_الطوارئ.pdf",
+        "size": 0.49,
+        "created_at": "2025-05-12T19:20:09.057189+03:00",
         "updated_at": null,
         "task": 2216
       }
     ],
-    "approved": "NONAPPROVED",
-    "done": "INPROGRESS",
+    "approved": "PENDING",
+    "done": "DONE",
     "require_files": true,
     "description": "تقديم خطة الطوارئ وتتضمن تكوين فريق معني بالطوارئ للخدمات لمعالجة أي قصور في جاهزية السكن أو الإخفاق في تقديم الخدمات بناء على قرار مجلس الإدارة",
     "guide_file": {},
-    "last_modified_date": "2025-05-04",
-    "last_modified_hijri_date": "1446-11-06",
+    "last_modified_date": "2025-05-12",
+    "last_modified_hijri_date": "1446-11-14",
     "urgency_status": "Medium"
   },
   {
@@ -2948,30 +3344,53 @@
     "name": "تقديم الخطة التنفيذية للمشاعر المقدسة",
     "hijri_end_date": "1446-10-25",
     "gregorian_end_date": "2025-04-23",
-    "answers": [],
-    "questions": [
+    "answers": [
       {
-        "id": 433,
+        "id": 2166,
+        "answer": "نعم",
         "question": "هل تم إرفاق الخطة التنفيذية ؟",
+        "task": 2238,
         "question_type": "Short Answer"
       },
       {
-        "id": 434,
+        "id": 2167,
+        "answer": "نعم",
         "question": "هل تم إرفاق نموذج الإكسل بعد تعبئته؟",
+        "task": 2238,
         "question_type": "Short Answer"
       }
     ],
-    "files": [],
-    "approved": "UNAVAILABLE",
-    "done": "NOTSTARTED",
+    "questions": [],
+    "files": [
+      {
+        "id": 3351,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/12/%D8%A7%D8%B3%D9%85_%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9-%D9%86%D9%85%D9%88%D8%B0%D8%AC_%D9%85%D9%84%D8%AD%D9%82_%D8%AE%D8%B7%D8%A9_%D8%A7%D9%84%D9%85%D8%B4%D8%A7%D8%B9%D8%B1_%D8%A7%D9%84%D9%85%D9%82%D8%AF%D8%B3%D8%A9_%D9%8601_1.xlsx",
+        "name": "اسم_الشركة-نموذج_ملحق_خطة_المشاعر_المقدسة_ن01_1.xlsx",
+        "size": 0.09,
+        "created_at": "2025-05-12T19:20:50.559288+03:00",
+        "updated_at": null,
+        "task": 2238
+      },
+      {
+        "id": 3352,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/12/%D8%A7%D9%84%D8%A5%D8%AC%D8%B1%D8%A7%D8%A1%D8%AA_%D8%A7%D9%84%D8%AA%D8%B4%D8%BA%D9%8A%D9%84%D9%8A%D8%A9_%D9%84%D9%84%D9%85%D8%B4%D8%A7%D8%B9%D8%B1_%D8%A7%D9%84%D9%85%D9%82%D8%AF%D8%B3%D8%A9_1.pdf",
+        "name": "الإجراءت_التشغيلية_للمشاعر_المقدسة_1.pdf",
+        "size": 0.33,
+        "created_at": "2025-05-12T19:20:50.561091+03:00",
+        "updated_at": null,
+        "task": 2238
+      }
+    ],
+    "approved": "PENDING",
+    "done": "DONE",
     "require_files": true,
     "description": "",
     "guide_file": {
       "file_url": "http://dev.seedlab-sa.com/media/files/template/2025/04/14/%D8%A7%D8%B3%D9%85_%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9-%D9%86%D9%85%D9%88%D8%B0%D8%AC_%D9%85%D9%84%D8%AD%D9%82_%D8%AE%D8%B7%D8%A9_%D8%A7%D9%84%D9%85%D8%B4%D8%A7%D8%B9%D8%B1_%D8%A7%D9%84%D9%85%D9%82%D8%AF%D8%B3%D8%A9_%D9%8601.xlsx",
       "file_name": "اسم_الشركة-نموذج_ملحق_خطة_المشاعر_المقدسة_ن01.xlsx"
     },
-    "last_modified_date": "",
-    "last_modified_hijri_date": "",
+    "last_modified_date": "2025-05-12",
+    "last_modified_hijri_date": "1446-11-14",
     "urgency_status": "Medium"
   },
   {
@@ -3149,22 +3568,34 @@
     "name": "التنسيق مع ممثلي شؤون الحجاج لضمان تنفيذ زيارة الروضة الشريفة حسب مواعيد منصة نسك مسار",
     "hijri_end_date": "1446-10-26",
     "gregorian_end_date": "2025-04-24",
-    "answers": [],
-    "questions": [
+    "answers": [
       {
-        "id": 331,
+        "id": 1991,
+        "answer": "نعم",
         "question": "هل تم ارفاق تقرير حسب الأفواج: بريد الإلكتروني او خطاب مسجل بعلم الوصول متضمًنا جدول الزيارة",
+        "task": 386,
         "question_type": "Short Answer"
       }
     ],
-    "files": [],
-    "approved": "UNAVAILABLE",
-    "done": "NOTSTARTED",
+    "questions": [],
+    "files": [
+      {
+        "id": 3083,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/11/Rawda_permits_sheet_1.xls",
+        "name": "Rawda_permits_sheet_1.xls",
+        "size": 0.08,
+        "created_at": "2025-05-11T12:02:47.774362+03:00",
+        "updated_at": null,
+        "task": 386
+      }
+    ],
+    "approved": "APPROVED",
+    "done": "DONE",
     "require_files": true,
     "description": "التنسيق مع مكاتب وممثلي شؤون الحجاج بشأن التأكد من تنفيذ زيارة الروضة الشريفة حسب المواعيد الصادرة من منصة نسك مسار",
     "guide_file": {},
-    "last_modified_date": "",
-    "last_modified_hijri_date": "",
+    "last_modified_date": "2025-05-11",
+    "last_modified_hijri_date": "1446-11-13",
     "urgency_status": "Medium"
   },
   {
@@ -3172,9 +3603,6 @@
     "name": "تقديم الخطة التنفيذية للشؤون العامة",
     "hijri_end_date": "1446-10-26",
     "gregorian_end_date": "2025-04-24",
-    "notes": [
-      "بعد التحية\n نشكر لكم جهودكم ونتمنى لكم التوفيق والنجاح لخدمة الحجاج نأمل المراجعة حيث لم تشمل الملفات على توضيح بيانات مايلي :\n\t\t\t\t\t\t\t\t\nالفريق التنفيذي القيادي للبرامج المختلفة لمسار الشؤون العامة\t\t\t\t\t\t\t\t\nالتجهيزات اللازمة لأعمال فرق الشؤون العامة\t\t\t\t\t\t\t\t\nإجراءات متابعة تسجيل ومتابعة حالات الحجاج المرضى (مستشفيات مكة المكرمة والمشاعر)\t\t\t\t\t\t\t\t\nإجراءات متابعة حالات الحجاج التائهين\t\t\t\t\t\t\t\t\nإجراءات تسجيل المواليد/ الوفيات ( تسجيل حالاتهم ومتابعة إنهاء إجرأتهم وإرفاق المستندات )\t\t\t\t\t\t\t\t\nإجراءات متابعة الحجاج الموقوفين\t\t\t\t\t\t\t\t\nإجراءات متابعة مفقودات الحجاج\t\t\t\t\t\t\t\t\n\nشاكرين لكم تعاونكم"
-    ],
     "answers": [
       {
         "id": 1685,
@@ -3194,34 +3622,34 @@
     "questions": [],
     "files": [
       {
-        "id": 2418,
-        "file": "http://dev.seedlab-sa.com/media/files/2025/05/04/83-%D9%85%D8%AA%D8%A7%D8%A8%D8%B9%D8%A9_%D8%A7%D9%86%D9%87%D8%A7%D8%A1_%D8%A5%D8%AC%D8%B1%D8%A7%D8%A1%D8%A7%D8%AA_%D8%AD%D8%A7%D9%84%D8%A7%D8%AA_%D9%88%D9%82%D9%88%D8%B9%D8%A7%D8%AA_%D8%A7%D9%84%D8%AD%D8%AC%D8%A7%D8%AC_%D8%A7%D9%84%D8%AA%D8%A7%D8%A6%D9%87%D9%8A%D9%86_%D8%A7%D9%84%D9%85%D9%86%D9%88%D9%85%D9%8A%D9%86_%D8%A8%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D8%B4%D9%81%D9%8A_X7R6EVB.pdf",
-        "name": "83-متابعة_انهاء_إجراءات_حالات_وقوعات_الحجاج_التائهين_المنومين_بالمستشفي_X7R6EVB.pdf",
-        "size": 0.11,
-        "created_at": "2025-05-04T20:12:32.985983+03:00",
+        "id": 3334,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/12/%D8%A7%D8%B3%D9%85_%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9-%D9%86%D9%85%D9%88%D8%B0%D8%AC_%D9%85%D9%84%D8%AD%D9%82_%D8%A7%D9%84%D8%B4%D8%A4%D9%88%D9%86_%D8%A7%D9%84%D8%B9%D8%A7%D9%85%D8%A9_%D9%862_BcidXSG.xlsx",
+        "name": "اسم_الشركة-نموذج_ملحق_الشؤون_العامة_ن2_BcidXSG.xlsx",
+        "size": 0.08,
+        "created_at": "2025-05-12T17:51:34.677958+03:00",
         "updated_at": null,
         "task": 2211
       },
       {
-        "id": 2419,
-        "file": "http://dev.seedlab-sa.com/media/files/2025/05/04/%D8%A8%D9%8A%D8%A7%D9%86_%D8%A8%D8%A3%D8%B3%D9%85%D8%A7%D8%A1_%D9%85%D9%86%D8%A7%D8%AF%D9%8A%D8%A8_%D9%85%D8%B3%D8%AA%D8%B4%D9%81%D9%8A%D8%A7%D8%AA_%D8%A7%D8%AB%D8%B1%D8%A7_%D8%A7%D9%84%D8%AE%D9%8A%D8%B1_%D9%88%D8%A7%D9%84%D8%AC%D9%88%D8%AF_1446%D9%87%D9%80_1.pdf",
-        "name": "بيان_بأسماء_مناديب_مستشفيات_اثرا_الخير_والجود_1446هـ_1.pdf",
-        "size": 0.27,
-        "created_at": "2025-05-04T20:12:32.988288+03:00",
+        "id": 3335,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/12/%D8%A7%D9%84%D8%AE%D8%B7%D8%A9_%D8%A7%D9%84%D8%AA%D9%86%D9%81%D9%8A%D8%B0%D9%8A%D8%A9_%D9%84%D9%84%D8%B4%D8%A4%D9%88%D9%86_%D8%A7%D9%84%D8%B9%D8%A7%D9%85%D8%A9.pdf",
+        "name": "الخطة_التنفيذية_للشؤون_العامة.pdf",
+        "size": 1.53,
+        "created_at": "2025-05-12T17:51:34.680218+03:00",
         "updated_at": null,
         "task": 2211
       }
     ],
-    "approved": "NONAPPROVED",
-    "done": "INPROGRESS",
+    "approved": "PENDING",
+    "done": "DONE",
     "require_files": true,
     "description": "تقديم الخطة التنفيذية للشؤون العامة (البرنامج الصحي (خدمات المرضى في المستشفيات بمكة والمشاعر، ومواليد، ووفيات) - برنامج التائهين - المفقودات - الموقوفين...)، وتشمل أسماء المنفذين وتوزيعهم وخطة التنفيذ\r\nونامل ان تشمل الخطة التنفيذية المكونات التالية :\t\t\t\t\t\t\t\t\r\nالفريق التنفيذي القيادي للبرامج المختلفة لمسار الشؤون العامة\t، التجهيزات اللازمة لأعمال فرق الشؤون العامة ،إجراءات متابعة تسجيل ومتابعة حالات الحجاج المرضى (مستشفيات مكة المكرمة والمشاعر)، إجراءات متابعة حالات الحجاج التائهين،إجراءات تسجيل المواليد/ الوفيات ( تسجيل حالاتهم ومتابعة إنهاء إجرأتهم وإرفاق المستندات ) ، إجراءات متابعة الحجاج الموقوفين ،إجراءات متابعة مفقودات الحجاج",
     "guide_file": {
       "file_url": "http://dev.seedlab-sa.com/media/files/template/2025/04/22/%D8%A7%D8%B3%D9%85_%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9-%D9%86%D9%85%D9%88%D8%B0%D8%AC_%D9%85%D9%84%D8%AD%D9%82_%D8%A7%D9%84%D8%B4%D8%A4%D9%88%D9%86_%D8%A7%D9%84%D8%B9%D8%A7%D9%85%D8%A9_%D9%862_BcidXSG.xlsx",
       "file_name": "اسم_الشركة-نموذج_ملحق_الشؤون_العامة_ن2_BcidXSG.xlsx"
     },
-    "last_modified_date": "2025-05-04",
-    "last_modified_hijri_date": "1446-11-06",
+    "last_modified_date": "2025-05-12",
+    "last_modified_hijri_date": "1446-11-14",
     "urgency_status": "MEDIUM"
   },
   {
@@ -3229,22 +3657,43 @@
     "name": "التنسيق مع مكاتب وممثلي شؤون الحجاج بشأن التأكد من تنفيذ زيارة الروضة",
     "hijri_end_date": "1446-10-26",
     "gregorian_end_date": "2025-04-24",
-    "answers": [],
-    "questions": [
+    "answers": [
       {
-        "id": 274,
+        "id": 2168,
+        "answer": "نعم",
         "question": "هل تم إرفاق تقرير حسب الأفواج: بريد الإلكتروني او خطاب مسجل بعلم الوصول متضمًنا جدول الزيارة؟",
+        "task": 2254,
         "question_type": "Short Answer"
       }
     ],
-    "files": [],
-    "approved": "UNAVAILABLE",
-    "done": "NOTSTARTED",
+    "questions": [],
+    "files": [
+      {
+        "id": 3353,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/12/%D8%A8%D9%84%D8%A7%D8%BA_%D8%A7%D9%84%D9%85%D8%B3%D8%A7%D8%B1.pdf",
+        "name": "بلاغ_المسار.pdf",
+        "size": 0.13,
+        "created_at": "2025-05-12T19:22:53.895472+03:00",
+        "updated_at": null,
+        "task": 2254
+      },
+      {
+        "id": 3354,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/12/ITHRAA_ALKHAIR_1.pdf",
+        "name": "ITHRAA_ALKHAIR_1.pdf",
+        "size": 4.3,
+        "created_at": "2025-05-12T19:24:20.356104+03:00",
+        "updated_at": null,
+        "task": 2254
+      }
+    ],
+    "approved": "PENDING",
+    "done": "DONE",
     "require_files": true,
     "description": "التنسيق مع مكاتب وممثلي شؤون الحجاج بشأن التأكد من تنفيذ زيارة الروضة الشريفة حسب المواعيد الصادرة من منصة نسك مسار",
     "guide_file": {},
-    "last_modified_date": "",
-    "last_modified_hijri_date": "",
+    "last_modified_date": "2025-05-12",
+    "last_modified_hijri_date": "1446-11-14",
     "urgency_status": "Medium"
   },
   {
@@ -3310,9 +3759,6 @@
     "name": "تقسيم مجموعات الحجاج بعد إتمام الحجوزات بحسب جنسياتهم، وغيرها من التفضيلات",
     "hijri_end_date": "1446-11-01",
     "gregorian_end_date": "2025-04-29",
-    "notes": [
-      "بعد التحية \nنشكر لكم جهودكم ونتمنى لكم التوفيق والنجاح في خدمة ضيوف الرحمن نأمل منكم المراجعة والتأكد من ارفاق البيانات التالية :\n\n-توضيح المعايير لتقسيم الحجاج لمجموعات \n-المجموعات والاعداد\n\nشاكرين لكم تعاونكم"
-    ],
     "answers": [
       {
         "id": 1274,
@@ -3325,22 +3771,22 @@
     "questions": [],
     "files": [
       {
-        "id": 1814,
-        "file": "http://dev.seedlab-sa.com/media/files/2025/05/01/%D8%AA%D8%B5%D9%86%D9%8A%D9%81_%D8%A7%D9%84%D8%AD%D8%AC%D8%A7%D8%AC.pdf",
-        "name": "تصنيف_الحجاج.pdf",
-        "size": 0.3,
-        "created_at": "2025-05-01T19:14:42.364645+03:00",
+        "id": 3210,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/11/%D9%85%D8%B9%D8%A7%D9%8A%D9%8A%D8%B1_%D9%88%D8%AA%D9%88%D8%B2%D9%8A%D8%B9_%D8%A7%D9%84%D8%AD%D8%AC%D8%A7%D8%AC_.pdf",
+        "name": "معايير_وتوزيع_الحجاج_.pdf",
+        "size": 4.17,
+        "created_at": "2025-05-11T21:54:38.335190+03:00",
         "updated_at": null,
         "task": 2196
       }
     ],
-    "approved": "NONAPPROVED",
-    "done": "INPROGRESS",
+    "approved": "APPROVED",
+    "done": "DONE",
     "require_files": true,
     "description": "تقسيم مجموعات الحجاج بعد إتمام الحجوزات بحسب جنسياتهم، ودول إقامتهم، ولغاتهم، وغيرها من التفضيلات لتسهيل التواصل معهم وإرشادهم",
     "guide_file": {},
-    "last_modified_date": "2025-05-01",
-    "last_modified_hijri_date": "1446-11-03",
+    "last_modified_date": "2025-05-11",
+    "last_modified_hijri_date": "1446-11-13",
     "urgency_status": "Medium"
   },
   {
@@ -3383,22 +3829,34 @@
     "name": "تدريب العاملين في بطاقة نسك، مع ضمان تدريب ما لا يقل عن 90% من الموظفين المعنيين",
     "hijri_end_date": "1446-11-01",
     "gregorian_end_date": "2025-04-29",
-    "answers": [],
-    "questions": [
+    "answers": [
       {
-        "id": 393,
+        "id": 2149,
+        "answer": "نعم",
         "question": "هل تم إرفاق إرفاق ما يثبت حضور الدروات التدريبية للعاملين في بطاقة نسك وإتمام النسبة المطلوبة 90%؟",
+        "task": 2209,
         "question_type": "Short Answer"
       }
     ],
-    "files": [],
-    "approved": "UNAVAILABLE",
-    "done": "NOTSTARTED",
+    "questions": [],
+    "files": [
+      {
+        "id": 3316,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/12/%D8%AA%D8%AD%D8%B6%D9%8A%D8%B1_%D8%A7%D9%84%D9%85%D8%AA%D8%AF%D8%B1%D8%A8%D9%8A%D9%86_%D8%A7%D8%AB%D8%B1%D8%A7%D8%A1_%D8%A7%D9%84%D8%AE%D9%8A%D8%B1.xlsx",
+        "name": "تحضير_المتدربين_اثراء_الخير.xlsx",
+        "size": 0.04,
+        "created_at": "2025-05-12T17:14:15.393147+03:00",
+        "updated_at": null,
+        "task": 2209
+      }
+    ],
+    "approved": "PENDING",
+    "done": "DONE",
     "require_files": true,
     "description": "تدريب العاملين في بطاقة نسك، مع ضمان تدريب ما لا يقل عن 90% من الموظفين المعنيين باستخدام منصة نسك",
     "guide_file": {},
-    "last_modified_date": "",
-    "last_modified_hijri_date": "",
+    "last_modified_date": "2025-05-12",
+    "last_modified_hijri_date": "1446-11-14",
     "urgency_status": "Medium"
   },
   {
@@ -3406,22 +3864,34 @@
     "name": "تحديث قوائم  الأعداد والجنسيات والباقات لموسم حج 1446 هجري",
     "hijri_end_date": "1446-11-01",
     "gregorian_end_date": "2025-04-29",
-    "answers": [],
-    "questions": [
+    "answers": [
       {
-        "id": 432,
+        "id": 2095,
+        "answer": "نعم",
         "question": "هل تم إرفاق قائمة بتوزيع الحجاج على الجنسيات؟",
+        "task": 2237,
         "question_type": "Short Answer"
       }
     ],
-    "files": [],
-    "approved": "UNAVAILABLE",
-    "done": "NOTSTARTED",
+    "questions": [],
+    "files": [
+      {
+        "id": 3209,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/11/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%A8%D8%AA%D9%88%D8%B2%D9%8A%D8%B9_%D8%A7%D9%84%D8%AC%D8%AD%D8%A7%D8%AC_%D8%B9%D9%84%D9%8A_%D8%A7%D9%84%D8%AC%D9%86%D8%B3%D9%8A%D8%A7%D8%AA.pdf",
+        "name": "قائمة_بتوزيع_الجحاج_علي_الجنسيات.pdf",
+        "size": 0.22,
+        "created_at": "2025-05-11T21:54:30.674893+03:00",
+        "updated_at": null,
+        "task": 2237
+      }
+    ],
+    "approved": "APPROVED",
+    "done": "DONE",
     "require_files": true,
     "description": "",
     "guide_file": {},
-    "last_modified_date": "",
-    "last_modified_hijri_date": "",
+    "last_modified_date": "2025-05-11",
+    "last_modified_hijri_date": "1446-11-13",
     "urgency_status": "Medium"
   },
   {
@@ -3561,22 +4031,34 @@
     "name": "تحميل بيانات العاملين بالشركة على منصة بطاقة نسك",
     "hijri_end_date": "1446-11-05",
     "gregorian_end_date": "2025-05-03",
-    "answers": [],
-    "questions": [
+    "answers": [
       {
-        "id": 426,
+        "id": 2150,
+        "answer": "نعم",
         "question": "هل تم إرفاق تقرير بأعداد العاملين المصدر لهم بطاقة نسك؟",
+        "task": 2232,
         "question_type": "Short Answer"
       }
     ],
-    "files": [],
-    "approved": "UNAVAILABLE",
-    "done": "NOTSTARTED",
+    "questions": [],
+    "files": [
+      {
+        "id": 3317,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/12/%D8%A7%D8%B9%D8%AF%D8%A7%D8%AF_%D8%A7%D9%84%D9%85%D9%88%D8%B8%D9%81%D9%8A%D9%86_%D8%A7%D9%84%D9%85%D8%B1%D9%81%D9%88%D8%B9%D8%A9_%D8%A8%D9%8A%D8%A7%D9%86%D8%A7%D8%AA%D9%87%D9%85_%D9%81%D9%8A_%D9%85%D9%86%D8%B5%D8%A9_%D8%A8%D8%B7%D8%A7%D9%82%D8%A7%D8%AA_%D9%86%D8%B3%D9%83.pdf",
+        "name": "اعداد_الموظفين_المرفوعة_بياناتهم_في_منصة_بطاقات_نسك.pdf",
+        "size": 0.18,
+        "created_at": "2025-05-12T17:15:49.385929+03:00",
+        "updated_at": null,
+        "task": 2232
+      }
+    ],
+    "approved": "PENDING",
+    "done": "DONE",
     "require_files": true,
     "description": "",
     "guide_file": {},
-    "last_modified_date": "",
-    "last_modified_hijri_date": "",
+    "last_modified_date": "2025-05-12",
+    "last_modified_hijri_date": "1446-11-14",
     "urgency_status": "Medium"
   },
   {
@@ -3622,25 +4104,37 @@
     "name": "تحديد المباني الاحتياطية لإسكان الحجاج في مكة المكرمة لاستخدامها في الحالات الطارئة",
     "hijri_end_date": "1446-11-09",
     "gregorian_end_date": "2025-05-07",
-    "answers": [],
-    "questions": [
+    "answers": [
       {
-        "id": 506,
+        "id": 2155,
+        "answer": "نعم",
         "question": "هل تم إرفاق ملف pdf أو إكسل يوضح ببيانات المباني الاحتياطية لإسكان الحجاج في مكة المكرمة لاستخدامها في الحالات الطارئة بالتفاصيل الموضحة في ملف الاكسل المرفق؟",
+        "task": 2980,
         "question_type": "Short Answer"
       }
     ],
-    "files": [],
-    "approved": "UNAVAILABLE",
-    "done": "NOTSTARTED",
+    "questions": [],
+    "files": [
+      {
+        "id": 3333,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/12/%D8%A7%D8%B3%D9%85_%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9-%D9%86%D9%85%D9%88%D8%B0%D8%AC_%D9%85%D8%B3%D8%A7%D9%83%D9%86_%D8%B7%D9%88%D8%A7%D8%B1%D8%A6_%D8%A7%D9%84%D8%A5%D8%B3%D9%83%D8%A7%D9%86.xlsx",
+        "name": "اسم_الشركة-نموذج_مساكن_طوارئ_الإسكان.xlsx",
+        "size": 0.09,
+        "created_at": "2025-05-12T17:45:46.716506+03:00",
+        "updated_at": null,
+        "task": 2980
+      }
+    ],
+    "approved": "PENDING",
+    "done": "DONE",
     "require_files": true,
     "description": "رفع ملف pdf  او اكسل يوضح ببيانات المباني الاحتياطية لإسكان الحجاج في مكة المكرمة لاستخدامها في الحالات الطارئة؛ وذلك بناء على تعميم وزارة الحج والعمرة برقم (461101499) وتاريخ 01/11/1446ه للشركات بتحديد المباني الاحتياطية التي تم استئجارها استعداد لأي حالة طارئة قد -لا قدر الله- تحدث خلال الموسم وأثناء إقامة الحجاج في مكة المكرمة ورفعها في تاريخ أقصاه 10/11/1446ه. يمكن للشركات الاستفادة من ملف الأكسل المرفق مع المهمة.",
     "guide_file": {
       "file_url": "http://dev.seedlab-sa.com/media/files/template/2025/05/04/%D8%A7%D8%B3%D9%85_%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9-%D9%86%D9%85%D9%88%D8%B0%D8%AC_%D9%85%D8%B3%D8%A7%D9%83%D9%86_%D8%B7%D9%88%D8%A7%D8%B1%D8%A6_%D8%A7%D9%84%D8%A5%D8%B3%D9%83%D8%A7%D9%86.xlsx",
       "file_name": "اسم_الشركة-نموذج_مساكن_طوارئ_الإسكان.xlsx"
     },
-    "last_modified_date": "",
-    "last_modified_hijri_date": "",
+    "last_modified_date": "2025-05-12",
+    "last_modified_hijri_date": "1446-11-14",
     "urgency_status": "MEDIUM"
   },
   {
@@ -3834,22 +4328,43 @@
     "name": "اكتمال بيانات الاستعداد وتأكيد تواجد ممثلي الشركات بغرفة عمليات الاستعداد المسبق بالمطارات -02",
     "hijri_end_date": "1446-11-13",
     "gregorian_end_date": "2025-05-11",
-    "answers": [],
-    "questions": [
+    "answers": [
       {
-        "id": 483,
+        "id": 1960,
+        "answer": "نعم",
         "question": "هل تمت تعبئة و تحديث ملف الاكسل؟",
+        "task": 2594,
         "question_type": "Short Answer"
       }
     ],
-    "files": [],
-    "approved": "UNAVAILABLE",
-    "done": "NOTSTARTED",
+    "questions": [],
+    "files": [
+      {
+        "id": 3026,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/10/%D8%A7%D8%B3%D8%AA%D9%85%D8%A7%D8%B1%D8%A9_%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D8%B9%D8%AF%D8%A7%D8%AF_%D8%A7%D9%84%D9%85%D8%B3%D8%A8%D9%82_%D9%84%D9%84%D8%A7%D8%B3%D8%AA%D9%82%D8%A8%D8%A7%D9%84_1.xlsx",
+        "name": "استمارة_الاستعداد_المسبق_للاستقبال_1.xlsx",
+        "size": 1.01,
+        "created_at": "2025-05-10T21:46:13.829380+03:00",
+        "updated_at": null,
+        "task": 2594
+      },
+      {
+        "id": 3027,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/10/CamScanner_10-05-2025_21.30.pdf",
+        "name": "CamScanner_10-05-2025_21.30.pdf",
+        "size": 2.01,
+        "created_at": "2025-05-10T21:47:10.817631+03:00",
+        "updated_at": null,
+        "task": 2594
+      }
+    ],
+    "approved": "APPROVED",
+    "done": "DONE",
     "require_files": true,
     "description": "تعبئة ملف الأكسل المرفق وتحديثه بشكل دوري لتأكيد اكتمال بيانات الاستعداد المسبق لمرحلة الوصول شاملة (بيانات احداثيات السكن والمصادقة عليها قبل الرحلة ب ٤٨ ساعة) في مطار الملك عبدالعزيز ومطار الأمير محمد بن عبدالعزيز. وإرفاق ما يثبت تواجد ممثلي الشركات في غرفة عمليات الاستعداد المسبق في المطارين في نفس ملف الاكسل. ( نموذج الاكسل مرفق في مهمة اكتمال بيانات الاستعداد وتأكيد تواجد ممثلي الشركات بغرفة عمليات الاستعداد المسبق بالمطارات -01)",
     "guide_file": {},
-    "last_modified_date": "",
-    "last_modified_hijri_date": "",
+    "last_modified_date": "2025-05-10",
+    "last_modified_hijri_date": "1446-11-12",
     "urgency_status": "MEDIUM"
   },
   {
@@ -3899,6 +4414,63 @@
     "urgency_status": "MEDIUM"
   },
   {
+    "id": 3275,
+    "name": "تحديث الخطط التنفيذية للنقل والتفويج بما يشمل توزيع المهام ومسارات الحافلات وخطة الاستلام",
+    "hijri_end_date": "1446-11-17",
+    "gregorian_end_date": "2025-05-15",
+    "notes": [
+      "بعد التحية\n نشكر لكم جهودكم ونتمنى لكم التوفيق والنجاح لخدمة الحجاج نأمل المراجعة حيث لم تشمل الملفات على مايلي :\n\nعقود النقل \t\t\t\t\t\t\t\t\t\n\nشاكرين لكم تعاونكم"
+    ],
+    "answers": [
+      {
+        "id": 2146,
+        "answer": "نعم",
+        "question": "هل تم إرفاق الخطة التنفيذية؟",
+        "task": 3275,
+        "question_type": "Short Answer"
+      },
+      {
+        "id": 2147,
+        "answer": "نعم",
+        "question": "هل تم إرفاق نموذج الإكسل المرفق بعد تعبئته؟",
+        "task": 3275,
+        "question_type": "Short Answer"
+      }
+    ],
+    "questions": [],
+    "files": [
+      {
+        "id": 3311,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/12/%D8%A7%D8%B3%D9%85_%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9__%D9%86%D9%85%D9%88%D8%B0%D8%AC_%D9%85%D8%AA%D8%A7%D8%A8%D8%B9%D8%A9_%D8%A7%D9%84%D9%86%D9%82%D9%84_%D9%88%D8%A7%D9%84%D8%AA%D9%81%D9%88%D9%8A%D8%AC_2_hxTFsBV.xlsx",
+        "name": "اسم_الشركة__نموذج_متابعة_النقل_والتفويج_2_hxTFsBV.xlsx",
+        "size": 0.03,
+        "created_at": "2025-05-12T16:33:21.531848+03:00",
+        "updated_at": null,
+        "task": 3275
+      },
+      {
+        "id": 3312,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/12/%D8%A7%D8%AB%D8%B1%D8%A7%D8%A1_%D8%A7%D9%84%D8%AE%D9%8A%D8%B1_%D8%A7%D9%84%D8%AE%D8%B7%D8%A9_%D8%A7%D9%84%D8%AA%D8%B4%D8%BA%D9%8A%D9%84%D9%8A%D8%A9_%D9%85%D9%88%D8%B3%D9%85_%D8%AD%D8%AC_1446_f4AgGVk.pdf",
+        "name": "اثراء_الخير_الخطة_التشغيلية_موسم_حج_1446_f4AgGVk.pdf",
+        "size": 22.02,
+        "created_at": "2025-05-12T16:33:21.533920+03:00",
+        "updated_at": null,
+        "task": 3275
+      }
+    ],
+    "approved": "NONAPPROVED",
+    "done": "INPROGRESS",
+    "require_files": true,
+    "description": "تحديث لخطط النقل والتفويج،  حيث أنه تم تعديل أعداد الحجاج والمسارات لبعض الشركات فيما يتعلق بخطط النقل. فنأمل وضع آخر تحديث، وذلك لتحديث البيانات المعتمدة بما يتوافق مع التغيرات الحالية في توزيع الحجاج على المسارات.\r\nمرفق ملف الإكسل الاسترشادي وصفًا محدثًا للمسارات وتفاصيل التعديلات التي طرأت على بعض الشركات، ويشمل أسماء المنفذين وتوزيعهم وخطة التنفيذ.",
+    "guide_file": {
+      "file_url": "http://dev.seedlab-sa.com/media/files/template/2025/05/11/%D8%A7%D8%B3%D9%85_%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9__%D9%86%D9%85%D9%88%D8%B0%D8%AC_%D9%85%D8%AA%D8%A7%D8%A8%D8%B9%D8%A9_%D8%A7%D9%84%D9%86%D9%82%D9%84_%D9%88%D8%A7%D9%84%D8%AA%D9%81%D9%88%D9%8A%D8%AC_%D9%863_c3taw5U.xlsx",
+      "file_name": "اسم_الشركة__نموذج_متابعة_النقل_والتفويج_ن3_c3taw5U.xlsx"
+    },
+    "last_modified_date": "2025-05-12",
+    "last_modified_hijri_date": "1446-11-14",
+    "urgency_status": "MEDIUM"
+  },
+  {
     "id": 2784,
     "name": "اكتمال بيانات الاستعداد وتأكيد تواجد ممثلي الشركات بغرفة عمليات الاستعداد المسبق بالمطارات -03",
     "hijri_end_date": "1446-11-17",
@@ -3917,6 +4489,37 @@
     "require_files": true,
     "description": "تعبئة ملف الأكسل المرفق وتحديثه بشكل دوري لتأكيد اكتمال بيانات الاستعداد المسبق لمرحلة الوصول شاملة (بيانات احداثيات السكن والمصادقة عليها قبل الرحلة ب ٤٨ ساعة) في مطار الملك عبدالعزيز ومطار الأمير محمد بن عبدالعزيز. وإرفاق ما يثبت تواجد ممثلي الشركات في غرفة عمليات الاستعداد المسبق في المطارين في نفس ملف الاكسل. (ملف الاكسل مرفق في مهمة اكتمال بيانات الاستعداد وتأكيد تواجد ممثلي الشركات بغرفة عمليات الاستعداد المسبق بالمطارات -01)",
     "guide_file": {},
+    "last_modified_date": "",
+    "last_modified_hijri_date": "",
+    "urgency_status": "MEDIUM"
+  },
+  {
+    "id": 3269,
+    "name": "تحديث الخطط التنفيذية للنقل والتفويج بما يشمل توزيع المهام ومسارات الحافلات وخطة الاستلام",
+    "hijri_end_date": "1446-11-17",
+    "gregorian_end_date": "2025-05-15",
+    "answers": [],
+    "questions": [
+      {
+        "id": 522,
+        "question": "هل تم إرفاق الخطة التنفيذية؟",
+        "question_type": "Short Answer"
+      },
+      {
+        "id": 523,
+        "question": "هل تم إرفاق نموذج الإكسل المرفق بعد تعبئته؟",
+        "question_type": "Short Answer"
+      }
+    ],
+    "files": [],
+    "approved": "UNAVAILABLE",
+    "done": "NOTSTARTED",
+    "require_files": true,
+    "description": "تحديث لخطط النقل والتفويج،  حيث أنه تم تعديل أعداد الحجاج والمسارات لبعض الشركات فيما يتعلق بخطط النقل. فنأمل وضع آخر تحديث، وذلك لتحديث البيانات المعتمدة بما يتوافق مع التغيرات الحالية في توزيع الحجاج على المسارات.\r\nمرفق ملف الإكسل الاسترشادي وصفًا محدثًا للمسارات وتفاصيل التعديلات التي طرأت على بعض الشركات، ويشمل أسماء المنفذين وتوزيعهم وخطة التنفيذ.",
+    "guide_file": {
+      "file_url": "http://dev.seedlab-sa.com/media/files/template/2025/05/11/%D8%A7%D8%B3%D9%85_%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9__%D9%86%D9%85%D9%88%D8%B0%D8%AC_%D9%85%D8%AA%D8%A7%D8%A8%D8%B9%D8%A9_%D8%A7%D9%84%D9%86%D9%82%D9%84_%D9%88%D8%A7%D9%84%D8%AA%D9%81%D9%88%D9%8A%D8%AC_%D9%863.xlsx",
+      "file_name": "اسم_الشركة__نموذج_متابعة_النقل_والتفويج_ن3.xlsx"
+    },
     "last_modified_date": "",
     "last_modified_hijri_date": "",
     "urgency_status": "MEDIUM"
@@ -4463,27 +5066,50 @@
     "name": "تأهيل مرشدي الحافلات",
     "hijri_end_date": "1446-12-04",
     "gregorian_end_date": "2025-05-31",
-    "answers": [],
-    "questions": [
+    "answers": [
       {
-        "id": 305,
+        "id": 2151,
+        "answer": "نعم",
         "question": "هل تم ارفاق صورة من نظام ضيف بكشف المرشدين",
+        "task": 347,
         "question_type": "Short Answer"
       },
       {
-        "id": 306,
+        "id": 2152,
+        "answer": "نعم",
         "question": "هل تم ارفاق تقرير التدريب مع صور توثيقية",
+        "task": 347,
         "question_type": "Short Answer"
       }
     ],
-    "files": [],
-    "approved": "UNAVAILABLE",
-    "done": "NOTSTARTED",
+    "questions": [],
+    "files": [
+      {
+        "id": 3318,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/12/CamScanner_%D9%A1%D9%A2-%D9%A0%D9%A5-%D9%A2%D9%A0%D9%A2%D9%A5_%D9%A0%D9%A1.%D9%A0%D9%A2.pdf",
+        "name": "CamScanner_١٢-٠٥-٢٠٢٥_٠١.٠٢.pdf",
+        "size": 1.68,
+        "created_at": "2025-05-12T17:30:26.896326+03:00",
+        "updated_at": null,
+        "task": 347
+      },
+      {
+        "id": 3319,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/12/%D8%A7%D9%84%D9%86%D8%B3%D8%AE%D9%87_%D8%A7%D9%84%D8%A7%D9%88%D9%84%D9%89_%D8%A8%D9%8A%D8%A7%D9%86%D8%A7%D8%AA_%D9%85%D8%B1%D8%B4%D8%AF%D9%8A_%D8%AD%D8%A7%D9%81%D9%84%D8%A7%D8%AA_%D8%B1%D8%AD%D9%84%D8%A7%D8%AA_.pdf",
+        "name": "النسخه_الاولى_بيانات_مرشدي_حافلات_رحلات_.pdf",
+        "size": 0.53,
+        "created_at": "2025-05-12T17:30:26.901020+03:00",
+        "updated_at": null,
+        "task": 347
+      }
+    ],
+    "approved": "APPROVED",
+    "done": "DONE",
     "require_files": true,
     "description": "",
     "guide_file": {},
-    "last_modified_date": "",
-    "last_modified_hijri_date": "",
+    "last_modified_date": "2025-05-12",
+    "last_modified_hijri_date": "1446-11-14",
     "urgency_status": "Medium"
   },
   {
@@ -4542,30 +5168,57 @@
     "name": "اكتمال بيانات الاستعداد والمصادقة على إحداثيات السكن قبل 48 ساعة بمطاري جدة والمدينة",
     "hijri_end_date": "1446-12-05",
     "gregorian_end_date": "2025-06-01",
-    "answers": [],
-    "questions": [
+    "notes": [
+      "بعد التحية\n نشكر لكم جهودكم ونتمنى لكم التوفيق والنجاح لخدمة الحجاج نأمل المراجعة حيث لم تشمل الملفات على مايلي :\n\nارفاق تقرير يومي لرحلات اليوم التالي شامل جميع التفاصيل بما فيها الجنسيات، الاعداد، الخطوط، ارقام الرحلات، المساكن\n\t\t\t\t\nشاكرين لكم تعاونكم",
+      "بعد التحية\n نشكر لكم جهودكم ونتمنى لكم التوفيق والنجاح لخدمة الحجاج نأمل المراجعة حيث لم تشمل الملفات على مايلي :\n\n إجراءات التعامل مع وصول ومغادرة الحجاج في غير مواعيدهم المجدولة \nإجراءات التعامل مع حالات فوات الرحلات، وتوفير الحجوزات البديلة  \nإجراءات التعامل مع الأمتعة المفقودة \n\nشاكرين لكم تعاونكم"
+    ],
+    "answers": [
       {
-        "id": 278,
+        "id": 2089,
+        "answer": "نعم",
         "question": "هل تم ارفاق تقرير  يومي لرحلات اليوم التالي شامل جميع التفاصيل بما فيها الجنسيات، الاعداد، الخطوط، ارقام الرحلات، المساكن، احداثياتها، مع تأكيد المصادقة",
+        "task": 329,
         "question_type": "Short Answer"
       },
       {
-        "id": 279,
+        "id": 2090,
+        "answer": "نعم",
         "question": "هل تم ارفاق  صورة من النظام",
+        "task": 329,
         "question_type": "Short Answer"
       }
     ],
-    "files": [],
-    "approved": "UNAVAILABLE",
-    "done": "NOTSTARTED",
+    "questions": [],
+    "files": [
+      {
+        "id": 3188,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/11/%D9%86%D8%B3%D8%AE%D8%A9_%D9%85%D9%86_%D8%A7%D8%B3%D9%85_%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9__%D9%86%D9%85%D9%88%D8%B0%D8%AC_%D9%85%D8%AA%D8%A7%D8%A8%D8%B9%D8%A9_%D8%A7%D9%84%D8%A5%D8%B3%D8%AA%D8%B9%D8%AF%D8%A7%D8%AF_%D8%A7%D9%84%D9%85%D8%B3%D8%A8%D9%82_R78XYVt.xlsx",
+        "name": "نسخة_من_اسم_الشركة__نموذج_متابعة_الإستعداد_المسبق_R78XYVt.xlsx",
+        "size": 0.03,
+        "created_at": "2025-05-11T18:17:53.027225+03:00",
+        "updated_at": null,
+        "task": 329
+      },
+      {
+        "id": 3206,
+        "file": "http://dev.seedlab-sa.com/media/files/2025/05/11/329.zip",
+        "name": "329.zip",
+        "size": 0.94,
+        "created_at": "2025-05-11T21:13:23.533257+03:00",
+        "updated_at": null,
+        "task": 329
+      }
+    ],
+    "approved": "NONAPPROVED",
+    "done": "INPROGRESS",
     "require_files": true,
     "description": "التأكد من اكتمال بيانات الاستعداد المسبق لمرحلة الوصول شاملة  (بيانات احداثيات السكن والمصادقة عليها قبل الرحلة بـ 48 ساعة)  في مطار الملك عبدالعزيز ومطار الأمير محمد بن عبدالعزيز،",
     "guide_file": {
       "file_url": "http://dev.seedlab-sa.com/media/files/template/2025/04/14/%D8%A7%D8%B3%D9%85_%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9__%D9%86%D9%85%D9%88%D8%B0%D8%AC_%D9%85%D8%AA%D8%A7%D8%A8%D8%B9%D8%A9_%D8%A7%D9%84%D8%A5%D8%B3%D8%AA%D8%B9%D8%AF%D8%A7%D8%AF_%D8%A7%D9%84%D9%85%D8%B3%D8%A8%D9%82_R78XYVt.xlsx",
       "file_name": "اسم_الشركة__نموذج_متابعة_الإستعداد_المسبق_R78XYVt.xlsx"
     },
-    "last_modified_date": "",
-    "last_modified_hijri_date": "",
+    "last_modified_date": "2025-05-11",
+    "last_modified_hijri_date": "1446-11-13",
     "urgency_status": "Medium"
   },
   {
