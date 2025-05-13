@@ -7,7 +7,7 @@ import {
 } from "@/components/ui/sidebar"
 import { Button } from '@/components/ui/button'
 import { Clock } from './Clock'
-import { NavLink } from "react-router-dom"
+import { NavLink, useNavigate } from "react-router-dom"
 import React from "react"
 
 const TABS = [
@@ -15,13 +15,14 @@ const TABS = [
   { id: 'survey', label: 'الاستمارة', path: '/survey' },
 ]
 
-export function Layout(
-    {
-     //eslint-disable-next-line react/prop-types
-     activeTab = 'home', 
-     //eslint-disable-next-line react/prop-types
-     children 
-    }) {
+export function Layout({ activeTab = 'home', children }) {
+  const navigate = useNavigate();
+  const isLoginPage = window.location.pathname === '/login';
+  
+  if (isLoginPage) {
+    return <div className="min-h-screen">{children}</div>;
+  }
+
   const triggerRef = React.useRef()
 
   const handleNavClick = () => {
@@ -29,6 +30,11 @@ export function Layout(
       triggerRef.current?.click()
     }
   }
+
+  const handleLogout = () => {
+    localStorage.removeItem('authToken');
+    navigate('/login');
+  };
 
   return (
     <SidebarProvider defaultOpen={true}>
@@ -83,8 +89,17 @@ export function Layout(
         </Sidebar>
         
         <main className="flex-1 min-w-0">
-          <div className="flex items-center gap-2 p-4 border-b sticky top-0 bg-white z-10">
-            <SidebarTrigger ref={triggerRef} className="bg-secondary text-white hover:!bg-primary focus:bg-primary focus-within:bg-primar" />
+          <div className="flex items-center justify-between gap-2 p-4 border-b sticky top-0 bg-white z-10">
+            <div className="flex items-center gap-2">
+              <SidebarTrigger ref={triggerRef} className="bg-secondary text-white hover:!bg-primary focus:bg-primary focus-within:bg-primar" />
+            </div>
+            <Button 
+              variant="ghost" 
+              onClick={handleLogout}
+              className="text-red-500 hover:text-red-700 hover:bg-red-50"
+            >
+              تسجيل خروج
+            </Button>
           </div>
           <div className="p-4">
             {children}
