@@ -1,8 +1,8 @@
 import { createBrowserRouter, Navigate } from "react-router-dom";
 import { RootLayout } from "@/pages/layout";
 import { IndexPage } from "@/pages/index";
-import { SurveyPage } from "@/pages/survey";
 import { Login } from "@/pages/login";
+import { NusukImtithal } from "@/pages/nusuk-imtithal";
 
 const useAuth = () => {
   const isAuthenticated = () => !!localStorage.getItem("authToken");
@@ -30,9 +30,9 @@ const routes = [
         handle: { tab: IndexPage.tab },
       },
       {
-        path: "survey",
-        element: <SurveyPage />,
-        handle: { tab: SurveyPage.tab },
+        path: "nusuk-imtithal",
+        element: <NusukImtithal />,
+        handle: { tab: NusukImtithal.tab },
       },
     ],
   },
