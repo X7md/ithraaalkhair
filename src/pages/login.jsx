@@ -29,12 +29,9 @@ const Login = () => {
           <img src="/logo.svg" alt="Logo" className="h-12" />
           <h1 className="text-xl font-bold text-secondary">إدارة الجودة</h1>
           <div className="text-sm text-gray-500">
-            {new Intl.DateTimeFormat('ar-SA', {
-              year: 'numeric',
-              month: 'long',
-              day: 'numeric',
-              weekday: 'long',
-            }).format(new Date())}
+            <span>
+              البوابة الداخلية
+            </span>
           </div>
         </div>
         <h2 className="text-2xl font-bold mb-6 text-center">تسجيل الدخول</h2>
