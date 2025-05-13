@@ -4,43 +4,38 @@ import { IndexPage } from "@/pages/index";
 import { SurveyPage } from "@/pages/survey";
 import { Login } from "@/pages/login";
 
-// Mock authentication function (replace with your actual logic)
-const isAuthenticated = () => {
-  return !!localStorage.getItem("authToken"); // Example: Check if a token exists in localStorage
-};
-// Protected Route Component
-const ProtectedRoute = ({ element }) => {
-  return isAuthenticated() ? element : <Navigate to="/login" replace />;
+const useAuth = () => {
+  const isAuthenticated = () => !!localStorage.getItem("authToken");
+  return { isAuthenticated };
 };
 
-export const router = createBrowserRouter([
+const ProtectedRoute = ({ children }) => {
+  const { isAuthenticated } = useAuth();
+  return isAuthenticated() ? children : <Navigate to="/login" replace />;
+};
+
+const routes = [
+  {
+    path: "/login",
+    element: <Login />,
+    handle: { tab: Login.tab },
+  },
   {
     path: "/",
-    element: <RootLayout />,
+    element: <ProtectedRoute><RootLayout /></ProtectedRoute>,
     children: [
       {
         index: true,
         element: <IndexPage />,
-        handle: {
-          tab: IndexPage.tab
-        },
+        handle: { tab: IndexPage.tab },
       },
       {
         path: "survey",
-        element: <ProtectedRoute element={<SurveyPage />} />,
-        handle: {
-          //survey
-          tab: SurveyPage.tab
-        },
+        element: <SurveyPage />,
+        handle: { tab: SurveyPage.tab },
       },
-      {
-        path: "login",
-        element: <Login />,
-        handle: {
-          //login
-          tab: Login.tab
-        },
-      }
-    ]
-  }
-]);
+    ],
+  },
+];
+
+export const router = createBrowserRouter(routes);
