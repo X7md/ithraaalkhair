@@ -12,7 +12,8 @@ import React from "react"
 
 const TABS = [
   { id: 'home', label: 'الصفحة الرئيسية', path: '/' },
-  { id: 'survey', label: 'الاستمارة', path: '/survey' },
+  // { id: 'survey', label: 'الاستمارة', path: '/survey' },
+  { id: 'nusuk-imtithal', label: 'نسك امتثال', path: '/nusuk-imtithal' },
 ]
 
 export function Layout({ activeTab = 'home', children }) {
