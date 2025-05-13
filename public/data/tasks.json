@@ -855,13 +855,13 @@
     "sub_category": "جاهزية خدمات التغذية والإعاشة",
     "urgency_status": "Medium",
     "service": "الاعاشة في مكة المكرمة",
-    "is_done": "INPROGRESS",
-    "is_approved": "UNAVAILABLE",
+    "is_done": "DONE",
+    "is_approved": "APPROVED",
     "hijri_start_date": "1446-09-25",
     "start_date": "2025-03-25",
     "end_date": "2025-04-21",
     "hijri_end_date": "1446-10-23",
-    "submission_status": "NoStatus"
+    "submission_status": "OverdueCompleted"
   },
   {
     "id": 334,
@@ -1107,13 +1107,13 @@
     "sub_category": "جاهزية النقل والتفويج وعقود تدريب مرشدي المشاعر",
     "urgency_status": "Medium",
     "service": "النقل بين المدن والمشاعر المقدسة",
-    "is_done": "INPROGRESS",
-    "is_approved": "NONAPPROVED",
+    "is_done": "DONE",
+    "is_approved": "APPROVED",
     "hijri_start_date": "1446-09-25",
     "start_date": "2025-03-25",
     "end_date": "2025-04-23",
     "hijri_end_date": "1446-10-25",
-    "submission_status": "OverdueIncompleted"
+    "submission_status": "OverdueCompleted"
   },
   {
     "id": 2207,
@@ -1233,13 +1233,13 @@
     "sub_category": "جاهزية النقل والتفويج وعقود تدريب مرشدي المشاعر",
     "urgency_status": "Medium",
     "service": "النقل بين المدن والمشاعر المقدسة",
-    "is_done": "NOTSTARTED",
-    "is_approved": "UNAVAILABLE",
+    "is_done": "DONE",
+    "is_approved": "PENDING",
     "hijri_start_date": "1446-10-10",
     "start_date": "2025-04-08",
     "end_date": "2025-04-23",
     "hijri_end_date": "1446-10-25",
-    "submission_status": "OverdueIncompleted"
+    "submission_status": "OverdueCompleted"
   },
   {
     "id": 2231,
@@ -1269,13 +1269,13 @@
     "sub_category": "الشؤون العامة",
     "urgency_status": "Medium",
     "service": "إدارية",
-    "is_done": "NOTSTARTED",
-    "is_approved": "UNAVAILABLE",
+    "is_done": "DONE",
+    "is_approved": "PENDING",
     "hijri_start_date": "1446-09-25",
     "start_date": "2025-03-25",
     "end_date": "2025-04-23",
     "hijri_end_date": "1446-10-25",
-    "submission_status": "OverdueIncompleted"
+    "submission_status": "OverdueCompleted"
   },
   {
     "id": 2238,
@@ -1737,13 +1737,13 @@
     "sub_category": "جاهزية مساكن الحجاج",
     "urgency_status": "LOW",
     "service": "إدارية",
-    "is_done": "NOTSTARTED",
-    "is_approved": "UNAVAILABLE",
+    "is_done": "DONE",
+    "is_approved": "APPROVED",
     "hijri_start_date": "1446-11-15",
     "start_date": "2025-05-13",
     "end_date": "2025-05-15",
     "hijri_end_date": "1446-11-17",
-    "submission_status": "NoStatus"
+    "submission_status": "CompletedOnTime"
   },
   {
     "id": 3275,
@@ -1827,13 +1827,13 @@
     "sub_category": "الشؤون العامة",
     "urgency_status": "LOW",
     "service": "إدارية",
-    "is_done": "NOTSTARTED",
-    "is_approved": "UNAVAILABLE",
+    "is_done": "DONE",
+    "is_approved": "APPROVED",
     "hijri_start_date": "1446-11-15",
     "start_date": "2025-05-13",
     "end_date": "2025-05-16",
     "hijri_end_date": "1446-11-18",
-    "submission_status": "NoStatus"
+    "submission_status": "CompletedOnTime"
   },
   {
     "id": 3431,
