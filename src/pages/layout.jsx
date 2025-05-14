@@ -1,5 +1,5 @@
 import { Layout } from "@/components/Layout";
-import { Outlet, useMatches } from "react-router-dom";
+import { Outlet, ScrollRestoration, useMatches } from "react-router-dom";
 
 export function RootLayout() {
   const matches = useMatches();
@@ -7,7 +7,8 @@ export function RootLayout() {
   const currentTab = routeHandle?.tab;
   return (
     <Layout className="flex flex-col h-screen" activeTab={currentTab}>
-        <Outlet />
+      <ScrollRestoration />
+      <Outlet />
     </Layout>
   );
 }
