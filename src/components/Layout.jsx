@@ -14,6 +14,7 @@ const TABS = [
   { id: 'home', label: 'الصفحة الرئيسية', path: '/' },
   // { id: 'survey', label: 'الاستمارة', path: '/survey' },
   { id: 'nusuk-imtithal', label: 'نسك امتثال', path: '/nusuk-imtithal' },
+  {id: "", label: 'مؤشرات الأداء اليومية',path:'http://example.com'}
 ]
 
 export function Layout({ activeTab = 'home', children }) {
@@ -62,13 +63,18 @@ export function Layout({ activeTab = 'home', children }) {
               <div className="flex gap-2 flex-col justify-between h-fit">
                 <div className="flex flex-col gap-2">
                 {TABS.map(tab => (
-                <NavLink to={tab.path} key={tab.id} onClick={handleNavClick}>
+                <NavLink to={tab.path} target={tab.path.startsWith("http") &&"_blank"} key={tab.id} onClick={handleNavClick}>
                   <Button
                     key={tab.id}
                     variant={activeTab === tab.id ? "default" : "outline"}
-                    className="w-full cursor-pointer"
+                    className="w-full cursor-pointer flex justify-items-center items-center"
                   >
                     {tab.label}
+                    {(tab.path.startsWith("http://") || tab.path.startsWith("https://") ) && (
+                      <svg xmlns="http://www.w3.org/2000/svg" className="size-3" viewBox="0 0 32 32">
+                        <path fill="currentColor" d="M10 6v2h12.59L6 24.59L7.41 26L24 9.41V22h2V6z"></path>
+                        </svg>
+                    )}
                   </Button>
                 </NavLink>
                  ))}
