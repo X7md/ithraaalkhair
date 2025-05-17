@@ -14,7 +14,7 @@ const TABS = [
   { id: 'home', label: 'الصفحة الرئيسية', path: '/' },
   // { id: 'survey', label: 'الاستمارة', path: '/survey' },
   { id: 'nusuk-imtithal', label: 'نسك امتثال', path: '/nusuk-imtithal' },
-  {id: "", label: 'مؤشرات الأداء اليومية',path:'http://example.com'}
+  {id: "", label: 'مؤشرات الأداء اليومية',path:'https://app.powerbi.com/view?r=eyJrIjoiYTIyNDE0YzctMDc5Ny00NTk3LTkxYjktYTMzYTY1MDI0M2ZmIiwidCI6ImQxZGJlNzlhLWYwMWUtNGFjYy04ZmJmLTAwOTIzZmFmZjQyYyIsImMiOjl9'}
 ]
 
 export function Layout({ activeTab = 'home', children }) {
